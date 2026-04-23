@@ -1,0 +1,9401 @@
+{
+  "total": 3843,
+  "golden": 386,
+  "regular": 3200,
+  "ambassadors": 298,
+  "countryCount": 112,
+  "topCountries": [
+    {
+      "name": "India",
+      "count": 385,
+      "golden": 35,
+      "flag": "🇮🇳"
+    },
+    {
+      "name": "United States",
+      "count": 345,
+      "golden": 47,
+      "flag": "🇺🇸"
+    },
+    {
+      "name": "Germany",
+      "count": 219,
+      "golden": 31,
+      "flag": "🇩🇪"
+    },
+    {
+      "name": "France",
+      "count": 204,
+      "golden": 17,
+      "flag": "🇫🇷"
+    },
+    {
+      "name": "Netherlands",
+      "count": 182,
+      "golden": 16,
+      "flag": "🇳🇱"
+    },
+    {
+      "name": "Japan",
+      "count": 153,
+      "golden": 23,
+      "flag": "🇯🇵"
+    },
+    {
+      "name": "United Kingdom",
+      "count": 137,
+      "golden": 11,
+      "flag": "🇬🇧"
+    },
+    {
+      "name": "Poland",
+      "count": 130,
+      "golden": 9,
+      "flag": "🇵🇱"
+    },
+    {
+      "name": "South Korea",
+      "count": 127,
+      "golden": 11,
+      "flag": "🇰🇷"
+    },
+    {
+      "name": "Singapore",
+      "count": 114,
+      "golden": 5,
+      "flag": "🇸🇬"
+    },
+    {
+      "name": "Canada",
+      "count": 112,
+      "golden": 10,
+      "flag": "🇨🇦"
+    },
+    {
+      "name": "Switzerland",
+      "count": 94,
+      "golden": 9,
+      "flag": "🇨🇭"
+    },
+    {
+      "name": "Brazil",
+      "count": 94,
+      "golden": 4,
+      "flag": "🇧🇷"
+    },
+    {
+      "name": "Turkey",
+      "count": 93,
+      "golden": 6,
+      "flag": "🇹🇷"
+    },
+    {
+      "name": "Vietnam",
+      "count": 71,
+      "golden": 6,
+      "flag": "🇻🇳"
+    },
+    {
+      "name": "Norway",
+      "count": 66,
+      "golden": 13,
+      "flag": "🇳🇴"
+    },
+    {
+      "name": "Spain",
+      "count": 65,
+      "golden": 4,
+      "flag": "🇪🇸"
+    },
+    {
+      "name": "China",
+      "count": 63,
+      "golden": 5,
+      "flag": "🇨🇳"
+    },
+    {
+      "name": "Australia",
+      "count": 61,
+      "golden": 3,
+      "flag": "🇦🇺"
+    },
+    {
+      "name": "Italy",
+      "count": 56,
+      "golden": 6,
+      "flag": "🇮🇹"
+    },
+    {
+      "name": "Taiwan",
+      "count": 53,
+      "golden": 6,
+      "flag": "🇹🇼"
+    },
+    {
+      "name": "Denmark",
+      "count": 41,
+      "golden": 8,
+      "flag": "🇩🇰"
+    },
+    {
+      "name": "Sweden",
+      "count": 36,
+      "golden": 4,
+      "flag": "🇸🇪"
+    },
+    {
+      "name": "Saudi Arabia",
+      "count": 35,
+      "golden": 4,
+      "flag": "🇸🇦"
+    },
+    {
+      "name": "Tunisia",
+      "count": 34,
+      "golden": 2,
+      "flag": "🇹🇳"
+    },
+    {
+      "name": "Portugal",
+      "count": 34,
+      "golden": 4,
+      "flag": "🇵🇹"
+    },
+    {
+      "name": "Egypt",
+      "count": 32,
+      "golden": 2,
+      "flag": "🇪🇬"
+    },
+    {
+      "name": "Romania",
+      "count": 31,
+      "golden": 0,
+      "flag": "🇷🇴"
+    },
+    {
+      "name": "Thailand",
+      "count": 29,
+      "golden": 5,
+      "flag": "🇹🇭"
+    },
+    {
+      "name": "Ukraine",
+      "count": 29,
+      "golden": 8,
+      "flag": "🇺🇦"
+    },
+    {
+      "name": "Austria",
+      "count": 27,
+      "golden": 2,
+      "flag": "🇦🇹"
+    },
+    {
+      "name": "Hong Kong",
+      "count": 26,
+      "golden": 5,
+      "flag": "🇭🇰"
+    },
+    {
+      "name": "Indonesia",
+      "count": 25,
+      "golden": 1,
+      "flag": "🇮🇩"
+    },
+    {
+      "name": "United Arab Emirates",
+      "count": 25,
+      "golden": 2,
+      "flag": "🇦🇪"
+    },
+    {
+      "name": "Azerbaijan",
+      "count": 25,
+      "golden": 1,
+      "flag": "🇦🇿"
+    },
+    {
+      "name": "Belgium",
+      "count": 25,
+      "golden": 3,
+      "flag": "🇧🇪"
+    },
+    {
+      "name": "Ireland",
+      "count": 24,
+      "golden": 2,
+      "flag": "🇮🇪"
+    },
+    {
+      "name": "Hungary",
+      "count": 23,
+      "golden": 5,
+      "flag": "🇭🇺"
+    },
+    {
+      "name": "Bulgaria",
+      "count": 22,
+      "golden": 1,
+      "flag": "🇧🇬"
+    },
+    {
+      "name": "Bangladesh",
+      "count": 21,
+      "golden": 1,
+      "flag": "🇧🇩"
+    },
+    {
+      "name": "Colombia",
+      "count": 20,
+      "golden": 0,
+      "flag": "🇨🇴"
+    },
+    {
+      "name": "Peru",
+      "count": 20,
+      "golden": 5,
+      "flag": "🇵🇪"
+    },
+    {
+      "name": "Nigeria",
+      "count": 18,
+      "golden": 0,
+      "flag": "🇳🇬"
+    },
+    {
+      "name": "Costa Rica",
+      "count": 18,
+      "golden": 1,
+      "flag": "🇨🇷"
+    },
+    {
+      "name": "Georgia",
+      "count": 18,
+      "golden": 4,
+      "flag": "🇬🇪"
+    },
+    {
+      "name": "Mexico",
+      "count": 16,
+      "golden": 3,
+      "flag": "🇲🇽"
+    },
+    {
+      "name": "Finland",
+      "count": 16,
+      "golden": 1,
+      "flag": "🇫🇮"
+    },
+    {
+      "name": "Morocco",
+      "count": 15,
+      "golden": 0,
+      "flag": "🇲🇦"
+    },
+    {
+      "name": "Pakistan",
+      "count": 15,
+      "golden": 1,
+      "flag": "🇵🇰"
+    },
+    {
+      "name": "Sri Lanka",
+      "count": 15,
+      "golden": 0,
+      "flag": "🇱🇰"
+    },
+    {
+      "name": "Israel",
+      "count": 15,
+      "golden": 0,
+      "flag": "🇮🇱"
+    },
+    {
+      "name": "Czech Republic",
+      "count": 14,
+      "golden": 2,
+      "flag": "🇨🇿"
+    },
+    {
+      "name": "Slovakia",
+      "count": 13,
+      "golden": 2,
+      "flag": "🇸🇰"
+    },
+    {
+      "name": "New Zealand",
+      "count": 13,
+      "golden": 0,
+      "flag": "🇳🇿"
+    },
+    {
+      "name": "South Africa",
+      "count": 12,
+      "golden": 1,
+      "flag": "🇿🇦"
+    },
+    {
+      "name": "Greece",
+      "count": 11,
+      "golden": 2,
+      "flag": "🇬🇷"
+    },
+    {
+      "name": "Belarus",
+      "count": 10,
+      "golden": 0,
+      "flag": "🇧🇾"
+    },
+    {
+      "name": "Mongolia",
+      "count": 10,
+      "golden": 2,
+      "flag": "🇲🇳"
+    },
+    {
+      "name": "Slovenia",
+      "count": 10,
+      "golden": 1,
+      "flag": "🇸🇮"
+    },
+    {
+      "name": "Estonia",
+      "count": 10,
+      "golden": 0,
+      "flag": "🇪🇪"
+    },
+    {
+      "name": "Malaysia",
+      "count": 9,
+      "golden": 1,
+      "flag": "🇲🇾"
+    },
+    {
+      "name": "Kazakhstan",
+      "count": 9,
+      "golden": 1,
+      "flag": "🇰🇿"
+    },
+    {
+      "name": "Luxembourg",
+      "count": 9,
+      "golden": 3,
+      "flag": "🇱🇺"
+    },
+    {
+      "name": "Serbia",
+      "count": 9,
+      "golden": 0,
+      "flag": "🇷🇸"
+    },
+    {
+      "name": "Chile",
+      "count": 8,
+      "golden": 1,
+      "flag": "🇨🇱"
+    },
+    {
+      "name": "Jordan",
+      "count": 7,
+      "golden": 0,
+      "flag": "🇯🇴"
+    },
+    {
+      "name": "Lithuania",
+      "count": 7,
+      "golden": 2,
+      "flag": "🇱🇹"
+    },
+    {
+      "name": "Guatemala",
+      "count": 7,
+      "golden": 0,
+      "flag": "🇬🇹"
+    },
+    {
+      "name": "Kenya",
+      "count": 7,
+      "golden": 0,
+      "flag": "🇰🇪"
+    },
+    {
+      "name": "Myanmar",
+      "count": 7,
+      "golden": 1,
+      "flag": "🇲🇲"
+    },
+    {
+      "name": "Latvia",
+      "count": 6,
+      "golden": 1,
+      "flag": "🇱🇻"
+    },
+    {
+      "name": "Russia",
+      "count": 6,
+      "golden": 1,
+      "flag": "🇷🇺"
+    },
+    {
+      "name": "Philippines",
+      "count": 6,
+      "golden": 0,
+      "flag": "🇵🇭"
+    },
+    {
+      "name": "Nepal",
+      "count": 6,
+      "golden": 0,
+      "flag": "🇳🇵"
+    },
+    {
+      "name": "Armenia",
+      "count": 6,
+      "golden": 1,
+      "flag": "🇦🇲"
+    },
+    {
+      "name": "Dominican Republic",
+      "count": 6,
+      "golden": 1,
+      "flag": "🇩🇴"
+    },
+    {
+      "name": "Argentina",
+      "count": 6,
+      "golden": 0,
+      "flag": "🇦🇷"
+    },
+    {
+      "name": "Cyprus",
+      "count": 5,
+      "golden": 0,
+      "flag": "🇨🇾"
+    },
+    {
+      "name": "Moldova",
+      "count": 4,
+      "golden": 1,
+      "flag": "🇲🇩"
+    },
+    {
+      "name": "Qatar",
+      "count": 4,
+      "golden": 1,
+      "flag": "🇶🇦"
+    },
+    {
+      "name": "Ecuador",
+      "count": 4,
+      "golden": 1,
+      "flag": "🇪🇨"
+    },
+    {
+      "name": "Senegal",
+      "count": 3,
+      "golden": 1,
+      "flag": "🇸🇳"
+    },
+    {
+      "name": "Croatia",
+      "count": 3,
+      "golden": 0,
+      "flag": "🇭🇷"
+    },
+    {
+      "name": "Algeria",
+      "count": 3,
+      "golden": 0,
+      "flag": "🇩🇿"
+    },
+    {
+      "name": "Palestine",
+      "count": 2,
+      "golden": 2,
+      "flag": "🇵🇸"
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "count": 2,
+      "golden": 0,
+      "flag": "🇧🇦"
+    },
+    {
+      "name": "Paraguay",
+      "count": 2,
+      "golden": 0,
+      "flag": "🇵🇾"
+    },
+    {
+      "name": "North Macedonia",
+      "count": 2,
+      "golden": 1,
+      "flag": "🇲🇰"
+    },
+    {
+      "name": "El Salvador",
+      "count": 2,
+      "golden": 0,
+      "flag": "🇸🇻"
+    },
+    {
+      "name": "Zimbabwe",
+      "count": 2,
+      "golden": 0,
+      "flag": "🇿🇼"
+    },
+    {
+      "name": "Lebanon",
+      "count": 2,
+      "golden": 0,
+      "flag": "🇱🇧"
+    },
+    {
+      "name": "Ethiopia",
+      "count": 2,
+      "golden": 0,
+      "flag": "🇪🇹"
+    },
+    {
+      "name": "Cameroon",
+      "count": 1,
+      "golden": 0,
+      "flag": "🇨🇲"
+    },
+    {
+      "name": "Kosovo",
+      "count": 1,
+      "golden": 0,
+      "flag": "🇽🇰"
+    },
+    {
+      "name": "Ghana",
+      "count": 1,
+      "golden": 1,
+      "flag": "🇬🇭"
+    },
+    {
+      "name": "Panama",
+      "count": 1,
+      "golden": 1,
+      "flag": "🇵🇦"
+    },
+    {
+      "name": "Uganda",
+      "count": 1,
+      "golden": 1,
+      "flag": "🇺🇬"
+    },
+    {
+      "name": "Iraq",
+      "count": 1,
+      "golden": 0,
+      "flag": "🇮🇶"
+    },
+    {
+      "name": "Bolivia",
+      "count": 1,
+      "golden": 0,
+      "flag": "🇧🇴"
+    },
+    {
+      "name": "Uruguay",
+      "count": 1,
+      "golden": 0,
+      "flag": "🇺🇾"
+    },
+    {
+      "name": "Nicaragua",
+      "count": 1,
+      "golden": 0,
+      "flag": "🇳🇮"
+    },
+    {
+      "name": "Togo",
+      "count": 1,
+      "golden": 0,
+      "flag": "🇹🇬"
+    },
+    {
+      "name": "Tanzania",
+      "count": 1,
+      "golden": 0,
+      "flag": "🇹🇿"
+    },
+    {
+      "name": "Mozambique",
+      "count": 1,
+      "golden": 0,
+      "flag": "🇲🇿"
+    },
+    {
+      "name": "Cote d'Ivoire",
+      "count": 1,
+      "golden": 0,
+      "flag": "🇨🇮"
+    },
+    {
+      "name": "French Polynesia",
+      "count": 1,
+      "golden": 0,
+      "flag": "🇵🇫"
+    },
+    {
+      "name": "Montenegro",
+      "count": 1,
+      "golden": 0,
+      "flag": "🇲🇪"
+    },
+    {
+      "name": "Bahrain",
+      "count": 1,
+      "golden": 0,
+      "flag": "🇧🇭"
+    },
+    {
+      "name": "Kuwait",
+      "count": 1,
+      "golden": 0,
+      "flag": "🇰🇼"
+    },
+    {
+      "name": "Madagascar",
+      "count": 1,
+      "golden": 0,
+      "flag": "🇲🇬"
+    },
+    {
+      "name": "Uzbekistan",
+      "count": 1,
+      "golden": 0,
+      "flag": "🇺🇿"
+    },
+    {
+      "name": "Albania",
+      "count": 1,
+      "golden": 1,
+      "flag": "🇦🇱"
+    }
+  ],
+  "topCompanies": [
+    {
+      "name": "Microsoft",
+      "count": 71,
+      "golden": 10
+    },
+    {
+      "name": "Amazon Web Services",
+      "count": 32,
+      "golden": 3
+    },
+    {
+      "name": "Red Hat",
+      "count": 29,
+      "golden": 5
+    },
+    {
+      "name": "Sopra Steria",
+      "count": 28,
+      "golden": 4
+    },
+    {
+      "name": "AWS",
+      "count": 21,
+      "golden": 0
+    },
+    {
+      "name": "Capgemini",
+      "count": 19,
+      "golden": 2
+    },
+    {
+      "name": "SVA System Vertrieb Alexander GmbH",
+      "count": 17,
+      "golden": 6
+    },
+    {
+      "name": "Google",
+      "count": 16,
+      "golden": 1
+    },
+    {
+      "name": "Oracle",
+      "count": 13,
+      "golden": 1
+    },
+    {
+      "name": "Ericsson",
+      "count": 12,
+      "golden": 3
+    },
+    {
+      "name": "Hewlett Packard Enterprise",
+      "count": 11,
+      "golden": 1
+    },
+    {
+      "name": "Broadcom",
+      "count": 11,
+      "golden": 1
+    },
+    {
+      "name": "Accenture",
+      "count": 11,
+      "golden": 0
+    },
+    {
+      "name": "NAB",
+      "count": 11,
+      "golden": 1
+    },
+    {
+      "name": "Canonical",
+      "count": 10,
+      "golden": 1
+    },
+    {
+      "name": "Apple",
+      "count": 9,
+      "golden": 1
+    },
+    {
+      "name": "Sysdig",
+      "count": 9,
+      "golden": 0
+    },
+    {
+      "name": "IBM",
+      "count": 9,
+      "golden": 1
+    },
+    {
+      "name": "HPE",
+      "count": 8,
+      "golden": 0
+    },
+    {
+      "name": "Adobe",
+      "count": 8,
+      "golden": 1
+    },
+    {
+      "name": "Dynatrace",
+      "count": 7,
+      "golden": 0
+    },
+    {
+      "name": "Deloitte",
+      "count": 7,
+      "golden": 0
+    },
+    {
+      "name": "Kyndryl",
+      "count": 7,
+      "golden": 1
+    },
+    {
+      "name": "Grafana Labs",
+      "count": 7,
+      "golden": 1
+    },
+    {
+      "name": "Datadog",
+      "count": 7,
+      "golden": 1
+    },
+    {
+      "name": "Morgan Stanley",
+      "count": 6,
+      "golden": 1
+    },
+    {
+      "name": "SAP",
+      "count": 6,
+      "golden": 0
+    },
+    {
+      "name": "ASELSAN",
+      "count": 6,
+      "golden": 1
+    },
+    {
+      "name": "Devoteam",
+      "count": 6,
+      "golden": 0
+    },
+    {
+      "name": "Nutanix",
+      "count": 6,
+      "golden": 0
+    },
+    {
+      "name": "National Australia Bank",
+      "count": 6,
+      "golden": 0
+    },
+    {
+      "name": "SUSE",
+      "count": 5,
+      "golden": 1
+    },
+    {
+      "name": "Hewlett Packard Enterprise (HPE)",
+      "count": 5,
+      "golden": 0
+    },
+    {
+      "name": "Cisco",
+      "count": 5,
+      "golden": 0
+    },
+    {
+      "name": "Samsung SDS",
+      "count": 5,
+      "golden": 0
+    },
+    {
+      "name": "CGI",
+      "count": 5,
+      "golden": 0
+    },
+    {
+      "name": "DoiT International",
+      "count": 5,
+      "golden": 2
+    },
+    {
+      "name": "Nomura Research Institute, Ltd.",
+      "count": 5,
+      "golden": 1
+    },
+    {
+      "name": "Royal Bank of Canada",
+      "count": 5,
+      "golden": 1
+    },
+    {
+      "name": "BespinGlobal",
+      "count": 5,
+      "golden": 0
+    },
+    {
+      "name": "Freelancer",
+      "count": 5,
+      "golden": 1
+    },
+    {
+      "name": "Hitachi, Ltd.",
+      "count": 5,
+      "golden": 1
+    },
+    {
+      "name": "Verizon",
+      "count": 5,
+      "golden": 0
+    },
+    {
+      "name": "Freelance",
+      "count": 5,
+      "golden": 2
+    },
+    {
+      "name": "Netcloud AG",
+      "count": 5,
+      "golden": 1
+    },
+    {
+      "name": "Fidelity Investments",
+      "count": 5,
+      "golden": 2
+    },
+    {
+      "name": "Tencent",
+      "count": 4,
+      "golden": 1
+    },
+    {
+      "name": "Novo Nordisk",
+      "count": 4,
+      "golden": 0
+    },
+    {
+      "name": "Wiz",
+      "count": 4,
+      "golden": 0
+    },
+    {
+      "name": "Veritas Automata",
+      "count": 4,
+      "golden": 2
+    },
+    {
+      "name": "SoftServe",
+      "count": 4,
+      "golden": 0
+    },
+    {
+      "name": "Itaú Unibanco",
+      "count": 4,
+      "golden": 0
+    },
+    {
+      "name": "ControlPlane",
+      "count": 4,
+      "golden": 0
+    },
+    {
+      "name": "Onepoint",
+      "count": 4,
+      "golden": 1
+    },
+    {
+      "name": "Critical Techworks",
+      "count": 4,
+      "golden": 1
+    },
+    {
+      "name": "Nirmata",
+      "count": 4,
+      "golden": 0
+    },
+    {
+      "name": "Publicis Sapient",
+      "count": 4,
+      "golden": 0
+    },
+    {
+      "name": "Automat-it",
+      "count": 4,
+      "golden": 0
+    },
+    {
+      "name": "Swisscom",
+      "count": 4,
+      "golden": 0
+    },
+    {
+      "name": "TrueFullstaq",
+      "count": 4,
+      "golden": 1
+    },
+    {
+      "name": "Hyundai Autoever",
+      "count": 4,
+      "golden": 0
+    },
+    {
+      "name": "Axon Enterprise",
+      "count": 4,
+      "golden": 0
+    },
+    {
+      "name": "Hepapi",
+      "count": 4,
+      "golden": 0
+    },
+    {
+      "name": "ITQ",
+      "count": 4,
+      "golden": 1
+    },
+    {
+      "name": "Previder",
+      "count": 4,
+      "golden": 2
+    },
+    {
+      "name": "TBC Bank",
+      "count": 4,
+      "golden": 0
+    },
+    {
+      "name": "Independent",
+      "count": 4,
+      "golden": 0
+    },
+    {
+      "name": "Redpill Linpro",
+      "count": 4,
+      "golden": 1
+    },
+    {
+      "name": "Dell Technologies",
+      "count": 4,
+      "golden": 0
+    },
+    {
+      "name": "Deutsche Telekom IT Solutions Slovakia",
+      "count": 4,
+      "golden": 0
+    },
+    {
+      "name": "Singtel",
+      "count": 4,
+      "golden": 1
+    },
+    {
+      "name": "Schuberg Philis",
+      "count": 4,
+      "golden": 0
+    },
+    {
+      "name": "FPT",
+      "count": 3,
+      "golden": 2
+    },
+    {
+      "name": "Solo.io",
+      "count": 3,
+      "golden": 0
+    },
+    {
+      "name": "Low Code Solutions",
+      "count": 3,
+      "golden": 0
+    },
+    {
+      "name": "Oracle India Private Limited",
+      "count": 3,
+      "golden": 0
+    },
+    {
+      "name": "Azericard LLC",
+      "count": 3,
+      "golden": 0
+    },
+    {
+      "name": "Société Générale",
+      "count": 3,
+      "golden": 1
+    },
+    {
+      "name": "FPT Smart Cloud",
+      "count": 3,
+      "golden": 1
+    },
+    {
+      "name": "Rabobank",
+      "count": 3,
+      "golden": 0
+    },
+    {
+      "name": "Redeploy",
+      "count": 3,
+      "golden": 0
+    },
+    {
+      "name": "Ernst & Young",
+      "count": 3,
+      "golden": 0
+    },
+    {
+      "name": "Qualcomm",
+      "count": 3,
+      "golden": 1
+    },
+    {
+      "name": "66degrees",
+      "count": 3,
+      "golden": 0
+    },
+    {
+      "name": "H2O.ai",
+      "count": 3,
+      "golden": 0
+    },
+    {
+      "name": "PwC",
+      "count": 3,
+      "golden": 0
+    },
+    {
+      "name": "Nokia",
+      "count": 3,
+      "golden": 0
+    },
+    {
+      "name": "Devoteam Innovative Tech",
+      "count": 3,
+      "golden": 0
+    },
+    {
+      "name": "Cisco Systems",
+      "count": 3,
+      "golden": 0
+    },
+    {
+      "name": "Aqua Security",
+      "count": 3,
+      "golden": 0
+    },
+    {
+      "name": "Desjardins",
+      "count": 3,
+      "golden": 0
+    },
+    {
+      "name": "Elastic",
+      "count": 3,
+      "golden": 0
+    },
+    {
+      "name": "Pexon Consulting GmbH",
+      "count": 3,
+      "golden": 1
+    },
+    {
+      "name": "Zenika",
+      "count": 3,
+      "golden": 0
+    },
+    {
+      "name": "Palo Alto Networks",
+      "count": 3,
+      "golden": 1
+    },
+    {
+      "name": "MegazoneCloud",
+      "count": 3,
+      "golden": 1
+    },
+    {
+      "name": "PCS Security Pte Ltd",
+      "count": 3,
+      "golden": 0
+    },
+    {
+      "name": "Nationale-Nederlanden",
+      "count": 3,
+      "golden": 0
+    },
+    {
+      "name": "evoila",
+      "count": 3,
+      "golden": 0
+    },
+    {
+      "name": "MICROSOFT",
+      "count": 3,
+      "golden": 0
+    },
+    {
+      "name": "LY Corporation",
+      "count": 3,
+      "golden": 0
+    },
+    {
+      "name": "Bedag Informatik AG",
+      "count": 3,
+      "golden": 0
+    },
+    {
+      "name": "Banco de Crédito del Perú",
+      "count": 3,
+      "golden": 2
+    },
+    {
+      "name": "Tata Consultancy Services",
+      "count": 3,
+      "golden": 0
+    },
+    {
+      "name": "Amazon Web Services Japan G.K.",
+      "count": 3,
+      "golden": 0
+    },
+    {
+      "name": "Fujitsu Limited",
+      "count": 3,
+      "golden": 1
+    },
+    {
+      "name": "InfoGrab",
+      "count": 3,
+      "golden": 0
+    },
+    {
+      "name": "Liquid Reply",
+      "count": 3,
+      "golden": 0
+    },
+    {
+      "name": "Techforce1",
+      "count": 3,
+      "golden": 0
+    },
+    {
+      "name": "SUE | Cloud Native Solutions",
+      "count": 3,
+      "golden": 0
+    },
+    {
+      "name": "NEC Solution Innovators, Ltd.",
+      "count": 3,
+      "golden": 0
+    },
+    {
+      "name": "JPMorgan Chase",
+      "count": 3,
+      "golden": 0
+    },
+    {
+      "name": "Devoteam - Innovative Tech",
+      "count": 3,
+      "golden": 0
+    },
+    {
+      "name": "Intel",
+      "count": 3,
+      "golden": 0
+    },
+    {
+      "name": "Microsoft Corporation",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Takamol Holding",
+      "count": 2,
+      "golden": 1
+    },
+    {
+      "name": "invent.ai",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Devtron Inc",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Syntasso",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Goldman Sachs",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Akuity",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Ejada",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Kubermatic",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "EURECOM",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "KPMG China",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Claranet",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "GovTech",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Sigma Defense",
+      "count": 2,
+      "golden": 2
+    },
+    {
+      "name": "Dassault Systemes",
+      "count": 2,
+      "golden": 1
+    },
+    {
+      "name": "KPMG",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Katalon",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "DevOps Engineer",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Cuemby",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Infosys",
+      "count": 2,
+      "golden": 1
+    },
+    {
+      "name": "Pure Storage",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Kongsberg Digital",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "RingCentral",
+      "count": 2,
+      "golden": 1
+    },
+    {
+      "name": "Woven by Toyota",
+      "count": 2,
+      "golden": 1
+    },
+    {
+      "name": "ElysianNXT",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Xebia",
+      "count": 2,
+      "golden": 1
+    },
+    {
+      "name": "t'order",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "BRAC IT Services Limited",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Khan Bank",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "KIOWY",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "NTT Data",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Energinet",
+      "count": 2,
+      "golden": 2
+    },
+    {
+      "name": "Amdocs",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "DigitalOcean",
+      "count": 2,
+      "golden": 1
+    },
+    {
+      "name": "Cognizant Technology Solutions",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Alerant Zrt.",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "InfraCloud Technologies",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "OVHcloud",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Cimpress Technology",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Devtron",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Trendyol",
+      "count": 2,
+      "golden": 1
+    },
+    {
+      "name": "SFEIR",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Sfeir",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "HEPAPI",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "WeScale",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Northrop Grumman",
+      "count": 2,
+      "golden": 1
+    },
+    {
+      "name": "Defense Unicorns",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Isovalent",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Trifork",
+      "count": 2,
+      "golden": 1
+    },
+    {
+      "name": "Fortinet",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Apple Inc.",
+      "count": 2,
+      "golden": 1
+    },
+    {
+      "name": "Salesforce",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Baillie Gifford",
+      "count": 2,
+      "golden": 1
+    },
+    {
+      "name": "F5",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Viettel",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "I-Share",
+      "count": 2,
+      "golden": 1
+    },
+    {
+      "name": "Nordcloud, an IBM company",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "FullStackS GmbH",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Lucca",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "bespinian",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Avanade",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "SAMSUNG SDS",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Vinted",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Axual",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "blinQ AS",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "SoftwareOne",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Chronosphere",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "evoila GmbH",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Devoteam M Cloud",
+      "count": 2,
+      "golden": 1
+    },
+    {
+      "name": "Desotech",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "OPITZ CONSULTING Deutschland GmbH",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "BSC Analytics",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "CoreWeave",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "MaibornWolff GmbH",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Greater B.V.",
+      "count": 2,
+      "golden": 1
+    },
+    {
+      "name": "Caylent",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "kt cloud",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Hastings Direct",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Kroescontrol",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Avisi Cloud",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Samsung Electronics",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "GS Neotek",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "FIS Global",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Harness",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "PRODYNA SE",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "DojoBits",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "The LEGO Group",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "SIGHUP",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "NIL Ltd.",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Kbank",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "the LEGO Group",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Saxo Bank",
+      "count": 2,
+      "golden": 1
+    },
+    {
+      "name": "Peak Scale",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Army Software Factory",
+      "count": 2,
+      "golden": 1
+    },
+    {
+      "name": "Magalu Cloud",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Galileo Financial Technologies",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Second Front Systems",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "ESW",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Dash0",
+      "count": 2,
+      "golden": 1
+    },
+    {
+      "name": "The Japan Research Institute, Limited",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Stellatarum",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "MNM Teknoloji",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Infracloud Technologies Pvt Ltd",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Telstra Group Limited",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Core42",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Kubermatic GmbH",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Cloudera",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Civo",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Itau Unibanco",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Intuitive.Cloud",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Natura",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "VOIS",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Netic A/S",
+      "count": 2,
+      "golden": 2
+    },
+    {
+      "name": "Deutsche Telekom",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "KO2",
+      "count": 2,
+      "golden": 1
+    },
+    {
+      "name": "Panasonic Connect Co., Ltd.",
+      "count": 2,
+      "golden": 1
+    },
+    {
+      "name": "B1 Systems GmbH",
+      "count": 2,
+      "golden": 1
+    },
+    {
+      "name": "KocDigital",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Second State",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "WhizUs GmbH",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Viettel AI",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Bechtle",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Devoteam G Cloud",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Orange Business",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "DevOpsGroup s.r.o.",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Sony India - Playstation",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Lumitec Technologies",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "INVERS GmbH",
+      "count": 2,
+      "golden": 1
+    },
+    {
+      "name": "AUTOMAT-IT",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Thoughtworks",
+      "count": 2,
+      "golden": 2
+    },
+    {
+      "name": "NS Solutions Corporation",
+      "count": 2,
+      "golden": 1
+    },
+    {
+      "name": "Charles Schwab",
+      "count": 2,
+      "golden": 1
+    },
+    {
+      "name": "Helse Nord IKT",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Gluo",
+      "count": 2,
+      "golden": 1
+    },
+    {
+      "name": "Entigo",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Karrot",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "TOKYO GAS Co., Ltd.",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "15",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "500",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "EmpathyOps",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Summa Financial Technology",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "VULTR",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Bouygues Telecom",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "CIB | Commercial International Bank Egypt",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Sofrecom",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Code Source",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Ministry of Sports Saudia Arabia",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "TAHAKOM",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Thiqah",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Architech",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Universal Robots",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "RX Global",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "TEKsystems Global Services",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "AT&T",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Cisco Systems Inc",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Zepto",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SKY Mobile UK",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Cimsolutions",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "First Security Islami Bank PLC",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "FourEnergy GmbH​",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "FNK IT Sp. z o.o.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "FikaWorks",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "NETLER",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Deimos Cloud",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Chunghwa Telecom Co., Ltd",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Planview",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SCG DIGITAL",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Walmart",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Turf Dev Private Limited",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Netcracker Technology",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Netlink - Lumenore",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Forrester Research",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Zühlke Group",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Combis",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Harri LLC",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "The New York Times",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Sejel Technology Co",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Codification",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Mozn",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Deloitte Innovation Hub",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Redhat",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Tech My Team",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "IT Consultant",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "NiCE",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Ampity Infotech",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "BrainPad Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Sony India Software Centre Pvt Ltd",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Hewlett Packard Japan, G.K.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Apple South East Asia Pte. Ltd.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SCIAM",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Bank of Cyprus",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "TicVeintitres",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Genially",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Singlet",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ST",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Li9 Technology Solutions",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Cast AI",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Florence Consulting Group",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Kubespaces.io",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "PriceHubble",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "360 Privacy",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "iits-consulting",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Kueski",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Printful",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Claven.io",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "PFA",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Altenar",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Nexters ($GDEV)",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "DACHS IT GMBH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Whitestack Peru",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Endava",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Banco Itaú Unibanco S/A",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Caseware",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Booking.com",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Ripple",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Devoteam SA",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Cloud Wizard",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Redcare Pharmacy",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "infraBuilder and BlackSwift",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "GWI",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Wyll.io",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Valmet Technologies Oy",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "NETCOMPANY",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Saudi AZM",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Entrust",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Ontario Brain Institute",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Formica.ai",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Naviteq LTD",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Vention Development",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Sympla",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Firefly IT Consulting Ltd",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Giesecke + Devrient GmBH",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Cobre",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "bestcloudfor.me",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Latam Airlines",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "BCEAO (Central Bank of West African States)",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Booz Allen Hamilton",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Statistics Sweden",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Aruba Cloud",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "AIRFRANCE/KLM",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SNCF",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Capgemini UK Plc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "UBS",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Progressoft",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Lightstep",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Spitch",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Chase UK",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Sivali Cloud Technology",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Veolia",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "adesso SE",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Freelance - Crossover Engineering B.V.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "O3 Cyber",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Bonfire Cloud & Engineering",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "CloudBees",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Crayon AS",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Tech Chapter",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "CodeNex",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "cronn GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Amdaris",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Digital Savages",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "GoodRequest",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "If P&C Insurance",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "GFT",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Slalom Consulting",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SEAQ",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "MIC",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "MavenSolutions",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Qualys",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "EverHealth",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Insight Enterprises",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Kyriba",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Surfshark",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Techdeck Limited",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Spotify AB",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Fairwinds Ops, Inc",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Redis",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Ataccama",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "4G Clinical",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Persistent System Ltd",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Oprt Development Center",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "CloudRaft",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Developer Advocate",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Fine AI",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Hewlett-Packard Enterprise",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Saviynt",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Zure Oy",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Lely",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Axians DataBase",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Tulip Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Engineering Ingegneria Informatica S.p.A",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Glue AG",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Grid Dynamics",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "The European Organisation for the Exploitation of Meteorological Satellites (EUMETSAT)",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Cheops Technology",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Browserstack",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Cyber Cloud B.V.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Xebia IT Architect Pvt Ltd",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Spirent Communications",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "MetalBear",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Jet Infosystems",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Hamburg Port Authority",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Unicorn",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "PerfectScale",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Hedgehog",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Bizzdesign",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Valley Startup Consultants",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Craftsman Software, Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Sourced Group",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ServiceNow",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Publicis sapient",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "HAProxy Technologies",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Individual",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Aionos",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Zopa Bank",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Ericsson France",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SUDO Consultants",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Hazelcast",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Advania Norge",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Kubeverse",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Hyundai Motor Group Innovation Centre",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Wildcard Corp.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Liatrio",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Commvault",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "John Deere",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Be Devops Consulting",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Virtasant",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "AZLA Corp.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Walmart Global Tech",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "ADY / Azerbaijan Railways",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Lloyds Technology Centre",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "https://www.microsoft.com",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Lucid Motors Middle East",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Datum Consulting",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Data on Kubernetes Community",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Capgemini Polska",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Rapidson",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "KHAN BANK",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "InstaDeep",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ENACT-IT B.V.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Qim info",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "KolTEQ GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Automated Ascent LLC",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Bimser",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "CENADI",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Thomson Reuters",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Abaxx Exchange",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Vail Systems",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Ollion",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "kloıa",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Co-operative Bank of Kenya",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Cisco Systems Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Discover Financial Services",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SECTION6",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SASS SYSTEMS DEVOPS",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "BJSS/CGI",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Alter Solution Deutschland",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Basiq",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ScienceLogic Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "National Air and Space Intelligence Center",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Weaviate B.V",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Roche",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ACE systems engineering ag",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Raft",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Mission, a CDW Company",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Thales AIR Lab",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Siemens Mobility",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Orange",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Cloud4Next",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Lunit",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "NTT DATA Ltd.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Microzon Technology",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Shopify Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SAIC",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "DXC Technology",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "BHD",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Luno",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Redshift Global",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Security Compass",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "KrolCloud",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Informatik Aargau",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Tietoevry",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Moofwd, Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SoftwareOne Turkey",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "OptimTec | VG&Co.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Akamai",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "EPAM Systems, Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Sony Interactive Entertainment",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "COGIWEB",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Gallagher Group Ltd",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "OCBC",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Wizigo Inc. (SRE engineer) / Tzu Chi University (Graduate Student)",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Virtonomy GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Armor Defense Inc.",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Hashbang Digital",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "RX-M LLC",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Cohesion",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "neocx GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "pluginf.de",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "L3Harris",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Entalys (entalys.eu)",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ONLU AG (onlu.ch)",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Calvet IT",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Centre commun de la sécurité sociale",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Pricewaterhouse Coopers  (PwC)",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "RX-M Cloud Native & AI Consulting and Training",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Crowdstrike",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Innovative Defense Technologies",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Elasticsearch, Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ORACLE",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ICE Mortgage Technology",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "O2B",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Groupe Open",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "CCL Consulting",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Ebay",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "My Computer System S.R.L.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "KRAM",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Axmos Technologies",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Insurity",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Scaleway",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Datasolution",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Egmont",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "KCB",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "3-shake",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Sompo Systems Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Cloud Technology Experts",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Mantel Group",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Northflank",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "PwC Luxembourg",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Iress",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Pengcheng Laboratory",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Vincent",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "NETWAYS Managed Services GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "National Taiwan University of Science and Technology (Graduate Student)",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Rackspace Technology",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "NTS",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Monthio",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "DevsOperative, Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Nuvotex GmbH",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Fortytwo",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Arkose Labs",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Critical Techworks S.A",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ETB",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "mElements (mBank Group)",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Inventx AG",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Datum Consulting VN",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "PRLX",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Cegeka",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Continental Automotive GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Xait AS",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "depeche.io",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Sweetwater Sound",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Paycom",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Bullhorn",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Webiz International",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SmartBear",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Thales DIS",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "MSQ DX",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "TCS",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Centric IT Solutions Lithuania",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "kubegurus",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Adhara Blockchain Technilogies",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Flint SI d.o.o.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Airbus Defence and Space GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ASTRELYA",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "YASH Technologies",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "O'Reilly Media",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Pinnacle Distribution Lanka Pvt Ltd",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Appviewx",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Zuora",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Niubiz",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "iFood",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Citrix",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "MYCOM OSI",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "EverythingDevOps",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Qinshift",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Bank CenterCredit",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Palark GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Intellias",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "ASWhite Global",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Telkomsel",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Innovance",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Cubernaut AB",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "BitDidact",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "NTS Netzwerk Telekom Service AG",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "secunet Security Networks AG",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "VEXXHOST",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ifinfo",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Makinarocks",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "NAVER Cloud",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "RUAG AG",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Santander",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "University of Melbourne",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Aravt Technology LLC",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Backbase",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Schiphol Airport",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "stackgenie",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "blue stack",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "RSAF Agile innovation Digital",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ACBA BANK OJSC",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "infraheads",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Percona",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Vonage",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Optare Solutions",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Crubyt",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Stone",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "EY Advisory Services Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Controles Empresariales",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Zühlke Engineering AG",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ING Hubs Turkiye",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ABB (Azerbaijan)",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "AirDNA",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Safaricom PLC",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Monkey Tech",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Computas",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Spacelift",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Everstream Analytics",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Super7ui",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Prusa Research",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "GarantiBBVA Technology",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "NTS NETZWERK TELEKOM SERVICE AG",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "tecnolink",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Garanti BBVA Technology",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Hepapi Technology",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "RHOFA Group",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Vodafone Türkiye",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "PayTR",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Runwex",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "VMware by Broadcoom",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Kaizen Gaming",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "CloudAstro",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "mnemonic as",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Qstars IT",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "EBRC",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "GitLab",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "xamira networks GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Life Med, Inc",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "iCubed - part of Lodestar",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Wavestone",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Arabot",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "HashiCorp",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Banco BHD",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Ericsson Software Technology",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Money Forward, Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "The Linux Foundation",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "maibornwolff gmbh",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SkyOne",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Thought Machine",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Legian",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Austrian Post",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Bancolombia",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Altice Labs",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "adconova GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Alithya",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "TU Wien",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Alibaba Cloud",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "EOZIS",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Desotech srl",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "CODE88",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Devtribe B.V.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Royal Caribbean Group",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Beam",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Statnett",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Critical TechWorks",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "B3 S.A. – Brasil, Bolsa, Balcão",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "BCP",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Serasa Experian",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Porto",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "A4PM",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SADA Systems India Pvt Ltd",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Tata Elxsi",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "GBM",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Siemens Energy",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SLTMOBITEL",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Computacenter",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Nexo",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Platomics",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Myst",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Codepeople",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Alexander Thamm GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Fullstaq B.V.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "EPAM Systems",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Space International",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "5by5 Soluções em Sistemas",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Fubo",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Ko2",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Aviatrix",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Crypto.com",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Tekvana Inc",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Radiant Logic Inc",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Sportradar",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Hexanet",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Asiana IDT",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Bashroom",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ERICSSON INC",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Bank Of Ireland",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Batumbu",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Independent Auditor",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "e& UAE",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "CloudDev Technologies",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Continental",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "AhnLab CloudMate",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "AlbarakaTech Global",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "B3 Digitas",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "GAMS Software GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Kapheira",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Costco",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Shinhan DS",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "NAV - Norwegian Labor and Welfare Administration",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Aker Systems",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Softcat Plc",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Coforge",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Melio AI",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Ubiety technologies Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ITOCHU Techno-Solutions Corporation",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "SETUR",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Wipro Limited",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Nixora",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "WebEye",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Germany",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Afiniti",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Lintasarta",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Kumori Labo, Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "AEON Smart Technology Co., Ltd.",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "EY",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "LAC Co., Ltd.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SoftBank Corp.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ExaWizards Inc",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "GlobalLogic Japan",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "VMware By Broadcom",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SAS",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "TCC Consulting Limited",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "HCL Tech",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "AgileOps",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "VIETTEL AI",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Hoekstra Tech",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "TABLE AI",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Megazone",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "iCON Business Systems Ltd.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "CTBC Bank Co., Ltd.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Tide",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Tetrate",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Hangzhou HarmonyCloud Technology Co., Ltd",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Techcombank",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Kubenesia",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Commercial Bank of Qatar",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "HCLTech",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Megazone Cloud",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "HYUNDAI MOBIS",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "LINE Plus",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Hana Bank",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Nesine",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SII Canada",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Growe",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Cellenza",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "CLOUDSECURITYLAB",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Ownera",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "inDrive",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "AllCloud",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "cplace",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "APTOVET LLC",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "B Braun Medical Inc",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Moreh",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Intralot",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Full House",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Miro",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Sensedia S.A.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Rakuten Mobile, Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Acquia",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "QiCard",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Logicalis Asia",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Deuna App",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "TeraSky",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Simbirsoft",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Banca D'Italia",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Kozmo bv",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "PS Cloud Services",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "NetBadgers Ltd",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Nayax",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "The Hong Kong Jockey Club",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Builder of Routines",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Everpure, Inc (Formerly Pure Storage)",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Crawford Consulting",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Musixmatch SPA",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Logz.io",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Hanwha Vision",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "HanaTI",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SK Hynix",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Globant",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Moveworks",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "DNB Carnegie",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Centralny Ośrodek Informatyki",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Software Mind",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Elastisys",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "monday.com",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "DiveInto",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "JABA IT",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Netcompany",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "DexMach",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Datalan, a.s.",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Janakiram & Associates",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Hana TI",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "LG CNS",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "HongikIT",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Imperva",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Allianz Technology",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Energy One Limited",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ZhongAn Insurance",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "I'm currently working at Suse as a Rancher support engineer",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Elevance Health - AI Platform Engineer",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Newyork University Abu Dhabi",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Nordcloud an IBM Company",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "IT Affinity BV",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Independent IT Architect",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Second Front System",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Greater B.V",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "NTT DATA Deutschland SE",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "RapportLabs",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "KORAIL",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "LGUplus",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ConclusionXForce",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Jesande",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ONUM",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ZTO",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "JFrog",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Macquarie Group",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Mondrian AI",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Rapportlabs",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Dynamia.ai",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Innogrid",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Kong Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Conclusion Xforce",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Bistelligence",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Banco Itaú",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "VMware Tanzu by Broadcom",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "The Webroot",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Kenya",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Arcanite BV",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "RDW",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "suXess information technology gmbh",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Cloudogu",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Bedag AG",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "NRW.Mobidrom",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Nexthink",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Centric IT Solutions",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Zenable",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Paessler",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Norwegian Meteorological Institute",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "letsboot.ch - Trainer & Co-Founder",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Accelerate at Iver",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "YOSUNg, Sertek - A Member of WPG Holdings",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Singapore Airlines",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Adfolks LLC (A ZainTECH Company)",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Devsisters Corp.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SK Shieldus",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Cloudmeesters",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Hocmodo",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "King",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ITM",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Yuno",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SCRM Lidl International Hub",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Inetum",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Mercadona",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "CIC Consulting Informático",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "The Workshop - Inventors of Play",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Adobe Inc",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Blip.pt",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Royal Horticultural Society",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Volkswagen",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "BMW Group",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Scalabit.dev",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Zero Hash",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Mindwareworks",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Banco de Crédito del Perú - BCP",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Grupo Credicorp",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Mavericks Software",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "FDJ",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Haufe Group // Corewire IT Consulting",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Exoscale",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "TOTVS SA",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "CJ OliveNetworks",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "WINITECH  Co., Ltd",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "University of Tsukuba",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Transport NSW",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "BridgePhase LLC",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Greater BV",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "PureLogic IT Solutions",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Woori Bank",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "noris network AG",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "CWISE",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "LoopMe",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Craftgate.io",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Alelo",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Gravitee",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Mercedes-Benz AG",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "NTT DATA, Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Total System Services, Inc",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Indiamart",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "PufferSoft",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Vacuumlabs",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Infraheads",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Cloud Native CISO",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Addepar",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ContinuumCloud",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Saudi Arab Investment Bank(SAIB)",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Aeven A/S",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "LAB3 NZ",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Rabbit Care Company Limited",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Ericsson Japan K.K",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Robi Axiata PLC",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Accenture Japan Ltd.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ERICSSON",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Oisix ra daichi Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Ericsson Canada Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Telenor Cyberdefence",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Tetrate.io",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Türk Ekonomi Bankası",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Bright Cubes",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "HumanITy GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Exalt Forge",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Hewlett Packard Entreprise",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "CyberAgent",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "CGSI",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Sofico Services Japan K.K.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Kamstrup A/S",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Sagent",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "EPAM",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "DSV A/S",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Appier",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SEKAI",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Raiffeisen Tech Poland",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "1/1 READY",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Exness",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Cloud Ace, Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "IBM Japan, Ltd.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "NTT DATA Group Corporation",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "OPTAGE Inc.",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Webnish",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Boeing India",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Rogers",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Norwegian Meteorological Institute (MET)",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Thomson Reuters, Canada",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Swissquote",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Prudential",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Independant",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Sony India",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Peg B Technology",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Torry Harris",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "HwaCom Systems Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Experian",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "kt ds",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Data-Dynamics",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Republic Of Turkey Ministry of Industry and Technology",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Al Nafi International College",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Azintelecom",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Devoteam A Cloud",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Hack the planet",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "HumanManaged",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "VHV Gruppe",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Hitachi Vantara",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Visa/Pismo",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Netdata Cybersecurity",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Checkmarx",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "NDA (fintech)",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Cordell Consulting",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "TACTIQUAL",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "No Coments",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Wren Kitchens Limited",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Conoa AB",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Trueskil",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Intuit",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Capital One",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "JMA Wireless",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Head of Community @ Percona",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "LiveWyer",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Dyson",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Maibornwolff",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Liquid Reply IT",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "GitHub, Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Eurofiber Cloud Infra",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "DZ BANK AG",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Beanters",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "OpsTeam",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Itau BBA",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "CargoX",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SenseLabs GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "cloudopserve GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "FPT Software",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Nazihar IT Solution Limited",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Hitachi Energy",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "NewOps",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Gemini Solutions",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "DÜRR NDT GmbH & Co. KG",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SOCIETE GENERALE",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Rakuten Group, Inc.",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "DKATALIS",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "https://itechcraft.com",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "https://advancedhosting.com",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Deepshore",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "CODE LEAP",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Computer Age Management Services (CAMS) Limited",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Bank of America",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Motorola Solutions Pvt Ltd",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ReeVo",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "MV Consulting GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ti&m AG",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Knack Works, Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "HCS Company B.V.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Serpro",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "net2phone Canada",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Statkraft",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "copebit AG",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Swiss Post",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "CybergON (Elmec Informatica spa)",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Monzo",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Cloider",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Hewlett Packard Entreprise HPE",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Solo.io, Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Vodafone",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Hard Rock Digital",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Axpo",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "OPITZ CONSULTING",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Episode Six",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "neoworx GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Pipedrive",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ELTRON BV",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "KGPCo",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Bragg",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Axel Springer National Media and Tech GmbH & Co. KG",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Deutsche Telekom AG",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ClickHouse",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "RELEX Solutions",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Mitsubishi Electric Information Network Corporation",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Nexum-ai",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Zeta Global",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Hapvida NotreDame Intermédica",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ExaWizards Inc.",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Docker",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "BeyondLimits Solutions",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Groupe SII",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "https://www.linkedin.com/in/mathijs-hoogland",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "419 Technology",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "GitHub",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "American Red Cross",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Polar Signals",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "STACKIT",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Tinext Cloud SA",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "We Know Cloud LLC",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "RBC - Royal Bank of Canada",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SVA GmbH / Cloudogu GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Cubastion Consulting株式会社",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Rapid Circle",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "MetaHeed",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Anwar Technologies",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Optimizely",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "RedDot Digital Ltd.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "aptovet",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Pubali Bnak PLC.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Dynamic Solution Innovators Ltd.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "DRV-Bund",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Optiop GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Defence Science & Technology Agency",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Eurecom",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "AktifTech",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "CloudyLinux",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Kitu Systems, Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Adfinis",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "FullStackS",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Federal Department of Defence, Civil Protection and Sport (DDPS)",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "DaoCloud",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Soonly Finance",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Mia-Platform",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Macnica",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Blum Group",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Sony - Playstation",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "FULLSTACKS GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Diebold Nixdorf",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Government ICT Centre Valtori",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "MIXI, inc",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Kubeforge",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Paloalto Networks",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Asians Group LLC",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "TSMC",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "China Merchants Bank",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Bespin Global",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "n3n",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "GlobalLogic",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Elmec Informatica",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "KubeCraft",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Dark Wolf Solutions",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "AgileFreaks",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Alinma Bank",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Mantrac Group",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Micrologic",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Amazon web services",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SMEG Monaco",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Lloyds Banking Group",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Rapyd",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Value Digital Services",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "HUMAIN",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "MBC Group - Shahid",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Cloudvests",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Lucid Motors",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Nearpay",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Echologyx Ltd. UK",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Istanbul Medipol University SABITA",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "FPLE Technology",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Henkel",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Brillio LLC",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "FIS",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "VoerEir",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "TEKNITT, Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Runna",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "iret, Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Ahead",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "CRDB BANK (T) PLC",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Falcov",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Amadeus",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Nawy",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Exclusive Networks ME",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Patriot Software",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "ThoughtWorks",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ARAB BANK",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Siemens",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Birunisoft PLT, and Novaglobal Pte Ltd",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Insight Enterprises, Inc",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Callsign",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Practical DevSecOps",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Trend Micro",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "DELL Technologies",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "TUBITAK BILGEM",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Burgan Bank Türkiye",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Mikrogrup",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "IO digital",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Geniusee",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "OpenMeter",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "American Express",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Pantheon Systems",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Bestcomp Group",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Agno",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Hitachi High-Tech",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Kaspi.kz",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "HEWLETT PACKARD ENTERPRISE INDIA PRIVATE LIMITED",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Insight",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Swiss Post Ltd",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Sysco",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Toppan Ecquaria Pte Ltd",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Zoox",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Voloridge",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Joby Aviation",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "GeoComply",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ACB",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Rakuten",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "MoMo (M_Service)",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "CODE88 Company Limited",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Orangelogic",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Blue Owl Oy",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Nscale",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Seismos",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Conoa",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Agile Lab",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Over SpA",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Decathlon",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "dthn Technology (https://www.dthn.io/)",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Kartaca Bilişim",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ventx GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "mnemonic",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "roclub GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Porsche Informatik GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Aves IT",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "IBS Software",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "NuSummit",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "LTIMindtree",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "London Stock Exchange Group",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Splunk",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ZSoft Consulting",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Shell",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "HAVELSAN",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Visa Technology",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Oyu Tolgoi LLC",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Greentube GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Equinor",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Marsh",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ramasudhas@gmail.com",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "akquinet nx2 GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Gradle / CDF / Jenkins",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Intelliarts Ltd.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Self-employed / Freelance",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Rivada Space Networks",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SurveySparrow Pvt Ltd",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Worldline Global Services",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Boursobank",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Credit Direct Limited",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Leminnov",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Qualys, Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Project Cricle LTD",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "MiCO Solutions",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Logo Yazılım",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Honeybook",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "AccessBank",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "London Stock Exchange Group (LSEG)",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Improving Pune",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Saxo bank",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Eureko Sigorta A.Ş.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "MaibornWolff",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Simpra",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "LOGO",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Bitso",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ARANOVA",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Citiustech Inc",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Archimedis Digital Pvt. Ltd.",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Comcast",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Datacom Systems",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Glaxo Smith Kline (GSK)",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Ascend Money",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Ambord Tech GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Kiratech",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Greater",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Simplito",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "NISC",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Devoteam Gcloud",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Jetstack Consult",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Valcann | An EPI-USE company",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "W.W.Grainger, Inc.",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "-",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "UKG Inc",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Nagarro",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Columbus Poland",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Bosch",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Canonical - Ubuntu",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Knowit Solutions Oy",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Tongxin Micro Co.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Touch Consulting",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Wesfarmers OneDigital",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Itera",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Alerant",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Lime Labs GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Barclays",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "I am freelancer and I like it,",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "VMO Holdings",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "NAV CANADA",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Aston Martin F1",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Isovalent at Cisco",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "inovex GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "BTC AG",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "integrationWorks",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Piros nv",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Orange Innovation Poland",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Acaisoft",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Vitrifi",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Fujifilm Ripcord",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Virgin Media O2",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Mechademy Inc",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "E.K. Solutions Pvt. Ltd.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Banaras Hindu University",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Bespin Global MEA, an e& enterprise company",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Guidewire Software",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "DevTools (https://devtools.in)",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Amazon",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Diconium Germay GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Atea",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Genpact India Private Limited",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "BBD India Pvt Ltd",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Mirantis",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Presight AI",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Giant Swarm",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Synogize",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "H.Essers",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "sevensphere",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "out.cloud",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "StormForge by CloudBolt",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Uney",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Marionete",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Five9",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "AccuKnox",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "McKinsey & Company",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Salesforce Inc",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Sinch AB",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "aixcept",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Tietoevry Banking",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Senior Solutions Engineer",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Shell Plc",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "DHL",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Fidelity Investment",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "BNP Paribas",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Pegasystems Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Bentley Systems Ltd",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "kubernetes@.com",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "CDW Canada",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Empathy.co && Resizes",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Adobe India",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Plusgrade",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Pakistan Single Window",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Neurospace",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Aurionpro Solutions Ltd.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Zimperium",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "United Wholesale Mortgage",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Publicissapient",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "DISH NETWORK TECHNOLOGIES INDIA",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Jio Platforms Limited",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "HCL Technologies",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Codefresh by Octopus Deploy",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Equans",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Worldstream BV",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "CyberAgent, Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "emnify",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ABB-Bank",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "HealthCare.com",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "shiftavenue GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Institutional Shareholder Services",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Snowflake",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Advanced Technologies DAC S.A de C.V",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ReeVo S.p.A.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "OnRamp",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "sufo s. r. o.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Digital Athletes",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Amazon Web Services India",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Capgemini Finland Oy",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "University of Toronto",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Ford Motor Company",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ON2IT",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Public Cloud Group (pcg.io)",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SecOps Consulting",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SUSE Software Solutions Germany GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "x-cellent technologies GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Prisma Cloud by Palo Alto Networks",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Ricoh",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "i8c",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Clever Advertising",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SHANGHAI DAOCLOUD NETWORK TECHNOLOGY CO. LTD. (DAOCLOUD)",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Jenius Bank",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Argo Inteligência Digital",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Condexa IT",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Head of Developer Relations @ motia",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Piguet Galland",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Spectro Cloud",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Inventx",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "melnyk.co",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "rinf.tech",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "De Nederlandse Kubernetes Podcast",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "RX-M, LLC",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Innovate Loop",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Info Support",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ASML",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "idh GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Self-employed",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Guavapay",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Radiant Logic",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Aprimo",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Honeycomb.io",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Subaru Corporation",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "UPSIDER Holdings, Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "NTT TechnoCross Corporation",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Gravitek",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Transport Exchange Group",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Ellucian",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Saxo",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Kubedemy",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Orange France",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Rafay Systems",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "solutions by stc",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "BuildingBetterSoftware ApS",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Loft Labs",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "CERTDIRECTORY.IO",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Home Office UK",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Four Principles",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Kubesimplify",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Persistent Systems Ltd.",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Cloud Ultra Pro",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Idiap Research Institute",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Fireflies.ai",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "The Factory",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Fullstaq",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "VSHN Canada - The DevOps Company Inc.",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "KPMG Australia",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Panamax Inc",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Presidio",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "VIL",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "RED HAT INDIA PRIVATE LIMITED",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "AlphaSense",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Accion Labs",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Accuknox",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "WellSky",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ImageVision ai India Private Ltd",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Charter communications",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Knovel Engineering Pte Ltd",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "CYBAAS",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "JLL/T",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Capco",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Jumpbox",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Zürcher Kantonalbank",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "TD Bank Group",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Cisco Systems G.K.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Mobileum (Hong Kong) limited",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "CloudThat",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Intel Technologies India Pvt Ltd",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Motorola Solutions",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Convin",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Lambda",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "LUY GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Pilatus IT",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "cVation",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "System Vertrieb Alexander GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Autodesk",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Luxoft",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Electronics and Telecommunications Research Institute (ETRI)",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SKTelecom",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SK AX",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Profelis Bilişim",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "GoodHabitz",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "CloudGeometry",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Cryptopay",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "San Carlos of Guatemala University",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ProfiSea",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "FujiFilm Imaging Produicts and Solutions",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Early Warning Services LLC",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Mckesson",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "01 Systems WLL",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Texas Instruments",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "DNB BANK ASA",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Ottu For Computer Integrated Solutions W.L.L",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "KAYA",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Delta Electronics",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "PAX Technology",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "HelloFresh SE",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "MBcom- VMware by Broadcom representative",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SaskTel",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "OSYSYEM",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Stealth",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "newmo, Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SigNoz",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "WasmEdge Ambassador",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Increff",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Aveti Learning",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Primerica",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "COMWARE CO., LTD.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Storm Reply GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Deloitte NZ",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Conserto",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Infineon Technologies AG",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Netcompany A/S",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "codecentric AG",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Docebo",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Vambita Solutions",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "AMD",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SDV Services",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Megazone Soft",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "MariaDB",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Relevance Lab",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Rionox LLC",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Leidos",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Camunda",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "RawWorks",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Triage IT",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "corewire GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Rise8",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Novibet",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Eficode",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Envelop Technologies",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Fasthosts Internet Ltd",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Universidad de Costa Rica",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Kumori Labo",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Standard Chartered",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Tesla",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "LiNKX Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Gabia Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "DXC technology",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "IDfy",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Urolime Technologies",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "bespinglobal",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Candescent",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "OPUS2",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "TSYS, A Global Payments Company",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Total System Services LLC",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "DEVK Versicherungen",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Deutsche Bank",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Cognizant Technology Solutions, Singapore",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Nokia Solutions and Networks Oy",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Ascend Healthcare and solution",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Groundspace",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Vinci Energies France",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "RNG Technology GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SADA, An Insight Company",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "NIPA Technology Co., Ltd.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Taehun Kim Software Lab",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Digico Solutions",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Internet Initiative Japan Inc.",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "AP Communications Co., Ltd.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SYSTEM I Co., Ltd.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Mamezou Co.,Ltd",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "SMS Co., Ltd.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Lightrun Ltd",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Airbus",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Mycom",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Ribbon Communications",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "LONGFOR",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "PhonePe",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Profelis IT Consultancy",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Founder & Senior Developer Advocate at DevOps.Pink",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Lime",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Devertix Cloud Kft",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Outcept",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "FPT AI FACTORY",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "CBTW",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Techdata Pte Ltd",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "NCS",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Viettel Networks",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "DNX Solutions",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "DACHS IT",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Cloudpunks GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Les Filles & les Garçons de la Tech",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "TSC Labs",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Bluebricks",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Apple Inc",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Orange Cyberdefense",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "DPG Media",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Guida",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Lenovo",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "UC Berkeley",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Wells Fargo",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "GXBank",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "viadee Unternehmensberatung AG",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "servinga GmbH / rescaled GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "predic8 GmbH",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "4data",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Relex Solutions",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Monkey Ventures B.V.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "b-nova",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "AiFi Inc.",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Cloudowski",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Wrike",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Gamanza",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Crayon",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Standard Chartered Bank",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Toon IT Consulting",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Preferred Networks",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Tristan LANOY EI",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Infomaniak",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "LINE Vietnam",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "https://www.sotatek.com/",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Khanbank",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Novelsoft LLC",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "NTT DATA",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Renova Cloud",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Ministry of Digital Technologies of the Republic of Uzbekistan",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Turkcell",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Veza",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Rho",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SMATIS",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Puzzle ITC AG",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "kluisz.ai",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Nuno Cloud",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Allied Universal® Electronic Monitoring",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ROSEN Group",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "NIELSEN",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Appian",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "TUI Technology Portugal",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Aubay",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Adobe Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Cultus",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "https://aws-guru.com/",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Classtime",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Keyless",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Thales",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Nimtech",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Storm Reply",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Arcesium India Private Limited",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "INFOSYS LTD",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SmartPension",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Fiserv",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Cloud Software Group India Pvt Ltd.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Vipyr",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "CBTS",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Genus AS",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Poshmark",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Waltsoft Inc",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Ultimate Kronos Group (UKG)",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Temabit",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Independent Freelancer at Upwork",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "J.P. Morgan",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "PASHA Insurance OJSC",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Visma Tech",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Agyla.Cloud",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Integrant",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Golden Node AS",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Upsource by Solutions",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Resolve Technology",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Edgesource",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "HE3 Tech",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Telus International",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "SEEK",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "HCA Healthcare",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Guida B.V.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Gdańsk University of Technology",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "VirtusLab",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "FikaWorks, contractor at Shell",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Orange Poland",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "IS Nordic A/S",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Accor",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Alibaba Group",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Flomesh(DaLian YiHeng KeJi YouXian GongSi)",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ByteDance",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Tiime",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Visa Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Swisscom AG",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "BEGASOFT AG",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "KubeShuttle",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "104 Corporation",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "National ID Ethiopia",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Signiant",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Visa",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Massive Bio",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "LinSoft",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Mitsubishi Electric Corporation",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Nebius B.V.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Santander Consumer Bank AG",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "S2W",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Optiva",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Antaka Tech SL",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Alten Calsoft Labs (India) Private Limited",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Euronet Worldwide",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "KSUG.AI",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "NTT Communications Corporation",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Upstage",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Bespinglobal",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Synapse Analytics",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Taiwan(R.O.C)",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "NTT DOCOMO BUSINESS, Inc.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Yunhorn",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Romeo & Athena Associates Inc.",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Japan",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "BizTech i",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "LexisNexis",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Interbank Card Center",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Teck Resources Limited",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Distributed",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "VMware by Broadcom",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ITOCHU Techno-Solutions Corporation (CTC)",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "NTT DATA Japan Corporation",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Old Mutual",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Odine",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Payments Canada",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "HTI",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "NCS Group",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "BRAC University",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Prusa Research a.s. / Freelance Cloud Consultant",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "AIA TSS",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Azul Systems",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "ACEGIK",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "AEQON TJ",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Yolo Group",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Paradigma Digital",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Lifemote Networks",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "kloia",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Sahibinden.com",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Property Group",
+      "count": 1,
+      "golden": 1
+    },
+    {
+      "name": "Inner Savages/Atos",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "free",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "China Enterprise ICT Solutions Limited",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "KRAFTON Inc.",
+      "count": 1,
+      "golden": 1
+    }
+  ],
+  "topCities": [
+    {
+      "name": "Singapore",
+      "count": 111,
+      "golden": 5,
+      "country": "Singapore",
+      "flag": "🇸🇬"
+    },
+    {
+      "name": "Tokyo",
+      "count": 82,
+      "golden": 9,
+      "country": "Japan",
+      "flag": "🇯🇵"
+    },
+    {
+      "name": "Seoul",
+      "count": 69,
+      "golden": 6,
+      "country": "South Korea",
+      "flag": "🇰🇷"
+    },
+    {
+      "name": "Paris",
+      "count": 61,
+      "golden": 5,
+      "country": "France",
+      "flag": "🇫🇷"
+    },
+    {
+      "name": "London",
+      "count": 52,
+      "golden": 3,
+      "country": "United Kingdom",
+      "flag": "🇬🇧"
+    },
+    {
+      "name": "Bengaluru",
+      "count": 50,
+      "golden": 6,
+      "country": "India",
+      "flag": "🇮🇳"
+    },
+    {
+      "name": "Bangalore",
+      "count": 40,
+      "golden": 2,
+      "country": "India",
+      "flag": "🇮🇳"
+    },
+    {
+      "name": "Pune",
+      "count": 38,
+      "golden": 4,
+      "country": "India",
+      "flag": "🇮🇳"
+    },
+    {
+      "name": "Oslo",
+      "count": 38,
+      "golden": 9,
+      "country": "Norway",
+      "flag": "🇳🇴"
+    },
+    {
+      "name": "Hyderabad",
+      "count": 37,
+      "golden": 0,
+      "country": "India",
+      "flag": "🇮🇳"
+    },
+    {
+      "name": "Warsaw",
+      "count": 36,
+      "golden": 3,
+      "country": "Poland",
+      "flag": "🇵🇱"
+    },
+    {
+      "name": "Toronto",
+      "count": 35,
+      "golden": 2,
+      "country": "Canada",
+      "flag": "🇨🇦"
+    },
+    {
+      "name": "Istanbul",
+      "count": 30,
+      "golden": 2,
+      "country": "Turkey",
+      "flag": "🇹🇷"
+    },
+    {
+      "name": "Riyadh",
+      "count": 28,
+      "golden": 4,
+      "country": "Saudi Arabia",
+      "flag": "🇸🇦"
+    },
+    {
+      "name": "Berlin",
+      "count": 28,
+      "golden": 4,
+      "country": "Germany",
+      "flag": "🇩🇪"
+    },
+    {
+      "name": "Ankara",
+      "count": 27,
+      "golden": 4,
+      "country": "Turkey",
+      "flag": "🇹🇷"
+    },
+    {
+      "name": "Melbourne",
+      "count": 27,
+      "golden": 0,
+      "country": "Australia",
+      "flag": "🇦🇺"
+    },
+    {
+      "name": "Hong Kong",
+      "count": 26,
+      "golden": 5,
+      "country": "Hong Kong",
+      "flag": "🇭🇰"
+    },
+    {
+      "name": "Munich",
+      "count": 26,
+      "golden": 4,
+      "country": "Germany",
+      "flag": "🇩🇪"
+    },
+    {
+      "name": "Taipei",
+      "count": 24,
+      "golden": 3,
+      "country": "Taiwan",
+      "flag": "🇹🇼"
+    },
+    {
+      "name": "Copenhagen",
+      "count": 23,
+      "golden": 2,
+      "country": "Denmark",
+      "flag": "🇩🇰"
+    },
+    {
+      "name": "Amsterdam",
+      "count": 23,
+      "golden": 4,
+      "country": "Netherlands",
+      "flag": "🇳🇱"
+    },
+    {
+      "name": "Baku",
+      "count": 23,
+      "golden": 1,
+      "country": "Azerbaijan",
+      "flag": "🇦🇿"
+    },
+    {
+      "name": "Chennai",
+      "count": 22,
+      "golden": 5,
+      "country": "India",
+      "flag": "🇮🇳"
+    },
+    {
+      "name": "Mumbai",
+      "count": 22,
+      "golden": 3,
+      "country": "India",
+      "flag": "🇮🇳"
+    },
+    {
+      "name": "Ho Chi Minh City",
+      "count": 22,
+      "golden": 1,
+      "country": "Vietnam",
+      "flag": "🇻🇳"
+    },
+    {
+      "name": "Shanghai",
+      "count": 21,
+      "golden": 2,
+      "country": "China",
+      "flag": "🇨🇳"
+    },
+    {
+      "name": "Austin",
+      "count": 20,
+      "golden": 3,
+      "country": "United States",
+      "flag": "🇺🇸"
+    },
+    {
+      "name": "Bangkok",
+      "count": 20,
+      "golden": 4,
+      "country": "Thailand",
+      "flag": "🇹🇭"
+    },
+    {
+      "name": "Sofia",
+      "count": 20,
+      "golden": 1,
+      "country": "Bulgaria",
+      "flag": "🇧🇬"
+    },
+    {
+      "name": "Bern",
+      "count": 20,
+      "golden": 1,
+      "country": "Switzerland",
+      "flag": "🇨🇭"
+    },
+    {
+      "name": "Dhaka",
+      "count": 19,
+      "golden": 1,
+      "country": "Bangladesh",
+      "flag": "🇧🇩"
+    },
+    {
+      "name": "Hanoi",
+      "count": 19,
+      "golden": 2,
+      "country": "Vietnam",
+      "flag": "🇻🇳"
+    },
+    {
+      "name": "São Paulo",
+      "count": 18,
+      "golden": 1,
+      "country": "Brazil",
+      "flag": "🇧🇷"
+    },
+    {
+      "name": "Toulouse",
+      "count": 17,
+      "golden": 1,
+      "country": "France",
+      "flag": "🇫🇷"
+    },
+    {
+      "name": "Dublin",
+      "count": 17,
+      "golden": 1,
+      "country": "Ireland",
+      "flag": "🇮🇪"
+    },
+    {
+      "name": "Bucharest",
+      "count": 17,
+      "golden": 0,
+      "country": "Romania",
+      "flag": "🇷🇴"
+    },
+    {
+      "name": "Budapest",
+      "count": 17,
+      "golden": 4,
+      "country": "Hungary",
+      "flag": "🇭🇺"
+    },
+    {
+      "name": "Zurich",
+      "count": 16,
+      "golden": 1,
+      "country": "Switzerland",
+      "flag": "🇨🇭"
+    },
+    {
+      "name": "Tbilisi",
+      "count": 16,
+      "golden": 3,
+      "country": "Georgia",
+      "flag": "🇬🇪"
+    },
+    {
+      "name": "Dubai",
+      "count": 15,
+      "golden": 2,
+      "country": "United Arab Emirates",
+      "flag": "🇦🇪"
+    },
+    {
+      "name": "Cairo",
+      "count": 14,
+      "golden": 1,
+      "country": "Egypt",
+      "flag": "🇪🇬"
+    },
+    {
+      "name": "Zürich",
+      "count": 14,
+      "golden": 4,
+      "country": "Switzerland",
+      "flag": "🇨🇭"
+    },
+    {
+      "name": "Beijing",
+      "count": 13,
+      "golden": 1,
+      "country": "China",
+      "flag": "🇨🇳"
+    },
+    {
+      "name": "Wrocław",
+      "count": 13,
+      "golden": 0,
+      "country": "Poland",
+      "flag": "🇵🇱"
+    },
+    {
+      "name": "Lima",
+      "count": 13,
+      "golden": 3,
+      "country": "Peru",
+      "flag": "🇵🇪"
+    },
+    {
+      "name": "Utrecht",
+      "count": 13,
+      "golden": 1,
+      "country": "Netherlands",
+      "flag": "🇳🇱"
+    },
+    {
+      "name": "Ottawa",
+      "count": 13,
+      "golden": 1,
+      "country": "Canada",
+      "flag": "🇨🇦"
+    },
+    {
+      "name": "Hamburg",
+      "count": 13,
+      "golden": 2,
+      "country": "Germany",
+      "flag": "🇩🇪"
+    },
+    {
+      "name": "Dallas",
+      "count": 13,
+      "golden": 1,
+      "country": "United States",
+      "flag": "🇺🇸"
+    }
+  ],
+  "generatedAt": "2026-04-23T18:46:42.952Z"
+}
