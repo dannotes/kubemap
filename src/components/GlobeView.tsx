@@ -45,7 +45,7 @@ export function GlobeView() {
     if (!containerRef.current) return;
     const isDark = theme !== 'light';
 
-    const globe = Globe()(containerRef.current)
+    const globe = new Globe(containerRef.current)
       .backgroundColor('rgba(0,0,0,0)')
       .showAtmosphere(true)
       .atmosphereColor(isDark ? '#1e3a5f' : '#6b9dff')

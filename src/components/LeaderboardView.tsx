@@ -5,7 +5,7 @@ import { avColor, initials, imageUrl } from '../lib/utils';
 export function LeaderboardView() {
   const people = useStore(s => s.people);
   const openProfile = useStore(s => s.openProfile);
-  const setView = useStore(s => s.setView);
+
 
   const data = useMemo(() => {
     // Countries
@@ -210,7 +210,7 @@ function LbCardCompact({ title, meta, children }: { title: string; meta: string;
   );
 }
 
-function LbRow({ rank, icon, name, sub, val, unit = '', bar = 0, gold = false }: {
+function LbRow({ rank, icon, name, sub, val, unit = '', bar: _bar = 0, gold: _gold = false }: {
   rank: number; icon: React.ReactNode; name: string; sub: string;
   val: number; unit?: string; bar: number; gold?: boolean;
 }) {

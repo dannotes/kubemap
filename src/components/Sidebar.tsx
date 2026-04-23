@@ -1,7 +1,7 @@
 import { useState, useMemo, memo } from 'react';
 import L from 'leaflet';
 import { useStore } from '../store/store';
-import { avColor, initials, imageUrl, hashStr } from '../lib/utils';
+import { avColor, initials, imageUrl } from '../lib/utils';
 
 type SideTab = 'overview' | 'spotlight' | 'regions' | 'companies';
 type SpotlightTier = 'golden' | 'ambassador' | 'all';

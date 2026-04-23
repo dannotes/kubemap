@@ -53,7 +53,6 @@ export function ProfilePanel() {
 
   const p = person;
   const isGold = p.tier === 'golden';
-  const tierLabel = isGold ? '★ Golden Kubestronaut' : p.tier === 'regular' ? 'Kubestronaut' : 'CNCF Ambassador';
   const showCerts = p.tier === 'golden' || p.tier === 'regular';
   const img = imageUrl(p.image);
 

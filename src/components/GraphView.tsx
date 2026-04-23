@@ -1,6 +1,6 @@
 import { useState, useMemo, useRef, useEffect, useCallback } from 'react';
 import { useStore } from '../store/store';
-import { avColor, initials, imageUrl } from '../lib/utils';
+// utils used in canvas drawing (no direct import needed)
 import {
   forceSimulation,
   forceCenter,
@@ -124,8 +124,10 @@ export function GraphView() {
     if (!ctx) return;
 
     const dpr = window.devicePixelRatio || 1;
-    const w = canvas.width / dpr;
-    const h = canvas.height / dpr;
+    const cw = canvas.width / dpr;
+    void cw; // used for layout reference
+    const ch = canvas.height / dpr;
+    void ch;
     const { x: tx, y: ty, k } = transformRef.current;
 
     ctx.clearRect(0, 0, canvas.width, canvas.height);

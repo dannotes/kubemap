@@ -143,7 +143,7 @@ export function MapView() {
                <span style="font-family:'DM Sans',sans-serif;font-weight:600;font-size:12px">${p.name}</span>
                <span style="font-family:monospace;font-size:10.5px;color:#71717a;margin-left:auto">${p.flag}</span>
              </div>`).join('');
-          const popup = L.popup({ maxWidth: 280, maxHeight: 320, offset: [0, -4] })
+          L.popup({ maxWidth: 280, maxHeight: 320, offset: [0, -4] })
             .setLatLng([baseLat, baseLon])
             .setContent(`<div style="min-width:220px;max-height:280px;overflow-y:auto"><div style="font-family:'JetBrains Mono',monospace;font-size:10px;color:#71717a;letter-spacing:.12em;text-transform:uppercase;padding:4px 8px 6px">${n} Kubestronauts here</div>${items}</div>`)
             .openOn(map);
