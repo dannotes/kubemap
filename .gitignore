@@ -34,3 +34,10 @@ claude-design/
 
 # Planning files
 .planning/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
