@@ -93,7 +93,7 @@ export function TopBar() {
                   <circle cx="21.6" cy="8.8" r="1.2" fill="#fff"/><circle cx="10.4" cy="15.2" r="1.2" fill="#fff"/>
                 </svg>
               </div>
-              <div style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 800, fontSize: 15, letterSpacing: '-0.02em', color: 'var(--text)' }}>
+              <div style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 800, fontSize: 16, letterSpacing: '-0.02em', color: 'var(--text)' }}>
                 kubemap<span style={{ color: 'var(--text-muted)', fontWeight: 500 }}>.app</span>
               </div>
             </div>

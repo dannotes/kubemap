@@ -283,9 +283,9 @@ export function MapView() {
             <button key={f.key} onClick={() => setFilter(f.key)} style={{
               background: isActive ? 'var(--surface)' : 'transparent',
               border: 0, color: isActive ? 'var(--text)' : 'var(--text-muted)',
-              padding: isMobile ? '5px 8px' : '7px 14px',
+              padding: isMobile ? '6px 10px' : '7px 14px',
               borderRadius: isMobile ? 6 : 7,
-              fontFamily: "'JetBrains Mono', monospace", fontSize: isMobile ? 9.5 : 11,
+              fontFamily: "'JetBrains Mono', monospace", fontSize: isMobile ? 11 : 11,
               display: 'inline-flex', alignItems: 'center', gap: isMobile ? 4 : 6, cursor: 'pointer',
               boxShadow: isActive ? 'inset 0 0 0 1px var(--border-strong)' : 'none',
             }}>
@@ -306,7 +306,7 @@ export function MapView() {
                 background: showEvents ? 'var(--surface)' : 'transparent',
                 border: 0, color: showEvents ? 'var(--green)' : 'var(--text-muted)',
                 padding: isMobile ? '5px 10px' : '7px 14px', borderRadius: isMobile ? 6 : 7,
-                fontFamily: "'JetBrains Mono', monospace", fontSize: isMobile ? 10 : 11,
+                fontFamily: "'JetBrains Mono', monospace", fontSize: isMobile ? 11 : 11,
                 display: 'inline-flex', alignItems: 'center', gap: isMobile ? 4 : 6, cursor: 'pointer',
                 boxShadow: showEvents ? 'inset 0 0 0 1px var(--border-strong)' : 'none',
               }}>

@@ -36,7 +36,7 @@ export function Layout() {
   const sidebarOpen = useStore(s => s.sidebarOpen);
   const sidebarW = isMobile ? 0 : (sidebarOpen ? 340 : 0);
   const topH = isMobile ? 48 : 56;
-  const bottomH = isMobile ? 56 : 28;
+  const bottomH = isMobile ? 60 : 28;
 
   return (
     <>

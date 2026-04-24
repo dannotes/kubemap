@@ -229,53 +229,53 @@ export async function generateProfileCard(person: PersonCore): Promise<Blob> {
   ctx.textBaseline = 'top';
   ctx.fillText(commText, W / 2, commY);
 
-  // === STATS ROW — compact counters ===
-  const statsY = 445;
-  const stats: { val: string; label: string }[] = [];
-  if (isGold) stats.push({ val: '16', label: 'CERTS' });
-  else if (person.tier === 'regular') stats.push({ val: '5', label: 'CERTS' });
-  if (person.projects.length > 0) stats.push({ val: String(person.projects.length), label: 'PROJECTS' });
-  if (person.isAmbassador) stats.push({ val: '★', label: 'AMBASSADOR' });
+  // === STAT LINE — clean summary ===
+  const statLineY = 440;
+  const statParts: string[] = [];
+  if (isGold) statParts.push('16 Certifications');
+  else if (person.tier === 'regular') statParts.push('5 Certifications');
+  if (person.isAmbassador) statParts.push('Ambassador');
+  if (person.projects.length > 0) statParts.push(`${person.projects.length} Projects`);
 
-  if (stats.length > 0) {
-    const statGap = 40;
-    const dotR = 2;
+  if (statParts.length > 0) {
+    ctx.font = '600 13px "JetBrains Mono", monospace';
     ctx.textAlign = 'center';
     ctx.textBaseline = 'top';
 
-    // Total width
-    let totalStatsW = 0;
-    const statMeasured = stats.map(s => {
-      ctx.font = '800 22px "DM Sans", sans-serif';
-      const vw = ctx.measureText(s.val).width;
-      ctx.font = '500 9px "JetBrains Mono", monospace';
-      const lw = ctx.measureText(s.label).width;
-      const w = Math.max(vw, lw);
-      totalStatsW += w;
-      return { ...s, w };
-    });
-    totalStatsW += (stats.length - 1) * statGap;
-    let sx = (W - totalStatsW) / 2;
+    // Draw each part with tier-colored numbers and dots between
+    const statStr = statParts.join('  ·  ');
+    const fullW = ctx.measureText(statStr).width;
+    let sx = (W - fullW) / 2;
 
-    statMeasured.forEach((s, i) => {
-      const cx = sx + s.w / 2;
+    for (let i = 0; i < statParts.length; i++) {
+      const part = statParts[i];
       ctx.fillStyle = tierColor;
-      ctx.font = '800 22px "DM Sans", sans-serif';
-      ctx.fillText(s.val, cx, statsY);
-      ctx.fillStyle = '#475569';
-      ctx.font = '500 9px "JetBrains Mono", monospace';
-      ctx.fillText(s.label, cx, statsY + 28);
-      sx += s.w + statGap;
+      ctx.textAlign = 'left';
+      ctx.fillText(part, sx, statLineY);
+      sx += ctx.measureText(part).width;
 
-      // Dot separator
-      if (i < stats.length - 1) {
+      if (i < statParts.length - 1) {
         ctx.fillStyle = '#2a3450';
-        ctx.beginPath();
-        ctx.arc(sx - statGap / 2, statsY + 14, dotR, 0, Math.PI * 2);
-        ctx.fill();
+        ctx.fillText('  ·  ', sx, statLineY);
+        sx += ctx.measureText('  ·  ').width;
       }
-    });
+    }
   }
+
+  // === TAGLINE — large, gradient text ===
+  const tagY = statLineY + 36;
+  const tagText = 'Building the future of cloud native.';
+  ctx.font = '700 22px "DM Sans", sans-serif';
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'top';
+  const tagW = ctx.measureText(tagText).width;
+  const tagGrad = ctx.createLinearGradient(W / 2 - tagW / 2, tagY, W / 2 + tagW / 2, tagY);
+  tagGrad.addColorStop(0, '#475569');
+  tagGrad.addColorStop(0.3, tierColor);
+  tagGrad.addColorStop(0.7, tierColor);
+  tagGrad.addColorStop(1, '#475569');
+  ctx.fillStyle = tagGrad;
+  ctx.fillText(tagText, W / 2, tagY);
 
   // === BOTTOM BAR — centered ===
   const barY = H - 55;

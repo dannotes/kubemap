@@ -75,7 +75,7 @@ export function BottomNav() {
             />
             <span style={{
               fontFamily: "'JetBrains Mono', monospace",
-              fontSize: 9, fontWeight: isActive ? 700 : 500,
+              fontSize: 10, fontWeight: isActive ? 700 : 500,
               letterSpacing: '0.02em',
             }}>
               {tab.label}

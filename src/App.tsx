@@ -28,15 +28,11 @@ function DataLoader({ children }: { children: React.ReactNode }) {
         setEvents(events);
         setLoading(false);
 
-        // Stage 2: Detail data (bios, socials) — deferred to idle time
+        // Stage 2: Detail data (bios, socials) — deferred briefly to not block first paint
         fetch('/data/people-details.json')
           .then(r => r.json())
           .then((details: Record<string, PersonDetail>) => {
-            if ('requestIdleCallback' in window) {
-              requestIdleCallback(() => setDetails(details));
-            } else {
-              setTimeout(() => setDetails(details), 200);
-            }
+            setTimeout(() => setDetails(details), 300);
           })
           .catch(() => {}); // non-critical
 

@@ -195,15 +195,20 @@ export function ProfilePanel() {
           )}
         </div>
 
-        {/* Bio */}
-        <h5 style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: 10, color: 'var(--text-faint)', letterSpacing: '0.14em', textTransform: 'uppercase', fontWeight: 500, margin: '16px 0 8px' }}>Bio</h5>
-        <div style={{
-          fontFamily: "'JetBrains Mono', monospace", fontSize: 12, color: 'var(--text-dim)', lineHeight: 1.7,
-          borderLeft: `2px solid ${isGold ? 'rgba(245,158,11,0.4)' : p.isAmbassador ? 'rgba(168,85,247,0.4)' : 'color-mix(in srgb, var(--accent) 30%, transparent)'}`,
-          padding: '2px 0 2px 12px',
-        }}>
-          {detail?.bio || '—'}
-        </div>
+        {/* Bio — only show when loaded */}
+        {detail?.bio && (
+          <>
+            <h5 style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: 10, color: 'var(--text-faint)', letterSpacing: '0.14em', textTransform: 'uppercase', fontWeight: 500, margin: '16px 0 8px' }}>Bio</h5>
+            <div style={{
+              fontFamily: "'JetBrains Mono', monospace", fontSize: 12, color: 'var(--text-dim)', lineHeight: 1.7,
+              borderLeft: `2px solid ${isGold ? 'rgba(245,158,11,0.4)' : p.isAmbassador ? 'rgba(168,85,247,0.4)' : 'color-mix(in srgb, var(--accent) 30%, transparent)'}`,
+              padding: '2px 0 2px 12px',
+              animation: 'viewFadeIn .3s ease-out',
+            }}>
+              {detail.bio}
+            </div>
+          </>
+        )}
 
         {/* Certs summary */}
         {showCerts && (
