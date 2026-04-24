@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from 'react';
+import { useEffect, useState } from 'react';
 import { useStore } from '../store/store';
 import { useIsMobile } from '../lib/useIsMobile';
 
@@ -10,62 +10,41 @@ export function HeroEntrance() {
   const isMobile = useIsMobile();
 
   const [phase, setPhase] = useState<'loading' | 'reveal' | 'fading' | 'done'>('loading');
-  const [count, setCount] = useState(0);
-  const [countryCount, setCountryCount] = useState(0);
-  const animRef = useRef<number>(0);
-  const shownRef = useRef(false);
+  const shownRef = useState(() => sessionStorage.getItem('kubemap-hero-shown') === '1')[0];
 
   // Skip if already shown this session
   useEffect(() => {
-    if (sessionStorage.getItem('kubemap-hero-shown')) {
-      setPhase('done');
-      shownRef.current = true;
-    }
-  }, []);
+    if (shownRef) setPhase('done');
+  }, [shownRef]);
 
   // Transition from loading → reveal when data arrives
   useEffect(() => {
-    if (!loading && people.length > 0 && phase === 'loading' && !shownRef.current) {
+    if (shownRef || phase !== 'loading') return;
+    if (!loading && people.length > 0) {
       setPhase('reveal');
       sessionStorage.setItem('kubemap-hero-shown', '1');
-      shownRef.current = true;
-
-      // Animate the counter
-      const target = people.length;
-      const countries = stats?.topCountries ? stats.topCountries.length : 0;
-      const duration = 1800;
-      const start = performance.now();
-
-      const tick = (now: number) => {
-        const elapsed = now - start;
-        const progress = Math.min(elapsed / duration, 1);
-        const eased = 1 - Math.pow(1 - progress, 3);
-        setCount(Math.round(eased * target));
-        setCountryCount(Math.round(eased * countries));
-        if (progress < 1) {
-          animRef.current = requestAnimationFrame(tick);
-        }
-      };
-      animRef.current = requestAnimationFrame(tick);
-
-      // Auto-dismiss after counter finishes + pause
       setTimeout(() => dismiss(), 3400);
     }
-
-    return () => { if (animRef.current) cancelAnimationFrame(animRef.current); };
-  }, [loading, people.length, phase, stats]);
+  }, [loading, people.length]);
 
   function dismiss() {
-    if (phase === 'fading' || phase === 'done') return;
-    setPhase('fading');
-    setTimeout(() => setPhase('done'), 700);
+    setPhase(prev => {
+      if (prev === 'fading' || prev === 'done') return prev;
+      setTimeout(() => setPhase('done'), 700);
+      return 'fading';
+    });
   }
 
   if (phase === 'done') return null;
 
+  const total = people.length;
+  const countries = stats?.topCountries ? stats.topCountries.length : 0;
+  // Round to nearest hundred with +
+  const displayCount = total > 0 ? `${Math.floor(total / 100) * 100}+` : '';
+
   return (
     <div
-      onClick={() => (phase === 'reveal') && dismiss()}
+      onClick={() => phase === 'reveal' && dismiss()}
       style={{
         position: 'fixed', inset: 0, zIndex: 9999,
         background: 'var(--bg)',
@@ -120,7 +99,7 @@ export function HeroEntrance() {
           display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 8,
           animation: 'heroReveal .5s ease-out',
         }}>
-          {/* Big counter */}
+          {/* Big number */}
           <div style={{
             fontFamily: "'DM Sans', sans-serif", fontWeight: 800,
             fontSize: isMobile ? 56 : 80, lineHeight: 1,
@@ -129,7 +108,7 @@ export function HeroEntrance() {
             WebkitBackgroundClip: 'text',
             WebkitTextFillColor: 'transparent',
           }}>
-            {count.toLocaleString()}
+            {displayCount}
           </div>
 
           {/* Tagline */}
@@ -147,7 +126,7 @@ export function HeroEntrance() {
             fontFamily: "'JetBrains Mono', monospace", fontSize: isMobile ? 11 : 13,
             color: 'var(--text-muted)', marginTop: 4,
           }}>
-            <span>{countryCount} countries</span>
+            <span>{countries}+ countries</span>
             <span style={{ width: 4, height: 4, borderRadius: '50%', background: 'var(--green)' }} />
             <span style={{ color: 'var(--green)' }}>live</span>
           </div>
