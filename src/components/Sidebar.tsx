@@ -124,9 +124,6 @@ function OverviewPanel() {
   const setView = useStore(s => s.setView);
   const setSelectedCountry = useStore(s => s.setSelectedCountry);
   const openEvent = useStore(s => s.openEvent);
-  const setMobileSheet = useStore(s => s.setMobileSheet);
-  const isMobile = useIsMobile();
-
   const tierMix = useMemo(() => {
     if (!stats || stats.total === 0) return { golden: 0, regular: 0, amb: 0 };
     return {

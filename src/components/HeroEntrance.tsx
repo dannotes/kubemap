@@ -32,7 +32,7 @@ export function HeroEntrance() {
 
       // Animate the counter
       const target = people.length;
-      const countries = stats?.countries ? Object.keys(stats.countries).length : 0;
+      const countries = stats?.topCountries ? stats.topCountries.length : 0;
       const duration = 1800;
       const start = performance.now();
 
