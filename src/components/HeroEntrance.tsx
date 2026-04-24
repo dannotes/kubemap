@@ -138,7 +138,7 @@ export function HeroEntrance() {
             fontSize: isMobile ? 16 : 20, color: 'var(--text)',
             letterSpacing: '-0.01em',
           }}>
-            Kubestronauts
+            Kubestronauts worldwide
           </div>
 
           {/* Sub stats */}
