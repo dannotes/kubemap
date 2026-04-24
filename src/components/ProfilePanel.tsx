@@ -273,7 +273,7 @@ function ShareButton({ person }: { person: PersonCore }) {
   const [copied, setCopied] = useState(false);
   return (
     <button onClick={() => {
-      navigator.clipboard?.writeText(`https://kubemap.io/k/${person.id}`);
+      navigator.clipboard?.writeText(`https://kubemap.app/k/${person.id}`);
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     }} style={{

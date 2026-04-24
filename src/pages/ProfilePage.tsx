@@ -47,7 +47,7 @@ export function ProfilePage() {
 
     setMeta('og:title', `${person.name} — ${tierLabel}`);
     setMeta('og:description', desc);
-    setMeta('og:url', `https://kubemap.io/k/${person.id}`);
+    setMeta('og:url', `https://kubemap.app/k/${person.id}`);
     setMeta('og:type', 'profile');
     if (person.image) {
       setMeta('og:image', imageUrl(person.image)!);
@@ -133,7 +133,7 @@ export function ProfilePage() {
             </svg>
           </div>
           <span style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 800, fontSize: 17, letterSpacing: '-0.02em', color: 'var(--text)' }}>
-            kubemap<span style={{ color: 'var(--text-muted)', fontWeight: 500 }}>.io</span>
+            kubemap<span style={{ color: 'var(--text-muted)', fontWeight: 500 }}>.app</span>
           </span>
         </Link>
         <span style={{ color: 'var(--text-faint)', fontFamily: "'JetBrains Mono', monospace", fontSize: 11 }}>/ k / {p.id}</span>
@@ -275,7 +275,7 @@ export function ProfilePage() {
         <div style={{ textAlign: 'center', padding: '20px 0', borderTop: '1px solid var(--border)' }}>
           <div style={{ display: 'flex', gap: 10, justifyContent: 'center', flexWrap: 'wrap' }}>
             <button onClick={() => {
-              navigator.clipboard?.writeText(`https://kubemap.io/k/${p.id}`);
+              navigator.clipboard?.writeText(`https://kubemap.app/k/${p.id}`);
               setCopied(true);
               setTimeout(() => setCopied(false), 2000);
             }} style={{

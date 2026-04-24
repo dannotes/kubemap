@@ -286,13 +286,13 @@ export async function generateProfileCard(person: PersonCore): Promise<Blob> {
   ctx.lineTo(W - 200, barY - 18);
   ctx.stroke();
 
-  // Measure total footer width: logo + "kubemap.io" + separator + URL
+  // Measure total footer width: logo + "kubemap.app" + separator + URL
   ctx.font = '800 15px "DM Sans", sans-serif';
   const brandKW = ctx.measureText('kubemap').width;
   ctx.font = '500 15px "DM Sans", sans-serif';
-  const brandDotW = ctx.measureText('.io').width;
+  const brandDotW = ctx.measureText('.app').width;
   ctx.font = '500 12px "JetBrains Mono", monospace';
-  const urlText = `kubemap.io/k/${person.id}`;
+  const urlText = `kubemap.app/k/${person.id}`;
   const urlW = ctx.measureText(urlText).width;
   const logoW = 16; // pin icon width
   const sepGap = 28;
@@ -311,7 +311,7 @@ export async function generateProfileCard(person: PersonCore): Promise<Blob> {
   ctx.fillText('kubemap', brandX, barY);
   ctx.fillStyle = '#475569';
   ctx.font = '500 15px "DM Sans", sans-serif';
-  ctx.fillText('.io', brandX + brandKW, barY);
+  ctx.fillText('.app', brandX + brandKW, barY);
 
   // Separator dot
   const dotX = brandX + brandKW + brandDotW + sepGap / 2;

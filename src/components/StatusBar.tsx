@@ -33,7 +33,7 @@ export function StatusBar() {
           Not affiliated with the CNCF · Community directory · v0.3
         </span>
       </div>
-      <div style={{ textAlign: 'right' }}>© 2026 kubemap.io</div>
+      <div style={{ textAlign: 'right' }}>© 2026 kubemap.app</div>
     </footer>
   );
 }

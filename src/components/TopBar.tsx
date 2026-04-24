@@ -94,7 +94,7 @@ export function TopBar() {
                 </svg>
               </div>
               <div style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 800, fontSize: 15, letterSpacing: '-0.02em', color: 'var(--text)' }}>
-                kubemap<span style={{ color: 'var(--text-muted)', fontWeight: 500 }}>.io</span>
+                kubemap<span style={{ color: 'var(--text-muted)', fontWeight: 500 }}>.app</span>
               </div>
             </div>
 
@@ -163,7 +163,7 @@ export function TopBar() {
           </svg>
         </div>
         <div style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 800, fontSize: 17, letterSpacing: '-0.02em', color: 'var(--text)' }}>
-          kubemap<span style={{ color: 'var(--text-muted)', fontWeight: 500 }}>.io</span>
+          kubemap<span style={{ color: 'var(--text-muted)', fontWeight: 500 }}>.app</span>
         </div>
       </div>
 
