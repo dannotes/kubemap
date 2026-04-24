@@ -2,6 +2,7 @@ import { useEffect, useRef, useMemo, useCallback } from 'react';
 import L from 'leaflet';
 import { useStore } from '../store/store';
 import { jitterOffset } from '../lib/utils';
+import { useIsMobile } from '../lib/useIsMobile';
 import type { PersonCore, TierFilter } from '../lib/types';
 
 const TILE_URLS: Record<string, string> = {
@@ -56,6 +57,12 @@ export function MapView() {
     mapRef.current = map;
     (useStore.getState() as any).setMapRef(map);
 
+    // Force Leaflet to recalculate container size — fixes Firefox layout timing issue
+    // where the container dimensions aren't ready when L.map() first runs
+    requestAnimationFrame(() => map.invalidateSize());
+    setTimeout(() => map.invalidateSize(), 100);
+    setTimeout(() => map.invalidateSize(), 500);
+
     return () => { map.remove(); mapRef.current = null; (useStore.getState() as any).setMapRef(null); };
   }, []);
 
@@ -71,12 +78,14 @@ export function MapView() {
     }
   }, [theme]);
 
-  // Invalidate on view switch
+  // Invalidate on view switch or sidebar toggle
+  const sidebarOpen = useStore(s => s.sidebarOpen);
   useEffect(() => {
-    if (view === 'map' && mapRef.current) {
-      setTimeout(() => mapRef.current?.invalidateSize(), 80);
+    if (mapRef.current) {
+      setTimeout(() => mapRef.current?.invalidateSize(), 50);
+      setTimeout(() => mapRef.current?.invalidateSize(), 320);
     }
-  }, [view]);
+  }, [view, sidebarOpen]);
 
   // Filter people
   const visible = useMemo(() => {
@@ -242,61 +251,67 @@ export function MapView() {
     };
   }, [eventId, events]);
 
-  const filters: { key: TierFilter; label: string; dotClass?: string }[] = [
+  const isMobile = useIsMobile();
+
+  const filters: { key: TierFilter; label: string; dot?: string }[] = [
     { key: 'all', label: 'All' },
-    { key: 'golden', label: 'Golden', dotClass: 'gold' },
-    { key: 'regular', label: 'Kubestronaut', dotClass: 'reg' },
-    { key: 'ambassador', label: 'Ambassadors', dotClass: 'amb' },
+    { key: 'golden', label: 'Golden', dot: 'var(--gold-soft)' },
+    { key: 'regular', label: 'Kubestronaut', dot: 'var(--accent)' },
+    { key: 'ambassador', label: 'Ambassador', dot: '#c084fc' },
   ];
 
   return (
-    <>
+    <div style={{ position: 'absolute', inset: 0 }}>
       <div ref={containerRef} style={{
-        position: 'fixed', top: 56, left: 340, right: 0, bottom: 28,
-        background: 'var(--bg)', zIndex: 1,
+        position: 'absolute', inset: 0,
+        background: 'var(--bg)',
       }} />
 
       {/* Filter bar */}
       <div style={{
-        position: 'fixed', top: 68, left: 340, right: 0,
-        display: 'flex', justifyContent: 'center', zIndex: 200, pointerEvents: 'none',
+        position: 'absolute', top: isMobile ? 8 : 12, left: 0, right: 0,
+        display: 'flex', justifyContent: 'center', zIndex: 1000, pointerEvents: 'none',
+        padding: isMobile ? '0 8px' : 0,
       }}>
         <div style={{
-          display: 'inline-flex', background: 'var(--panel)', backdropFilter: 'blur(10px)',
-          border: '1px solid var(--border)', borderRadius: 10, padding: 4, pointerEvents: 'auto',
+          display: 'inline-flex', background: 'var(--panel-solid)', backdropFilter: 'blur(10px)',
+          border: '1px solid var(--border)', borderRadius: isMobile ? 8 : 10, padding: isMobile ? 3 : 4, pointerEvents: 'auto',
         }}>
-          {filters.map(f => (
+          {filters.map(f => {
+            const isActive = filter === f.key;
+            return (
             <button key={f.key} onClick={() => setFilter(f.key)} style={{
-              background: filter === f.key ? 'var(--surface)' : 'transparent',
-              border: 0, color: filter === f.key ? 'var(--text)' : 'var(--text-muted)',
-              padding: '7px 14px', borderRadius: 7,
-              fontFamily: "'JetBrains Mono', monospace", fontSize: 11,
-              display: 'inline-flex', alignItems: 'center', gap: 6, cursor: 'pointer',
-              boxShadow: filter === f.key ? 'inset 0 0 0 1px var(--border-strong)' : 'none',
+              background: isActive ? 'var(--surface)' : 'transparent',
+              border: 0, color: isActive ? 'var(--text)' : 'var(--text-muted)',
+              padding: isMobile ? '5px 8px' : '7px 14px',
+              borderRadius: isMobile ? 6 : 7,
+              fontFamily: "'JetBrains Mono', monospace", fontSize: isMobile ? 9.5 : 11,
+              display: 'inline-flex', alignItems: 'center', gap: isMobile ? 4 : 6, cursor: 'pointer',
+              boxShadow: isActive ? 'inset 0 0 0 1px var(--border-strong)' : 'none',
             }}>
-              {f.dotClass && (
+              {f.dot && (
                 <span style={{
-                  width: 8, height: 8, borderRadius: '50%',
-                  background: f.dotClass === 'gold' ? 'var(--gold-soft)' : f.dotClass === 'reg' ? 'var(--accent)' : '#c084fc',
-                  boxShadow: f.dotClass === 'gold' ? '0 0 8px var(--gold-soft)' : f.dotClass === 'amb' ? '0 0 8px #c084fc' : 'none',
+                  width: 7, height: 7, borderRadius: '50%',
+                  background: f.dot, flexShrink: 0,
                 }} />
               )}
               {f.label}
             </button>
-          ))}
+            );
+          })}
           {events.length > 0 && (
             <>
-              <span style={{ width: 1, alignSelf: 'stretch', margin: '5px 2px', background: 'var(--border)' }} />
+              <span style={{ width: 1, alignSelf: 'stretch', margin: isMobile ? '3px 1px' : '5px 2px', background: 'var(--border)' }} />
               <button onClick={() => setShowEvents(!showEvents)} style={{
                 background: showEvents ? 'var(--surface)' : 'transparent',
                 border: 0, color: showEvents ? 'var(--green)' : 'var(--text-muted)',
-                padding: '7px 14px', borderRadius: 7,
-                fontFamily: "'JetBrains Mono', monospace", fontSize: 11,
-                display: 'inline-flex', alignItems: 'center', gap: 6, cursor: 'pointer',
+                padding: isMobile ? '5px 10px' : '7px 14px', borderRadius: isMobile ? 6 : 7,
+                fontFamily: "'JetBrains Mono', monospace", fontSize: isMobile ? 10 : 11,
+                display: 'inline-flex', alignItems: 'center', gap: isMobile ? 4 : 6, cursor: 'pointer',
                 boxShadow: showEvents ? 'inset 0 0 0 1px var(--border-strong)' : 'none',
               }}>
                 <span style={{
-                  width: 8, height: 8, transform: 'rotate(45deg)',
+                  width: isMobile ? 8 : 8, height: isMobile ? 8 : 8, transform: 'rotate(45deg)',
                   background: '#22c55e',
                   boxShadow: showEvents ? '0 0 8px #22c55e' : 'none',
                 }} />
@@ -307,9 +322,9 @@ export function MapView() {
         </div>
       </div>
 
-      {/* HUD */}
-      <HudOverlay visible={visible} />
-    </>
+      {/* HUD — desktop only */}
+      {!isMobile && <HudOverlay visible={visible} />}
+    </div>
   );
 }
 
@@ -318,6 +333,7 @@ function HudOverlay({ visible }: { visible: PersonCore[] }) {
   const selectedCompany = useStore(s => s.selectedCompany);
   const setSelectedCountry = useStore(s => s.setSelectedCountry);
   const setSelectedCompany = useStore(s => s.setSelectedCompany);
+  const isMobile = useIsMobile();
 
   const hasFilter = selectedCountry || selectedCompany;
   const regionLabel = selectedCountry || selectedCompany || 'GLOBAL';
@@ -334,19 +350,23 @@ function HudOverlay({ visible }: { visible: PersonCore[] }) {
   return (
     <>
       <div style={{
-        position: 'fixed', bottom: 40, left: 352, zIndex: 200, pointerEvents: hasFilter ? 'auto' : 'none',
-        fontFamily: "'JetBrains Mono', monospace", fontSize: 10.5, color: 'var(--text-muted)',
-        background: 'var(--panel)', backdropFilter: 'blur(10px)',
-        border: '1px solid var(--border)', borderRadius: 8, padding: '8px 12px',
-        display: 'flex', gap: 14, alignItems: 'center',
+        position: 'absolute', bottom: isMobile ? 8 : 12, left: isMobile ? 8 : 12,
+        right: isMobile ? 8 : 'auto',
+        zIndex: 1000, pointerEvents: hasFilter ? 'auto' : 'none',
+        fontFamily: "'JetBrains Mono', monospace", fontSize: isMobile ? 9.5 : 10.5, color: 'var(--text-muted)',
+        background: 'var(--panel-solid)', backdropFilter: 'blur(10px)',
+        border: '1px solid var(--border)', borderRadius: isMobile ? 6 : 8,
+        padding: isMobile ? '6px 10px' : '8px 12px',
+        display: 'flex', gap: isMobile ? 8 : 14, alignItems: 'center',
+        flexWrap: isMobile ? 'wrap' : 'nowrap',
       }}>
-        <span><span style={{ color: 'var(--text-faint)' }}>KUBESTRONAUTS </span><span style={{ color: 'var(--text)' }}>{visible.length.toLocaleString()}</span></span>
-        <span><span style={{ color: 'var(--text-faint)' }}>REGION </span><span style={{ color: hasFilter ? 'var(--accent)' : 'var(--text)' }}>{regionLabel}</span></span>
+        <span><span style={{ color: 'var(--text-faint)' }}>{isMobile ? '' : 'KUBESTRONAUTS '}</span><span style={{ color: 'var(--text)' }}>{visible.length.toLocaleString()}{isMobile ? ' total' : ''}</span></span>
+        <span><span style={{ color: 'var(--text-faint)' }}>{isMobile ? '' : 'REGION '}</span><span style={{ color: hasFilter ? 'var(--accent)' : 'var(--text)' }}>{regionLabel}</span></span>
         {hasFilter && (
           <button onClick={clearFilter} style={{
             background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: 5,
             color: 'var(--text-muted)', cursor: 'pointer', padding: '2px 8px',
-            fontFamily: "'JetBrains Mono', monospace", fontSize: 10, display: 'inline-flex', alignItems: 'center', gap: 4,
+            fontFamily: "'JetBrains Mono', monospace", fontSize: isMobile ? 9 : 10, display: 'inline-flex', alignItems: 'center', gap: 4,
           }}>
             <svg width={8} height={8} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5} strokeLinecap="round">
               <path d="M18 6 6 18M6 6l12 12" />

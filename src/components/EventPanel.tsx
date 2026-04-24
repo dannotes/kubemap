@@ -1,22 +1,27 @@
 import { useMemo } from 'react';
 import { useStore } from '../store/store';
+import { useIsMobile } from '../lib/useIsMobile';
 
 export function EventPanel() {
   const eventId = useStore(s => s.eventId);
   const events = useStore(s => s.events);
   const openEvent = useStore(s => s.openEvent);
+  const isMobile = useIsMobile();
 
   const event = useMemo(() => {
     if (!eventId) return null;
     return events.find(e => e.id === eventId) || null;
   }, [eventId, events]);
 
+  const panelStyle = isMobile
+    ? { position: 'fixed' as const, top: 48, left: 0, right: 0, bottom: 56, width: 'auto' as const, borderLeft: 'none' }
+    : { position: 'fixed' as const, top: 56, right: 0, bottom: 28, width: 400, borderLeft: '1px solid var(--border)' };
+
   if (!event) {
     return (
       <aside style={{
-        position: 'fixed', top: 56, right: 0, bottom: 28, width: 400,
+        ...panelStyle,
         background: 'var(--panel)', backdropFilter: 'blur(18px)',
-        borderLeft: '1px solid var(--border)',
         transform: 'translateX(110%)', transition: 'transform .32s cubic-bezier(.4,0,.2,1)',
         zIndex: 420,
       }} />
@@ -32,12 +37,11 @@ export function EventPanel() {
 
   return (
     <aside style={{
-      position: 'fixed', top: 56, right: 0, bottom: 28, width: 400,
+      ...panelStyle,
       background: 'var(--panel)', backdropFilter: 'blur(18px)', WebkitBackdropFilter: 'blur(18px)',
-      borderLeft: '1px solid var(--border)',
       transform: 'translateX(0)', transition: 'transform .32s cubic-bezier(.4,0,.2,1)',
-      zIndex: 420, display: 'flex', flexDirection: 'column',
-      boxShadow: '-20px 0 60px rgba(0,0,0,0.5)',
+      zIndex: 495, display: 'flex', flexDirection: 'column',
+      boxShadow: isMobile ? 'none' : '-20px 0 60px rgba(0,0,0,0.5)',
     }}>
       {/* Close */}
       <button onClick={() => openEvent(null)} style={{
@@ -128,19 +132,34 @@ export function EventPanel() {
           </svg>
           Register / Event Details
         </a>
-        <a href={calendarUrl(event)} target="_blank" rel="noopener" style={{
-          display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8,
-          width: '100%', padding: '10px 14px', borderRadius: 8,
-          background: 'color-mix(in srgb, var(--accent) 12%, transparent)',
-          border: '1px solid color-mix(in srgb, var(--accent) 35%, transparent)',
-          color: 'var(--accent)', fontFamily: "'JetBrains Mono', monospace", fontSize: 11.5,
-          textDecoration: 'none', cursor: 'pointer',
-        }}>
-          <svg width={12} height={12} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round">
-            <rect x="3" y="4" width="18" height="18" rx="2" /><path d="M16 2v4M8 2v4M3 10h18" />
-          </svg>
-          Add to Calendar
-        </a>
+        {daysUntil >= 0 ? (
+          <a href={calendarUrl(event)} target="_blank" rel="noopener" style={{
+            display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8,
+            width: '100%', padding: '10px 14px', borderRadius: 8,
+            background: 'color-mix(in srgb, var(--accent) 12%, transparent)',
+            border: '1px solid color-mix(in srgb, var(--accent) 35%, transparent)',
+            color: 'var(--accent)', fontFamily: "'JetBrains Mono', monospace", fontSize: 11.5,
+            textDecoration: 'none', cursor: 'pointer',
+          }}>
+            <svg width={12} height={12} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round">
+              <rect x="3" y="4" width="18" height="18" rx="2" /><path d="M16 2v4M8 2v4M3 10h18" />
+            </svg>
+            Add to Calendar
+          </a>
+        ) : (
+          <div style={{
+            display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8,
+            width: '100%', padding: '10px 14px', borderRadius: 8,
+            background: 'var(--surface)', border: '1px solid var(--border)',
+            color: 'var(--text-faint)', fontFamily: "'JetBrains Mono', monospace", fontSize: 11.5,
+            opacity: 0.5, cursor: 'not-allowed',
+          }}>
+            <svg width={12} height={12} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round">
+              <rect x="3" y="4" width="18" height="18" rx="2" /><path d="M16 2v4M8 2v4M3 10h18" />
+            </svg>
+            Event ended
+          </div>
+        )}
       </div>
     </aside>
   );

@@ -1,5 +1,6 @@
 import { useState, useMemo, useRef, useEffect, useCallback } from 'react';
 import { useStore } from '../store/store';
+import { useIsMobile } from '../lib/useIsMobile';
 // utils used in canvas drawing (no direct import needed)
 import {
   forceSimulation,
@@ -27,6 +28,7 @@ interface HubNode extends SimulationNodeDatum {
 export function GraphView() {
   const people = useStore(s => s.people);
   const openProfile = useStore(s => s.openProfile);
+  const isMobile = useIsMobile();
   const [mode, setMode] = useState<GraphMode>('company');
   const [expandedHub, setExpandedHub] = useState<string | null>(null);
   const [hoveredHub, setHoveredHub] = useState<string | null>(null);
@@ -112,6 +114,18 @@ export function GraphView() {
     for (let i = 0; i < 200; i++) sim.tick();
     sim.stop();
     nodesRef.current = nodes;
+
+    // Center view on the densest (largest) hub
+    const largest = nodes.reduce((a, b) => (b.count > a.count ? b : a), nodes[0]);
+    if (largest) {
+      const vw = sizeRef.current.w || 800;
+      const vh = sizeRef.current.h || 600;
+      transformRef.current = {
+        x: vw / 2 - (largest.x || 0),
+        y: vh / 2 - (largest.y || 0),
+        k: 1,
+      };
+    }
 
     return () => { sim.stop(); };
   }, [hubs]);
@@ -425,6 +439,32 @@ export function GraphView() {
     if (canvasRef.current) canvasRef.current.style.cursor = 'grab';
   }, []);
 
+  // Touch events for mobile pan
+  const touchRef = useRef<{ startX: number; startY: number; origX: number; origY: number } | null>(null);
+
+  const handleTouchStart = useCallback((e: React.TouchEvent) => {
+    if (e.touches.length === 1) {
+      const t = e.touches[0];
+      touchRef.current = {
+        startX: t.clientX, startY: t.clientY,
+        origX: transformRef.current.x, origY: transformRef.current.y,
+      };
+    }
+  }, []);
+
+  const handleTouchMove = useCallback((e: React.TouchEvent) => {
+    if (e.touches.length === 1 && touchRef.current) {
+      e.preventDefault();
+      const t = e.touches[0];
+      transformRef.current.x = touchRef.current.origX + (t.clientX - touchRef.current.startX);
+      transformRef.current.y = touchRef.current.origY + (t.clientY - touchRef.current.startY);
+    }
+  }, []);
+
+  const handleTouchEnd = useCallback(() => {
+    touchRef.current = null;
+  }, []);
+
   const handleWheel = useCallback((e: React.WheelEvent) => {
     e.preventDefault();
     const canvas = canvasRef.current;
@@ -448,32 +488,34 @@ export function GraphView() {
 
   return (
     <div style={{
-      position: 'fixed', top: 56, left: 340, right: 0, bottom: 28,
+      position: 'absolute', inset: 0,
       background: 'var(--bg)', zIndex: 2,
       display: 'flex', flexDirection: 'column',
     }}>
       {/* Header */}
       <div style={{
-        padding: '14px 22px 10px', borderBottom: '1px solid var(--border)',
-        display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 16,
+        padding: isMobile ? '10px 12px 8px' : '14px 22px 10px', borderBottom: '1px solid var(--border)',
+        display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: isMobile ? 8 : 16,
         background: 'var(--panel)',
       }}>
-        <div style={{ display: 'flex', alignItems: 'baseline', gap: 10 }}>
-          <h2 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: 17, letterSpacing: '-0.02em', color: 'var(--text)' }}>The Constellation</h2>
-          <span style={{ fontSize: 11, color: 'var(--text-muted)', fontFamily: "'JetBrains Mono', monospace", letterSpacing: '0.04em', textTransform: 'uppercase' }}>
-            {hubs.length} {mode === 'company' ? 'organizations' : 'countries'} · {hubs.reduce((s, h) => s + h.count, 0)} people
+        <div style={{ display: 'flex', alignItems: 'baseline', gap: isMobile ? 6 : 10, flexShrink: 0, minWidth: 0 }}>
+          <h2 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: isMobile ? 15 : 17, letterSpacing: '-0.02em', color: 'var(--text)', whiteSpace: 'nowrap' }}>
+            {isMobile ? 'Graph' : 'The Constellation'}
+          </h2>
+          <span style={{ fontSize: isMobile ? 10 : 11, color: 'var(--text-muted)', fontFamily: "'JetBrains Mono', monospace", letterSpacing: '0.04em', textTransform: 'uppercase', whiteSpace: 'nowrap' }}>
+            {hubs.length} · {hubs.reduce((s, h) => s + h.count, 0)}
           </span>
         </div>
-        <div style={{ display: 'flex', gap: 6 }}>
+        <div style={{ display: 'flex', gap: isMobile ? 4 : 6, flexShrink: 0 }}>
           {(['company', 'country'] as GraphMode[]).map(m => (
             <button key={m} onClick={() => { setMode(m); setExpandedHub(null); }} style={{
               background: mode === m ? 'var(--surface-2)' : 'var(--surface)',
               color: mode === m ? 'var(--text)' : 'var(--text-dim)',
               border: `1px solid ${mode === m ? 'var(--border-strong)' : 'var(--border)'}`,
-              borderRadius: 6, padding: '6px 10px',
-              fontFamily: "'JetBrains Mono', monospace", fontSize: 11, cursor: 'pointer',
+              borderRadius: 6, padding: isMobile ? '5px 8px' : '6px 10px',
+              fontFamily: "'JetBrains Mono', monospace", fontSize: isMobile ? 10 : 11, cursor: 'pointer',
             }}>
-              by {m}
+              {m}
             </button>
           ))}
         </div>
@@ -489,7 +531,10 @@ export function GraphView() {
           onMouseUp={handleMouseUp}
           onMouseLeave={handleMouseUp}
           onWheel={handleWheel}
-          style={{ display: 'block', cursor: 'grab' }}
+          onTouchStart={handleTouchStart}
+          onTouchMove={handleTouchMove}
+          onTouchEnd={handleTouchEnd}
+          style={{ display: 'block', cursor: 'grab', touchAction: 'none' }}
         />
 
         {/* Tooltip */}
@@ -516,11 +561,12 @@ export function GraphView() {
 
         {/* Legend */}
         <div style={{
-          position: 'absolute', top: 12, right: 16,
+          position: 'absolute', top: isMobile ? 8 : 12, right: isMobile ? 8 : 16,
           background: 'var(--panel)', backdropFilter: 'blur(12px)',
-          border: '1px solid var(--border)', borderRadius: 8,
-          padding: '8px 12px', display: 'flex', gap: 12,
-          fontFamily: "'JetBrains Mono', monospace", fontSize: 10, color: 'var(--text-muted)',
+          border: '1px solid var(--border)', borderRadius: isMobile ? 6 : 8,
+          padding: isMobile ? '6px 8px' : '8px 12px', display: 'flex', gap: isMobile ? 8 : 12,
+          fontFamily: "'JetBrains Mono', monospace", fontSize: isMobile ? 9 : 10, color: 'var(--text-muted)',
+          flexWrap: isMobile ? 'wrap' : 'nowrap',
         }}>
           <span style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
             <span style={{ width: 7, height: 7, borderRadius: '50%', background: '#38bdf8' }} />Kubestronaut
@@ -531,7 +577,7 @@ export function GraphView() {
           <span style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
             <span style={{ width: 7, height: 7, borderRadius: '50%', background: '#c084fc' }} />Ambassador
           </span>
-          <span style={{ color: 'var(--text-faint)' }}>scroll to zoom · drag to pan</span>
+          {!isMobile && <span style={{ color: 'var(--text-faint)' }}>scroll to zoom · drag to pan</span>}
         </div>
       </div>
     </div>

@@ -1,6 +1,7 @@
 import { useEffect, useRef, useCallback, useMemo } from 'react';
 import Globe from 'globe.gl';
 import { useStore } from '../store/store';
+import { useIsMobile } from '../lib/useIsMobile';
 
 const GEOJSON_URL = 'https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json';
 
@@ -24,6 +25,7 @@ export function GlobeView() {
   const filter = useStore(s => s.filter);
   const selectedCountry = useStore(s => s.selectedCountry);
   const selectedCompany = useStore(s => s.selectedCompany);
+  const isMobile = useIsMobile();
 
   const visible = useMemo(() => people.filter(p => {
     if (selectedCountry && p.country !== selectedCountry) return false;
@@ -172,24 +174,28 @@ export function GlobeView() {
 
   return (
     <div style={{
-      position: 'fixed', top: 56, left: 340, right: 0, bottom: 28,
+      position: 'absolute', inset: 0,
       background: theme === 'light' ? '#e8eef7' : '#060a14',
       zIndex: 2, overflow: 'hidden',
     }}>
-      <div ref={containerRef} style={{ width: '100%', height: '100%' }} />
+      {/* Starfield background — dark theme only */}
+      {theme !== 'light' && <div className="starfield" />}
+      <div ref={containerRef} style={{ width: '100%', height: '100%', position: 'relative', zIndex: 1 }} />
 
-      {/* Info overlay */}
-      <div style={{
-        position: 'absolute', bottom: 16, left: 16,
-        background: 'var(--panel)', backdropFilter: 'blur(12px)',
-        border: '1px solid var(--border)', borderRadius: 8,
-        padding: '8px 12px',
-        fontFamily: "'JetBrains Mono', monospace", fontSize: 10, color: 'var(--text-muted)',
-        display: 'flex', gap: 12, alignItems: 'center',
-      }}>
-        <span>{visible.length.toLocaleString()} Kubestronauts</span>
-        <span style={{ color: 'var(--text-faint)' }}>drag to rotate · scroll to zoom · click pins</span>
-      </div>
+      {/* Info overlay — desktop only */}
+      {!isMobile && (
+        <div style={{
+          position: 'absolute', bottom: 16, left: 16,
+          background: 'var(--panel)', backdropFilter: 'blur(12px)',
+          border: '1px solid var(--border)', borderRadius: 8,
+          padding: '8px 12px',
+          fontFamily: "'JetBrains Mono', monospace", fontSize: 10, color: 'var(--text-muted)',
+          display: 'flex', gap: 12, alignItems: 'center',
+        }}>
+          <span>{visible.length.toLocaleString()} Kubestronauts</span>
+          <span style={{ color: 'var(--text-faint)' }}>drag to rotate · scroll to zoom · click pins</span>
+        </div>
+      )}
     </div>
   );
 }

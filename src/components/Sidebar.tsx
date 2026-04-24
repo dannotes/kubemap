@@ -2,41 +2,118 @@ import { useState, useMemo, memo } from 'react';
 import L from 'leaflet';
 import { useStore } from '../store/store';
 import { avColor, initials, imageUrl } from '../lib/utils';
+import { useIsMobile } from '../lib/useIsMobile';
 
 type SideTab = 'overview' | 'spotlight' | 'regions' | 'companies';
 type SpotlightTier = 'golden' | 'ambassador' | 'all';
 
 export function Sidebar() {
   const [tab, setTab] = useState<SideTab>('overview');
+  const sidebarOpen = useStore(s => s.sidebarOpen);
+  const toggleSidebar = useStore(s => s.toggleSidebar);
+  const mobileSheet = useStore(s => s.mobileSheet);
+  const setMobileSheet = useStore(s => s.setMobileSheet);
+  const isMobile = useIsMobile();
+
+  if (isMobile) {
+    return (
+      <>
+        {/* Backdrop */}
+        {mobileSheet && (
+          <div
+            onClick={() => setMobileSheet(false)}
+            style={{
+              position: 'fixed', inset: 0, zIndex: 490,
+              background: 'rgba(0,0,0,0.5)',
+            }}
+          />
+        )}
+        {/* Sheet */}
+        <aside style={{
+          position: 'fixed', top: 48, left: 0, right: 0, bottom: 56,
+          background: 'var(--panel-solid)',
+          zIndex: 491,
+          display: 'flex', flexDirection: 'column',
+          transform: mobileSheet ? 'translateY(0)' : 'translateY(100%)',
+          transition: 'transform .3s cubic-bezier(.4,0,.2,1)',
+        }}>
+          {/* Close handle */}
+          <div style={{
+            display: 'flex', alignItems: 'center', justifyContent: 'center',
+            padding: '8px 0 0',
+          }}>
+            <div style={{ width: 36, height: 4, borderRadius: 2, background: 'var(--border-strong)' }} />
+          </div>
+          <div style={{ display: 'flex', padding: '6px 10px 0 10px', gap: 2, borderBottom: '1px solid var(--border)', overflowX: 'auto' }}>
+            {(['overview', 'spotlight', 'regions', 'companies'] as SideTab[]).map(t => (
+              <button key={t} onClick={() => setTab(t)} style={{
+                background: 'transparent', border: 0, padding: '8px 10px 10px',
+                color: tab === t ? 'var(--text)' : 'var(--text-muted)',
+                fontFamily: "'JetBrains Mono', monospace", fontSize: 11,
+                borderBottom: tab === t ? '2px solid var(--accent)' : '2px solid transparent',
+                marginBottom: -1, cursor: 'pointer', whiteSpace: 'nowrap',
+              }}>
+                {t === 'overview' ? 'Overview' : t === 'spotlight' ? 'Spotlight' : t === 'regions' ? 'Countries' : 'Companies'}
+              </button>
+            ))}
+          </div>
+          <div style={{ flex: 1, overflowY: 'auto', WebkitOverflowScrolling: 'touch' }}>
+            <div style={{ display: tab === 'overview' ? 'block' : 'none' }}><OverviewPanel /></div>
+            <div style={{ display: tab === 'spotlight' ? 'block' : 'none' }}><SpotlightPanel /></div>
+            <div style={{ display: tab === 'regions' ? 'block' : 'none' }}><MemoRegionsPanel /></div>
+            <div style={{ display: tab === 'companies' ? 'block' : 'none' }}><MemoCompaniesPanel /></div>
+          </div>
+        </aside>
+      </>
+    );
+  }
 
   return (
-    <aside style={{
-      position: 'fixed', top: 56, left: 0, bottom: 28, width: 340,
-      background: 'var(--panel)', backdropFilter: 'blur(18px)', WebkitBackdropFilter: 'blur(18px)',
-      borderRight: '1px solid var(--border)', zIndex: 400,
-      display: 'flex', flexDirection: 'column',
-    }}>
-      <div style={{ display: 'flex', padding: '10px 10px 0 10px', gap: 4, borderBottom: '1px solid var(--border)' }}>
-        {(['overview', 'spotlight', 'regions', 'companies'] as SideTab[]).map(t => (
-          <button key={t} onClick={() => setTab(t)} style={{
-            background: 'transparent', border: 0, padding: '8px 10px 10px',
-            color: tab === t ? 'var(--text)' : 'var(--text-muted)',
-            fontFamily: "'JetBrains Mono', monospace", fontSize: 11,
-            borderBottom: tab === t ? '2px solid var(--accent)' : '2px solid transparent',
-            marginBottom: -1, cursor: 'pointer',
-          }}>
-            {t === 'overview' ? 'Overview' : t === 'spotlight' ? 'Spotlight' : t === 'regions' ? 'Countries' : 'Companies'}
-          </button>
-        ))}
-      </div>
-      <div style={{ flex: 1, overflowY: 'auto' }}>
-        {/* Keep all panels mounted but hidden — avoids remount cost */}
-        <div style={{ display: tab === 'overview' ? 'block' : 'none' }}><OverviewPanel /></div>
-        <div style={{ display: tab === 'spotlight' ? 'block' : 'none' }}><SpotlightPanel /></div>
-        <div style={{ display: tab === 'regions' ? 'block' : 'none' }}><MemoRegionsPanel /></div>
-        <div style={{ display: tab === 'companies' ? 'block' : 'none' }}><MemoCompaniesPanel /></div>
-      </div>
-    </aside>
+    <>
+      <aside style={{
+        position: 'fixed', top: 56, left: 0, bottom: 28, width: 340,
+        background: 'var(--panel)', backdropFilter: 'blur(18px)', WebkitBackdropFilter: 'blur(18px)',
+        borderRight: '1px solid var(--border)', zIndex: 400,
+        display: 'flex', flexDirection: 'column',
+        transform: sidebarOpen ? 'translateX(0)' : 'translateX(-100%)',
+        transition: 'transform .28s cubic-bezier(.4,0,.2,1)',
+      }}>
+        <div style={{ display: 'flex', padding: '10px 10px 0 10px', gap: 4, borderBottom: '1px solid var(--border)' }}>
+          {(['overview', 'spotlight', 'regions', 'companies'] as SideTab[]).map(t => (
+            <button key={t} onClick={() => setTab(t)} style={{
+              background: 'transparent', border: 0, padding: '8px 10px 10px',
+              color: tab === t ? 'var(--text)' : 'var(--text-muted)',
+              fontFamily: "'JetBrains Mono', monospace", fontSize: 11,
+              borderBottom: tab === t ? '2px solid var(--accent)' : '2px solid transparent',
+              marginBottom: -1, cursor: 'pointer',
+            }}>
+              {t === 'overview' ? 'Overview' : t === 'spotlight' ? 'Spotlight' : t === 'regions' ? 'Countries' : 'Companies'}
+            </button>
+          ))}
+        </div>
+        <div style={{ flex: 1, overflowY: 'auto' }}>
+          <div style={{ display: tab === 'overview' ? 'block' : 'none' }}><OverviewPanel /></div>
+          <div style={{ display: tab === 'spotlight' ? 'block' : 'none' }}><SpotlightPanel /></div>
+          <div style={{ display: tab === 'regions' ? 'block' : 'none' }}><MemoRegionsPanel /></div>
+          <div style={{ display: tab === 'companies' ? 'block' : 'none' }}><MemoCompaniesPanel /></div>
+        </div>
+      </aside>
+      {/* Toggle button — always visible at sidebar edge, vertically centered */}
+      <button onClick={toggleSidebar} style={{
+        position: 'fixed', top: '50%', transform: 'translateY(-50%)',
+        left: sidebarOpen ? 340 : 0,
+        transition: 'left .28s cubic-bezier(.4,0,.2,1)',
+        zIndex: 401, width: 20, height: 48, borderRadius: '0 6px 6px 0',
+        background: 'var(--panel-solid)', border: '1px solid var(--border)', borderLeft: 0,
+        color: 'var(--text-muted)', cursor: 'pointer',
+        display: 'flex', alignItems: 'center', justifyContent: 'center',
+      }}>
+        <svg width={10} height={10} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5} strokeLinecap="round"
+          style={{ transform: sidebarOpen ? 'rotate(0)' : 'rotate(180deg)', transition: 'transform .28s' }}>
+          <path d="M15 18l-6-6 6-6" />
+        </svg>
+      </button>
+    </>
   );
 }
 
@@ -47,6 +124,8 @@ function OverviewPanel() {
   const setView = useStore(s => s.setView);
   const setSelectedCountry = useStore(s => s.setSelectedCountry);
   const openEvent = useStore(s => s.openEvent);
+  const setMobileSheet = useStore(s => s.setMobileSheet);
+  const isMobile = useIsMobile();
 
   const tierMix = useMemo(() => {
     if (!stats || stats.total === 0) return { golden: 0, regular: 0, amb: 0 };
@@ -110,10 +189,10 @@ function OverviewPanel() {
         <span><span style={{ display: 'inline-block', width: 8, height: 8, borderRadius: '50%', background: '#c084fc', marginRight: 4 }} />Ambassador</span>
       </div>
 
-      {/* Upcoming events */}
+      {/* Community events */}
       {events.length > 0 && (
         <>
-          <SectionTitle title="Upcoming events" style={{ marginTop: 6 }} />
+          <SectionTitle title="Community events" style={{ marginTop: 6 }} />
           <div style={{ display: 'flex', flexDirection: 'column', gap: 3, marginBottom: 10 }}>
             {events.slice(0, 5).map(ev => {
               const daysUntil = Math.ceil((new Date(ev.startDate).getTime() - Date.now()) / (1000 * 60 * 60 * 24));
@@ -197,15 +276,8 @@ function OverviewPanel() {
         )}
       </div>
 
-      {/* Activity */}
-      <SectionTitle title="Activity" style={{ marginTop: 16 }} />
-      <div style={{ display: 'flex', alignItems: 'center', gap: 8, margin: '4px 0 8px' }}>
-        <span style={{ width: 6, height: 6, borderRadius: '50%', background: 'var(--green)', boxShadow: '0 0 6px var(--green)', animation: 'liveBlink 2s ease-in-out infinite' }} />
-        <span style={{ fontSize: 10.5, color: 'var(--text-muted)', fontFamily: "'JetBrains Mono', monospace" }}>
-          live · {new Date().toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', timeZone: 'UTC', hour12: false })} UTC
-        </span>
-      </div>
-      <p style={{ fontSize: 11, color: 'var(--text-dim)', lineHeight: 1.65, margin: '8px 0 0', fontFamily: "'JetBrains Mono', monospace" }}>
+      {/* About */}
+      <p style={{ fontSize: 11, color: 'var(--text-dim)', lineHeight: 1.65, margin: '16px 0 0', fontFamily: "'JetBrains Mono', monospace" }}>
         A live map of the global Kubestronaut community — powered by the public{' '}
         <a href="https://github.com/cncf/people" target="_blank" rel="noopener" style={{ color: 'var(--accent)' }}>cncf/people</a> roster.
       </p>

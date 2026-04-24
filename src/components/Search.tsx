@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect, useCallback, useMemo } from 'react';
 import { useStore } from '../store/store';
 import { avColor, initials, imageUrl } from '../lib/utils';
+import { useIsMobile } from '../lib/useIsMobile';
 
 // Pre-computed search index for speed
 interface SearchEntry {
@@ -26,6 +27,7 @@ export function Search() {
   const [open, setOpen] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
   const ddRef = useRef<HTMLDivElement>(null);
+  const isMobile = useIsMobile();
 
   // Build search index once when people changes
   const searchIndex = useMemo<SearchEntry[]>(() => {
@@ -75,7 +77,7 @@ export function Search() {
   }, [openProfile, people]);
 
   return (
-    <div style={{ flex: 1, maxWidth: 540, position: 'relative' }}>
+    <div style={{ flex: 1, minWidth: 0, maxWidth: 540, position: 'relative' }}>
       <svg style={{ position: 'absolute', left: 11, top: '50%', transform: 'translateY(-50%)', color: 'var(--text-faint)', pointerEvents: 'none' }} width={14} height={14} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round">
         <circle cx="11" cy="11" r="7" /><path d="m21 21-4.3-4.3" />
       </svg>
@@ -90,17 +92,19 @@ export function Search() {
         style={{
           width: '100%', height: 34,
           background: 'var(--surface)', border: '1px solid var(--border)',
-          borderRadius: 8, padding: '0 38px 0 34px',
+          borderRadius: 8, padding: isMobile ? '0 12px 0 34px' : '0 38px 0 34px',
           color: 'var(--text)',
           fontFamily: "'JetBrains Mono', monospace", fontSize: 12.5,
           outline: 'none',
         }}
       />
-      <span style={{
-        position: 'absolute', right: 8, top: '50%', transform: 'translateY(-50%)',
-        fontSize: 10, color: 'var(--text-faint)', background: 'var(--surface-2)',
-        padding: '2px 6px', borderRadius: 4, border: '1px solid var(--border)',
-      }}>⌘K</span>
+      {!isMobile && (
+        <span style={{
+          position: 'absolute', right: 8, top: '50%', transform: 'translateY(-50%)',
+          fontSize: 10, color: 'var(--text-faint)', background: 'var(--surface-2)',
+          padding: '2px 6px', borderRadius: 4, border: '1px solid var(--border)',
+        }}>⌘K</span>
+      )}
 
       {open && hits.length > 0 && (
         <div ref={ddRef} style={{

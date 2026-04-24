@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 :root, [data-theme="dark"] {
+  --sidebar-w: 340px;
   --bg: #09090b;
   --panel: rgba(13, 13, 18, 0.82);
   --panel-solid: #0f0f14;
@@ -21,13 +22,13 @@
 }
 
 [data-theme="light"] {
-  --bg: #f4f5f8;
-  --panel: rgba(255,255,255,0.88);
+  --bg: #f0f2f6;
+  --panel: rgba(255,255,255,0.92);
   --panel-solid: #ffffff;
-  --surface: #ffffff;
-  --surface-2: #f8f9fc;
-  --border: #e4e7ec;
-  --border-strong: #c8d0db;
+  --surface: #f5f6fa;
+  --surface-2: #eef0f5;
+  --border: #d8dce6;
+  --border-strong: #b8c2d0;
   --text: #0f172a;
   --text-dim: #334155;
   --text-muted: #64748b;
@@ -37,11 +38,14 @@
   --gold-soft: #d97706;
   --green: #059669;
   --tile-filter: none;
-  --body-bg: #eef1f5;
+  --body-bg: linear-gradient(180deg, #e8ecf4 0%, #f0f2f6 40%);
 }
 
 
 * { box-sizing: border-box; }
+
+/* Smooth sidebar collapse transition for content areas */
+[style*="--sidebar-w"], [style*="sidebar"] { transition: left .28s cubic-bezier(.4,0,.2,1); }
 
 html, body, #root {
   margin: 0; padding: 0; width: 100%; height: 100%;
@@ -107,7 +111,11 @@ a { color: inherit; text-decoration: none; }
   0%, 100% { box-shadow: 0 0 0 1px rgba(245,158,11,0.7), 0 0 10px rgba(245,158,11,0.6); }
   50% { box-shadow: 0 0 0 1px rgba(245,158,11,0.8), 0 0 22px rgba(245,158,11,0.9); }
 }
-[data-theme="light"] .pin { border-color: #fff; box-shadow: 0 0 0 1px rgba(0,0,0,0.25), 0 2px 6px rgba(0,0,0,0.2); background: #2563eb; }
+[data-theme="light"] .pin { border-color: #fff; border-width: 2.5px; box-shadow: 0 0 0 1px rgba(0,0,0,0.2), 0 2px 8px rgba(0,0,0,0.25); background: #2563eb; }
+[data-theme="light"] .pin.golden { background: #d97706; box-shadow: 0 0 0 1.5px rgba(217,119,6,0.5), 0 2px 10px rgba(217,119,6,0.4); }
+[data-theme="light"] .pin.ambassador { background: #9333ea; box-shadow: 0 0 0 1.5px rgba(147,51,234,0.4), 0 2px 8px rgba(147,51,234,0.3); }
+[data-theme="light"] .cluster { background: rgba(3,105,161,0.12); border-color: #0369a1; color: #0f172a; backdrop-filter: blur(6px); box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+[data-theme="light"] .cluster.gold { background: rgba(180,83,9,0.12); border-color: #b45309; color: #b45309; }
 
 /* Cluster markers */
 .cluster {
@@ -135,7 +143,9 @@ a { color: inherit; text-decoration: none; }
   0%, 100% { box-shadow: 0 0 0 1px rgba(34,197,94,0.6), 0 0 10px rgba(34,197,94,0.5); }
   50% { box-shadow: 0 0 0 1px rgba(34,197,94,0.8), 0 0 22px rgba(34,197,94,0.8); }
 }
-[data-theme="light"] .event-pin { border-color: #fff; box-shadow: 0 0 0 1px rgba(34,197,94,0.5), 0 2px 6px rgba(0,0,0,0.2); }
+[data-theme="light"] .event-pin { border-color: #fff; border-width: 2.5px; box-shadow: 0 0 0 1px rgba(5,150,105,0.4), 0 2px 8px rgba(5,150,105,0.3); background: #059669; }
+[data-theme="light"] .leaflet-tooltip { box-shadow: 0 4px 16px rgba(0,0,0,0.12) !important; border-color: #d8dce6 !important; }
+[data-theme="light"] .leaflet-popup-content-wrapper, [data-theme="light"] .leaflet-popup-tip { box-shadow: 0 6px 20px rgba(0,0,0,0.12) !important; border-color: #d8dce6 !important; }
 
 /* Profile hero ring animation */
 @keyframes ringSpin { to { transform: translateX(-50%) rotate(360deg); } }
@@ -153,6 +163,104 @@ a { color: inherit; text-decoration: none; }
 
 /* Live blink */
 @keyframes liveBlink { 0%,100% { opacity: 1; transform: scale(1); } 50% { opacity: .6; transform: scale(.8); } }
+
+/* Logo pulse for loading */
+@keyframes logoPulse {
+  0%, 100% { filter: drop-shadow(0 0 16px rgba(56,189,248,0.4)); transform: scale(1); }
+  50% { filter: drop-shadow(0 0 30px rgba(56,189,248,0.7)); transform: scale(1.05); }
+}
+
+/* Hero entrance animations */
+@keyframes heroReveal {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes heroBlink {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.8; }
+}
+.hero-fade-out {
+  animation: heroFadeOut .6s ease .15s forwards;
+}
+@keyframes heroFadeOut {
+  to { opacity: 0; pointer-events: none; }
+}
+
+/* View transition */
+.view-enter {
+  animation: viewFadeIn .25s ease-out;
+}
+@keyframes viewFadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Starfield for globe view */
+.starfield {
+  position: absolute; inset: 0; z-index: 0; overflow: hidden;
+  background:
+    radial-gradient(ellipse at 30% 20%, rgba(56,100,180,0.08) 0%, transparent 50%),
+    radial-gradient(ellipse at 70% 80%, rgba(100,50,180,0.06) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 50%, rgba(30,60,120,0.04) 0%, transparent 70%);
+}
+.starfield::before, .starfield::after {
+  content: ''; position: absolute; inset: 0;
+  background-image:
+    radial-gradient(1px 1px at 10% 15%, rgba(255,255,255,0.7), transparent),
+    radial-gradient(1px 1px at 25% 8%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1.2px 1.2px at 40% 22%, rgba(200,220,255,0.8), transparent),
+    radial-gradient(1px 1px at 55% 5%, rgba(255,255,255,0.4), transparent),
+    radial-gradient(1px 1px at 70% 18%, rgba(255,255,255,0.6), transparent),
+    radial-gradient(1.5px 1.5px at 85% 12%, rgba(180,200,255,0.9), transparent),
+    radial-gradient(1px 1px at 15% 35%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1px 1px at 30% 42%, rgba(255,255,255,0.4), transparent),
+    radial-gradient(1.3px 1.3px at 50% 38%, rgba(200,220,255,0.7), transparent),
+    radial-gradient(1px 1px at 65% 30%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1px 1px at 80% 45%, rgba(255,255,255,0.3), transparent),
+    radial-gradient(1px 1px at 92% 35%, rgba(255,255,255,0.6), transparent),
+    radial-gradient(1px 1px at 8% 55%, rgba(255,255,255,0.4), transparent),
+    radial-gradient(1.2px 1.2px at 22% 60%, rgba(180,200,255,0.6), transparent),
+    radial-gradient(1px 1px at 38% 52%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1px 1px at 48% 65%, rgba(255,255,255,0.3), transparent),
+    radial-gradient(1px 1px at 62% 58%, rgba(200,220,255,0.7), transparent),
+    radial-gradient(1px 1px at 75% 62%, rgba(255,255,255,0.4), transparent),
+    radial-gradient(1.4px 1.4px at 88% 55%, rgba(180,200,255,0.8), transparent),
+    radial-gradient(1px 1px at 5% 75%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1px 1px at 18% 80%, rgba(255,255,255,0.3), transparent),
+    radial-gradient(1.2px 1.2px at 33% 72%, rgba(200,220,255,0.6), transparent),
+    radial-gradient(1px 1px at 45% 85%, rgba(255,255,255,0.4), transparent),
+    radial-gradient(1px 1px at 58% 78%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1.5px 1.5px at 72% 82%, rgba(180,200,255,0.7), transparent),
+    radial-gradient(1px 1px at 85% 75%, rgba(255,255,255,0.4), transparent),
+    radial-gradient(1px 1px at 95% 88%, rgba(255,255,255,0.6), transparent),
+    radial-gradient(1px 1px at 12% 92%, rgba(255,255,255,0.3), transparent),
+    radial-gradient(1.3px 1.3px at 28% 95%, rgba(200,220,255,0.5), transparent),
+    radial-gradient(1px 1px at 52% 90%, rgba(255,255,255,0.4), transparent),
+    radial-gradient(1px 1px at 68% 95%, rgba(255,255,255,0.6), transparent),
+    radial-gradient(1px 1px at 82% 92%, rgba(180,200,255,0.5), transparent);
+  background-size: 100% 100%;
+}
+.starfield::before {
+  animation: twinkle 4s ease-in-out infinite alternate;
+}
+.starfield::after {
+  opacity: 0.5;
+  transform: scale(1.5) rotate(30deg);
+  animation: twinkle 6s ease-in-out 2s infinite alternate-reverse;
+}
+@keyframes twinkle {
+  0% { opacity: 0.6; }
+  100% { opacity: 1; }
+}
+
+/* Subtle nebula glow behind globe */
+.starfield ~ div::before {
+  content: none; /* reserve for future nebula effect */
+}
+
+/* Cert orbit animations */
+@keyframes orbitSpin { to { transform: rotate(360deg); } }
+@keyframes orbitSpinReverse { to { transform: rotate(-360deg); } }
 
 /* Pulse marker for search/profile selection */
 .pulse-marker {
@@ -179,4 +287,38 @@ a { color: inherit; text-decoration: none; }
 @keyframes pulseRing {
   0% { transform: scale(0.5); opacity: 1; }
   100% { transform: scale(2.5); opacity: 0; }
+}
+
+/* ===== Mobile overrides ===== */
+
+/* Bottom nav hidden on desktop */
+@media (min-width: 768px) {
+  .bottom-nav { display: none !important; }
+}
+
+@media (max-width: 767px) {
+  /* Leaflet zoom control — move above bottom nav */
+  .leaflet-control-zoom {
+    margin-bottom: 8px !important;
+  }
+  .leaflet-control-attribution {
+    font-size: 9px !important;
+    max-width: 60vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  /* Scrollbar — thinner on mobile */
+  ::-webkit-scrollbar { width: 4px; height: 4px; }
+  /* Prevent text selection on interactive elements */
+  button, [role="button"] {
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+  /* Ensure touch targets are at least 44px */
+  .bottom-nav button {
+    min-height: 44px;
+    min-width: 44px;
+  }
 }

@@ -1,6 +1,9 @@
 import { useMemo, useState, useEffect } from 'react';
 import { useStore } from '../store/store';
 import { avColor, initials, imageUrl } from '../lib/utils';
+import { useIsMobile } from '../lib/useIsMobile';
+import { generateProfileCard, downloadBlob } from '../lib/profileCard';
+import type { PersonCore } from '../lib/types';
 
 const SOCIAL_SVGS: Record<string, string> = {
   github: '<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.16-.02-2.11-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.23-1.28-5.23-5.69 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.24 2.76.12 3.05.73.81 1.18 1.84 1.18 3.1 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14 0 1.55-.01 2.8-.01 3.18 0 .3.2.66.79.55 4.56-1.53 7.84-5.83 7.84-10.9C23.5 5.65 18.35.5 12 .5Z"/></svg>',
@@ -28,6 +31,7 @@ export function ProfilePanel() {
   const people = useStore(s => s.people);
   const details = useStore(s => s.details);
   const openProfile = useStore(s => s.openProfile);
+  const isMobile = useIsMobile();
 
   const person = useMemo(() => {
     if (!profileId) return null;
@@ -39,12 +43,15 @@ export function ProfilePanel() {
   const [imgLoaded, setImgLoaded] = useState(false);
   useEffect(() => { setImgLoaded(false); }, [profileId]);
 
+  const panelStyle = isMobile
+    ? { position: 'fixed' as const, top: 48, left: 0, right: 0, bottom: 56, width: 'auto' as const, borderLeft: 'none' }
+    : { position: 'fixed' as const, top: 56, right: 0, bottom: 28, width: 400, borderLeft: '1px solid var(--border)' };
+
   if (!person) {
     return (
       <aside style={{
-        position: 'fixed', top: 56, right: 0, bottom: 28, width: 400,
+        ...panelStyle,
         background: 'var(--panel)', backdropFilter: 'blur(18px)',
-        borderLeft: '1px solid var(--border)',
         transform: 'translateX(110%)', transition: 'transform .32s cubic-bezier(.4,0,.2,1)',
         zIndex: 420,
       }} />
@@ -60,12 +67,12 @@ export function ProfilePanel() {
 
   return (
     <aside style={{
-      position: 'fixed', top: 56, right: 0, bottom: 28, width: 400,
+      ...panelStyle,
       background: 'var(--panel)', backdropFilter: 'blur(18px)', WebkitBackdropFilter: 'blur(18px)',
-      borderLeft: '1px solid var(--border)',
-      transform: 'translateX(0)', transition: 'transform .32s cubic-bezier(.4,0,.2,1)',
-      zIndex: 420, display: 'flex', flexDirection: 'column',
-      boxShadow: '-20px 0 60px rgba(0,0,0,0.5)',
+      transform: isMobile ? 'translateX(0)' : 'translateX(0)',
+      transition: 'transform .32s cubic-bezier(.4,0,.2,1)',
+      zIndex: 495, display: 'flex', flexDirection: 'column',
+      boxShadow: isMobile ? 'none' : '-20px 0 60px rgba(0,0,0,0.5)',
     }}>
       {/* Close */}
       <button onClick={() => openProfile(null)} style={{
@@ -91,7 +98,7 @@ export function ProfilePanel() {
         {/* Ring */}
         <div style={{
           position: 'absolute', top: 8, left: '50%', transform: 'translateX(-50%)',
-          width: 190, height: 190, borderRadius: '50%',
+          width: isMobile ? 130 : 190, height: isMobile ? 130 : 190, borderRadius: '50%',
           background: isGold
             ? 'conic-gradient(from 0deg, transparent, rgba(245,158,11,0.7), transparent 50%, rgba(245,158,11,0.7), transparent)'
             : p.isAmbassador
@@ -105,9 +112,9 @@ export function ProfilePanel() {
         <div
           className={img && !imgLoaded ? 'avatar-loading' : ''}
           style={{
-            position: 'relative', width: 168, height: 168, borderRadius: '50%',
+            position: 'relative', width: isMobile ? 110 : 168, height: isMobile ? 110 : 168, borderRadius: '50%',
             background: avColor(p.name), display: 'flex', alignItems: 'center', justifyContent: 'center',
-            fontFamily: "'DM Sans', sans-serif", fontWeight: 800, fontSize: 46, color: '#0b1220',
+            fontFamily: "'DM Sans', sans-serif", fontWeight: 800, fontSize: isMobile ? 32 : 46, color: '#0b1220',
             '--avatar-ring': isGold ? 'rgba(245,158,11,0.6)' : p.isAmbassador ? 'rgba(168,85,247,0.6)' : 'rgba(56,189,248,0.5)',
             boxShadow: isGold
               ? '0 0 0 3px var(--panel-solid), 0 0 0 5px rgba(245,158,11,0.8), 0 0 50px rgba(245,158,11,0.4), 0 18px 40px rgba(0,0,0,0.5)'
@@ -254,25 +261,63 @@ export function ProfilePanel() {
       </div>
 
       {/* Footer */}
-      <div style={{ padding: '12px 18px', borderTop: '1px solid var(--border)' }}>
-        <button onClick={() => {
-          const url = `https://kubemap.io/k/${p.id}`;
-          navigator.clipboard?.writeText(url);
-        }} style={{
-          width: '100%',
-          background: 'color-mix(in srgb, var(--accent) 12%, transparent)',
-          border: '1px solid color-mix(in srgb, var(--accent) 35%, transparent)',
-          color: 'color-mix(in srgb, var(--accent) 70%, white)',
-          fontFamily: "'JetBrains Mono', monospace", fontSize: 11.5, borderRadius: 8,
-          padding: '9px 14px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8, cursor: 'pointer',
-        }}>
-          <svg width={12} height={12} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-            <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8M16 6l-4-4-4 4M12 2v13" />
-          </svg>
-          Share profile
-          <span style={{ marginLeft: 'auto', fontSize: 10, color: 'var(--text-muted)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', maxWidth: 180 }}>kubemap.io/k/{p.id}</span>
-        </button>
+      <div style={{ padding: '10px 18px', borderTop: '1px solid var(--border)', display: 'flex', gap: 6 }}>
+        <ShareButton person={p} />
+        <DownloadCardButton person={p} isGold={isGold} />
       </div>
     </aside>
+  );
+}
+
+function ShareButton({ person }: { person: PersonCore }) {
+  const [copied, setCopied] = useState(false);
+  return (
+    <button onClick={() => {
+      navigator.clipboard?.writeText(`https://kubemap.io/k/${person.id}`);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    }} style={{
+      flex: 1,
+      background: 'color-mix(in srgb, var(--accent) 12%, transparent)',
+      border: '1px solid color-mix(in srgb, var(--accent) 35%, transparent)',
+      color: 'color-mix(in srgb, var(--accent) 70%, white)',
+      fontFamily: "'JetBrains Mono', monospace", fontSize: 11, borderRadius: 8,
+      padding: '9px 12px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6, cursor: 'pointer',
+    }}>
+      <svg width={11} height={11} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+        {copied
+          ? <path d="M20 6 9 17l-5-5" />
+          : <><rect x="9" y="9" width="13" height="13" rx="2" /><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" /></>
+        }
+      </svg>
+      {copied ? 'Copied!' : 'Copy link'}
+    </button>
+  );
+}
+
+function DownloadCardButton({ person, isGold }: { person: PersonCore; isGold: boolean }) {
+  const [gen, setGen] = useState(false);
+  return (
+    <button onClick={async () => {
+      setGen(true);
+      try {
+        const blob = await generateProfileCard(person);
+        downloadBlob(blob, `kubemap-${person.id}.png`);
+      } finally { setGen(false); }
+    }} disabled={gen} style={{
+      flex: 1,
+      background: isGold ? 'rgba(251,191,36,0.12)' : 'rgba(56,189,248,0.08)',
+      border: `1px solid ${isGold ? 'rgba(251,191,36,0.35)' : 'rgba(56,189,248,0.25)'}`,
+      color: isGold ? '#fbbf24' : '#38bdf8',
+      fontFamily: "'JetBrains Mono', monospace", fontSize: 11, borderRadius: 8,
+      padding: '9px 12px', cursor: gen ? 'wait' : 'pointer',
+      display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6,
+      opacity: gen ? 0.6 : 1,
+    }}>
+      <svg width={11} height={11} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3" />
+      </svg>
+      {gen ? 'Generating...' : 'Download card'}
+    </button>
   );
 }

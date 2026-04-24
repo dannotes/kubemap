@@ -15,6 +15,8 @@ interface AppState {
   theme: Theme;
   filter: TierFilter;
   showEvents: boolean;
+  sidebarOpen: boolean;
+  mobileSheet: boolean;
 
   // Selections
   selectedCountry: string | null;
@@ -31,6 +33,8 @@ interface AppState {
   setView: (view: ViewMode) => void;
   setTheme: (theme: Theme) => void;
   setFilter: (filter: TierFilter) => void;
+  toggleSidebar: () => void;
+  setMobileSheet: (open: boolean) => void;
   setShowEvents: (show: boolean) => void;
   setSelectedCountry: (country: string | null) => void;
   setSelectedCompany: (company: string | null) => void;
@@ -53,6 +57,8 @@ export const useStore = create<AppState>((set, get) => ({
   theme: (['dark', 'light'].includes(localStorage.getItem('kubemap-theme') || '') ? localStorage.getItem('kubemap-theme') as Theme : 'dark'),
   filter: 'all',
   showEvents: true,
+  sidebarOpen: typeof window !== 'undefined' && window.innerWidth >= 768,
+  mobileSheet: false,
 
   selectedCountry: null,
   selectedCompany: null,
@@ -71,6 +77,17 @@ export const useStore = create<AppState>((set, get) => ({
     set({ theme });
   },
   setFilter: (filter) => set({ filter }),
+  toggleSidebar: () => set(s => {
+    const next = !s.sidebarOpen;
+    document.documentElement.style.setProperty('--sidebar-w', next ? '340px' : '0px');
+    // Let Leaflet know the container resized
+    setTimeout(() => {
+      const m = (get() as any).mapRef;
+      if (m) m.invalidateSize();
+    }, 300);
+    return { sidebarOpen: next };
+  }),
+  setMobileSheet: (open) => set({ mobileSheet: open }),
   setShowEvents: (show) => set({ showEvents: show }),
   setSelectedCountry: (country) => set({ selectedCountry: country }),
   setSelectedCompany: (company) => set({ selectedCompany: company }),

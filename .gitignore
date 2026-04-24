@@ -34,3 +34,10 @@ claude-design/
 
 # Planning files
 .planning/
+
+# Cloudflare generated files
+.wrangler/
+.cloudflare/
+wrangler.toml
+functions/
+_worker.js

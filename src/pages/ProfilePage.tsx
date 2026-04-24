@@ -1,7 +1,8 @@
-import { useEffect, useMemo } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useStore } from '../store/store';
 import { avColor, initials, imageUrl } from '../lib/utils';
+import { generateProfileCard, downloadBlob } from '../lib/profileCard';
 
 
 function socialHref(key: string, value: string): string {
@@ -20,6 +21,8 @@ export function ProfilePage() {
   const people = useStore(s => s.people);
   const loading = useStore(s => s.loading);
 
+  const [copied, setCopied] = useState(false);
+  const [generating, setGenerating] = useState(false);
   const details = useStore(s => s.details);
   const person = useMemo(() => people.find(p => p.id === slug), [people, slug]);
   const detail = slug && details ? details[slug] : null;
@@ -110,13 +113,23 @@ export function ProfilePage() {
       }}>
         <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: 9, textDecoration: 'none' }}>
           <div style={{
-            width: 30, height: 30, borderRadius: 8,
-            background: 'linear-gradient(135deg, #326ce5 0%, #38bdf8 100%)',
+            width: 30, height: 30,
             display: 'flex', alignItems: 'center', justifyContent: 'center',
-            boxShadow: '0 0 0 1px rgba(56,189,248,0.35), 0 0 20px rgba(56,189,248,0.3)',
+            filter: 'drop-shadow(0 0 10px rgba(56,189,248,0.4))',
           }}>
-            <svg viewBox="0 0 24 24" width={18} height={18} fill="white">
-              <path d="M12 2 3 7v10l9 5 9-5V7l-9-5Zm0 2.5 6.5 3.6L12 11.7 5.5 8.1 12 4.5ZM5 9.8l6 3.3v6.9l-6-3.3V9.8Zm14 0v6.9l-6 3.3v-6.9l6-3.3Z" />
+            <svg viewBox="0 0 32 32" width={26} height={26}>
+              <defs><linearGradient id="logo-p" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stopColor="#326ce5"/><stop offset="50%" stopColor="#38bdf8"/><stop offset="100%" stopColor="#06b6d4"/></linearGradient></defs>
+              <path d="M16 1C9.4 1 4 6.1 4 12.3c0 8.5 10.3 17.5 11.2 18.3a1.2 1.2 0 0 0 1.6 0C17.7 29.8 28 20.8 28 12.3 28 6.1 22.6 1 16 1z" fill="url(#logo-p)"/>
+              <circle cx="16" cy="12" r="3" fill="none" stroke="#fff" strokeWidth="1.5"/>
+              <line x1="16" y1="5.5" x2="16" y2="8.5" stroke="#fff" strokeWidth="1.5" strokeLinecap="round"/>
+              <line x1="16" y1="15.5" x2="16" y2="18.5" stroke="#fff" strokeWidth="1.5" strokeLinecap="round"/>
+              <line x1="10.4" y1="8.8" x2="12.9" y2="10.3" stroke="#fff" strokeWidth="1.5" strokeLinecap="round"/>
+              <line x1="19.1" y1="13.7" x2="21.6" y2="15.2" stroke="#fff" strokeWidth="1.5" strokeLinecap="round"/>
+              <line x1="21.6" y1="8.8" x2="19.1" y2="10.3" stroke="#fff" strokeWidth="1.5" strokeLinecap="round"/>
+              <line x1="12.9" y1="13.7" x2="10.4" y2="15.2" stroke="#fff" strokeWidth="1.5" strokeLinecap="round"/>
+              <circle cx="16" cy="5.5" r="1.2" fill="#fff"/><circle cx="16" cy="18.5" r="1.2" fill="#fff"/>
+              <circle cx="10.4" cy="8.8" r="1.2" fill="#fff"/><circle cx="21.6" cy="15.2" r="1.2" fill="#fff"/>
+              <circle cx="21.6" cy="8.8" r="1.2" fill="#fff"/><circle cx="10.4" cy="15.2" r="1.2" fill="#fff"/>
             </svg>
           </div>
           <span style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 800, fontSize: 17, letterSpacing: '-0.02em', color: 'var(--text)' }}>
@@ -260,20 +273,51 @@ export function ProfilePage() {
 
         {/* Share */}
         <div style={{ textAlign: 'center', padding: '20px 0', borderTop: '1px solid var(--border)' }}>
-          <button onClick={() => navigator.clipboard?.writeText(`https://kubemap.io/k/${p.id}`)} style={{
-            background: 'color-mix(in srgb, var(--accent) 12%, transparent)',
-            border: '1px solid color-mix(in srgb, var(--accent) 35%, transparent)',
-            color: 'color-mix(in srgb, var(--accent) 70%, white)',
-            fontFamily: "'JetBrains Mono', monospace", fontSize: 12, borderRadius: 8,
-            padding: '10px 24px', cursor: 'pointer', display: 'inline-flex', alignItems: 'center', gap: 8,
-          }}>
-            <svg width={12} height={12} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-              <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8M16 6l-4-4-4 4M12 2v13" />
-            </svg>
-            Share this profile
-          </button>
-          <div style={{ marginTop: 8, fontFamily: "'JetBrains Mono', monospace", fontSize: 10, color: 'var(--text-faint)' }}>
-            kubemap.io/k/{p.id}
+          <div style={{ display: 'flex', gap: 10, justifyContent: 'center', flexWrap: 'wrap' }}>
+            <button onClick={() => {
+              navigator.clipboard?.writeText(`https://kubemap.io/k/${p.id}`);
+              setCopied(true);
+              setTimeout(() => setCopied(false), 2000);
+            }} style={{
+              background: 'color-mix(in srgb, var(--accent) 12%, transparent)',
+              border: '1px solid color-mix(in srgb, var(--accent) 35%, transparent)',
+              color: 'color-mix(in srgb, var(--accent) 70%, white)',
+              fontFamily: "'JetBrains Mono', monospace", fontSize: 12, borderRadius: 8,
+              padding: '10px 24px', cursor: 'pointer', display: 'inline-flex', alignItems: 'center', gap: 8,
+            }}>
+              <svg width={12} height={12} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                {copied
+                  ? <path d="M20 6 9 17l-5-5" />
+                  : <><rect x="9" y="9" width="13" height="13" rx="2" /><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" /></>
+                }
+              </svg>
+              {copied ? 'Copied!' : 'Copy link'}
+            </button>
+            <button onClick={async () => {
+              setGenerating(true);
+              try {
+                const blob = await generateProfileCard(p);
+                downloadBlob(blob, `kubemap-${p.id}.png`);
+              } finally {
+                setGenerating(false);
+              }
+            }} disabled={generating} style={{
+              background: isGold ? 'rgba(251,191,36,0.12)' : 'rgba(56,189,248,0.08)',
+              border: `1px solid ${isGold ? 'rgba(251,191,36,0.35)' : 'rgba(56,189,248,0.25)'}`,
+              color: isGold ? '#fbbf24' : '#38bdf8',
+              fontFamily: "'JetBrains Mono', monospace", fontSize: 12, borderRadius: 8,
+              padding: '10px 24px', cursor: generating ? 'wait' : 'pointer',
+              display: 'inline-flex', alignItems: 'center', gap: 8,
+              opacity: generating ? 0.6 : 1,
+            }}>
+              <svg width={12} height={12} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3" />
+              </svg>
+              {generating ? 'Generating...' : 'Download card'}
+            </button>
+          </div>
+          <div style={{ marginTop: 10, fontFamily: "'JetBrains Mono', monospace", fontSize: 10, color: 'var(--text-faint)' }}>
+            Share your profile card on LinkedIn, Twitter, or anywhere
           </div>
         </div>
 

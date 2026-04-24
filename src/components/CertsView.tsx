@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useIsMobile } from '../lib/useIsMobile';
 
 interface Cert {
   abbr: string;
@@ -36,6 +37,7 @@ export function CertsView() {
   const [selected, setSelected] = useState<string | null>(null);
   const [hovered, setHovered] = useState<string | null>(null);
   const [selectedRing, setSelectedRing] = useState<'all' | 'kubestronaut' | 'golden'>('all');
+  const isMobile = useIsMobile();
 
   const selectedCert = selected ? CERTS.find(c => c.abbr === selected) : null;
 
@@ -44,9 +46,138 @@ export function CertsView() {
   const innerNodeR = 34, outerNodeR = 30;
   const centerR = 60;
 
+  if (isMobile) {
+    return (
+      <div style={{
+        position: 'absolute', inset: 0,
+        background: 'var(--bg)', zIndex: 2,
+        display: 'flex', flexDirection: 'column',
+      }}>
+        {/* Header */}
+        <div style={{
+          padding: '10px 14px 8px', borderBottom: '1px solid var(--border)',
+          display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 8,
+          background: 'var(--panel)', flexWrap: 'wrap',
+        }}>
+          <div style={{ display: 'flex', alignItems: 'baseline', gap: 8 }}>
+            <h2 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: 15, letterSpacing: '-0.02em', color: 'var(--text)' }}>Certs</h2>
+            <span style={{ fontSize: 10, color: 'var(--text-muted)', fontFamily: "'JetBrains Mono', monospace" }}>
+              certification path
+            </span>
+          </div>
+          <div style={{ display: 'flex', gap: 4 }}>
+            {(['all', 'kubestronaut', 'golden'] as const).map(r => (
+              <button key={r} onClick={() => setSelectedRing(r)} style={{
+                background: selectedRing === r ? 'var(--surface-2)' : 'var(--surface)',
+                color: selectedRing === r ? (r === 'golden' ? 'var(--gold-soft)' : r === 'kubestronaut' ? 'var(--accent)' : 'var(--text)') : 'var(--text-dim)',
+                border: `1px solid ${selectedRing === r ? 'var(--border-strong)' : 'var(--border)'}`,
+                borderRadius: 6, padding: '4px 8px',
+                fontFamily: "'JetBrains Mono', monospace", fontSize: 10, cursor: 'pointer',
+              }}>
+                {r === 'all' ? 'All' : r === 'kubestronaut' ? 'K8s (5)' : '★ Gold (16)'}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* Scrollable cert list */}
+        <div style={{ flex: 1, overflowY: 'auto', WebkitOverflowScrolling: 'touch', padding: '8px 12px' }}>
+          {/* Inner ring section */}
+          <div style={{
+            fontFamily: "'JetBrains Mono', monospace", fontSize: 9, color: 'rgba(56,189,248,0.6)',
+            letterSpacing: '0.14em', textTransform: 'uppercase', padding: '8px 0 6px',
+          }}>Kubestronaut Path (5 certs)</div>
+          {INNER.map(cert => (
+            <CertCard key={cert.abbr} cert={cert} selected={selected === cert.abbr} onSelect={setSelected} />
+          ))}
+
+          {(selectedRing === 'all' || selectedRing === 'golden') && (
+            <>
+              <div style={{
+                fontFamily: "'JetBrains Mono', monospace", fontSize: 9, color: 'rgba(251,191,36,0.6)',
+                letterSpacing: '0.14em', textTransform: 'uppercase', padding: '14px 0 6px',
+              }}>★ Golden Path (11 additional)</div>
+              {OUTER.map(cert => (
+                <CertCard key={cert.abbr} cert={cert} selected={selected === cert.abbr} onSelect={setSelected} />
+              ))}
+            </>
+          )}
+        </div>
+
+        {/* Detail bottom sheet */}
+        {selectedCert && (
+          <>
+            <div onClick={() => setSelected(null)} style={{
+              position: 'absolute', inset: 0, background: 'rgba(0,0,0,0.4)', zIndex: 10,
+            }} />
+            <div style={{
+              position: 'absolute', bottom: 0, left: 0, right: 0,
+              background: 'var(--panel-solid)', borderTop: '1px solid var(--border)',
+              borderRadius: '16px 16px 0 0', zIndex: 11, maxHeight: '60%',
+              display: 'flex', flexDirection: 'column',
+            }}>
+              {/* Handle */}
+              <div style={{ display: 'flex', justifyContent: 'center', padding: '8px 0 4px' }}>
+                <div style={{ width: 36, height: 4, borderRadius: 2, background: 'var(--border-strong)' }} />
+              </div>
+              <div style={{ padding: '8px 16px 16px', overflowY: 'auto' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 10 }}>
+                  <div style={{
+                    width: 42, height: 42, borderRadius: '50%', flexShrink: 0,
+                    background: selectedCert.ring === 'kubestronaut' ? 'rgba(56,189,248,0.1)' : 'rgba(251,191,36,0.1)',
+                    border: `2px solid ${selectedCert.ring === 'kubestronaut' ? 'rgba(56,189,248,0.5)' : 'rgba(251,191,36,0.5)'}`,
+                    display: 'flex', alignItems: 'center', justifyContent: 'center',
+                    fontFamily: "'JetBrains Mono', monospace", fontWeight: 800, fontSize: 12,
+                    color: selectedCert.ring === 'kubestronaut' ? '#38bdf8' : '#fbbf24',
+                  }}>
+                    {selectedCert.abbr}
+                  </div>
+                  <div>
+                    <div style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: 15, color: 'var(--text)' }}>
+                      {selectedCert.name}
+                    </div>
+                    <span style={{
+                      fontFamily: "'JetBrains Mono', monospace", fontSize: 9, letterSpacing: '0.1em',
+                      textTransform: 'uppercase',
+                      color: selectedCert.ring === 'kubestronaut' ? '#38bdf8' : '#fbbf24',
+                    }}>
+                      {selectedCert.ring === 'kubestronaut' ? 'Kubestronaut Path' : '★ Golden Path'}
+                    </span>
+                  </div>
+                </div>
+                <div style={{
+                  fontFamily: "'JetBrains Mono', monospace", fontSize: 11, color: 'var(--text-dim)', lineHeight: 1.7,
+                  borderLeft: `2px solid ${selectedCert.ring === 'kubestronaut' ? 'rgba(56,189,248,0.4)' : 'rgba(251,191,36,0.4)'}`,
+                  padding: '2px 0 2px 12px', marginBottom: 14,
+                }}>
+                  {selectedCert.desc}
+                </div>
+                <a href={selectedCert.url} target="_blank" rel="noopener" style={{
+                  display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8,
+                  width: '100%', padding: '10px 14px', borderRadius: 8,
+                  background: selectedCert.ring === 'kubestronaut' ? 'rgba(56,189,248,0.12)' : 'rgba(251,191,36,0.12)',
+                  border: `1px solid ${selectedCert.ring === 'kubestronaut' ? 'rgba(56,189,248,0.35)' : 'rgba(251,191,36,0.35)'}`,
+                  color: selectedCert.ring === 'kubestronaut' ? '#38bdf8' : '#fbbf24',
+                  fontFamily: "'JetBrains Mono', monospace", fontSize: 11.5,
+                  textDecoration: 'none', cursor: 'pointer',
+                }}>
+                  <svg width={12} height={12} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14 21 3" />
+                  </svg>
+                  View on Linux Foundation
+                </a>
+              </div>
+            </div>
+          </>
+        )}
+      </div>
+    );
+  }
+
+  // Desktop layout (unchanged)
   return (
     <div style={{
-      position: 'fixed', top: 56, left: 340, right: 0, bottom: 28,
+      position: 'absolute', inset: 0,
       background: 'var(--bg)', zIndex: 2,
       display: 'flex', flexDirection: 'column',
     }}>
@@ -124,7 +255,8 @@ export function CertsView() {
               {selectedRing === 'golden' ? '16 certifications' : '5 certifications'}
             </text>
 
-            {/* Inner ring nodes */}
+            {/* Inner ring nodes — slow orbit */}
+            <g style={{ transformOrigin: `${cx}px ${cy}px`, animation: 'orbitSpin 120s linear infinite' }}>
             {INNER.map((cert, i) => {
               const angle = (i / INNER.length) * Math.PI * 2 - Math.PI / 2;
               const x = cx + Math.cos(angle) * innerR;
@@ -144,17 +276,22 @@ export function CertsView() {
                     fill={isSel ? 'rgba(56,189,248,0.22)' : isHov ? 'rgba(56,189,248,0.15)' : 'rgba(56,189,248,0.06)'}
                     stroke={isSel || isHov ? 'rgba(56,189,248,0.8)' : 'rgba(56,189,248,0.35)'}
                     strokeWidth={isSel || isHov ? 2 : 1.5} />
+                  {/* Counter-rotate text so it stays readable */}
                   <text x={x} y={y + 1} textAnchor="middle" dominantBaseline="middle"
                     fill={isSel || isHov ? '#38bdf8' : 'var(--text)'}
-                    fontFamily="'JetBrains Mono', monospace" fontWeight="700" fontSize="12">
+                    fontFamily="'JetBrains Mono', monospace" fontWeight="700" fontSize="12"
+                    style={{ transformOrigin: `${x}px ${y}px`, animation: 'orbitSpinReverse 120s linear infinite' }}>
                     {cert.abbr}
                   </text>
                 </g>
               );
             })}
+            </g>
 
-            {/* Outer ring nodes */}
-            {(selectedRing === 'all' || selectedRing === 'golden') && OUTER.map((cert, i) => {
+            {/* Outer ring nodes — slow reverse orbit */}
+            {(selectedRing === 'all' || selectedRing === 'golden') && (
+            <g style={{ transformOrigin: `${cx}px ${cy}px`, animation: 'orbitSpinReverse 180s linear infinite' }}>
+            {OUTER.map((cert, i) => {
               const angle = (i / OUTER.length) * Math.PI * 2 - Math.PI / 2;
               const x = cx + Math.cos(angle) * outerR;
               const y = cy + Math.sin(angle) * outerR;
@@ -173,14 +310,18 @@ export function CertsView() {
                     fill={isSel ? 'rgba(251,191,36,0.22)' : isHov ? 'rgba(251,191,36,0.15)' : 'rgba(251,191,36,0.06)'}
                     stroke={isSel || isHov ? 'rgba(251,191,36,0.8)' : 'rgba(251,191,36,0.28)'}
                     strokeWidth={isSel || isHov ? 2 : 1.5} />
+                  {/* Counter-rotate text so it stays readable */}
                   <text x={x} y={y + 1} textAnchor="middle" dominantBaseline="middle"
                     fill={isSel || isHov ? '#fbbf24' : 'var(--text)'}
-                    fontFamily="'JetBrains Mono', monospace" fontWeight="700" fontSize="10">
+                    fontFamily="'JetBrains Mono', monospace" fontWeight="700" fontSize="10"
+                    style={{ transformOrigin: `${x}px ${y}px`, animation: 'orbitSpin 180s linear infinite' }}>
                     {cert.abbr}
                   </text>
                 </g>
               );
             })}
+            </g>
+            )}
 
             {/* Ring labels */}
             <text x={cx} y={cy - innerR - innerNodeR - 12} textAnchor="middle"
@@ -321,6 +462,51 @@ export function CertsView() {
           </div>
         )}
       </div>
+    </div>
+  );
+}
+
+function CertCard({ cert, selected, onSelect }: { cert: Cert; selected: boolean; onSelect: (abbr: string | null) => void }) {
+  const isK8s = cert.ring === 'kubestronaut';
+  const color = isK8s ? '#38bdf8' : '#fbbf24';
+  const bgAlpha = isK8s ? 'rgba(56,189,248,' : 'rgba(251,191,36,';
+
+  return (
+    <div
+      onClick={() => onSelect(selected ? null : cert.abbr)}
+      style={{
+        display: 'flex', alignItems: 'center', gap: 10,
+        padding: '10px 10px', borderRadius: 8, cursor: 'pointer', marginBottom: 4,
+        background: selected ? `${bgAlpha}0.1)` : 'transparent',
+        border: `1px solid ${selected ? `${bgAlpha}0.3)` : 'transparent'}`,
+      }}
+    >
+      <div style={{
+        width: 36, height: 36, borderRadius: '50%', flexShrink: 0,
+        background: `${bgAlpha}0.08)`,
+        border: `1.5px solid ${bgAlpha}0.35)`,
+        display: 'flex', alignItems: 'center', justifyContent: 'center',
+        fontFamily: "'JetBrains Mono', monospace", fontWeight: 700, fontSize: 10,
+        color,
+      }}>
+        {cert.abbr}
+      </div>
+      <div style={{ flex: 1, minWidth: 0 }}>
+        <div style={{
+          fontFamily: "'DM Sans', sans-serif", fontWeight: 600, fontSize: 12.5, color: 'var(--text)',
+          whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis',
+        }}>
+          {cert.name}
+        </div>
+        <div style={{
+          fontFamily: "'JetBrains Mono', monospace", fontSize: 10, color: 'var(--text-muted)', marginTop: 1,
+        }}>
+          {cert.ring === 'kubestronaut' ? 'Kubestronaut' : '★ Golden'} path
+        </div>
+      </div>
+      <svg width={14} height={14} viewBox="0 0 24 24" fill="none" stroke="var(--text-faint)" strokeWidth={2} strokeLinecap="round" style={{ flexShrink: 0 }}>
+        <path d="M9 18l6-6-6-6" />
+      </svg>
     </div>
   );
 }

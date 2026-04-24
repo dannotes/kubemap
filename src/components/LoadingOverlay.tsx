@@ -7,7 +7,7 @@ export function LoadingOverlay() {
 
   return (
     <div style={{
-      position: 'fixed', top: 56, right: 0, bottom: 28, left: 340,
+      position: 'absolute', inset: 0,
       background: 'var(--bg)', zIndex: 300,
       display: 'flex', alignItems: 'center', justifyContent: 'center',
       fontFamily: "'JetBrains Mono', monospace", fontSize: 11, color: 'var(--text-muted)',
@@ -15,13 +15,24 @@ export function LoadingOverlay() {
     }}>
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 10 }}>
         <div style={{
-          width: 44, height: 44, borderRadius: 12,
-          background: 'linear-gradient(135deg, #326ce5 0%, #38bdf8 100%)',
+          width: 56, height: 56,
           display: 'flex', alignItems: 'center', justifyContent: 'center',
-          boxShadow: '0 0 0 1px rgba(56,189,248,0.35), 0 0 20px rgba(56,189,248,0.3)',
+          filter: 'drop-shadow(0 0 20px rgba(56,189,248,0.5))',
+          animation: 'logoPulse 2s ease-in-out infinite',
         }}>
-          <svg viewBox="0 0 24 24" width={24} height={24} fill="white">
-            <path d="M12 2 3 7v10l9 5 9-5V7l-9-5Zm0 2.5 6.5 3.6L12 11.7 5.5 8.1 12 4.5ZM5 9.8l6 3.3v6.9l-6-3.3V9.8Zm14 0v6.9l-6 3.3v-6.9l6-3.3Z" />
+          <svg viewBox="0 0 32 32" width={48} height={48}>
+            <defs><linearGradient id="logo-l" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stopColor="#326ce5"/><stop offset="50%" stopColor="#38bdf8"/><stop offset="100%" stopColor="#06b6d4"/></linearGradient></defs>
+            <path d="M16 1C9.4 1 4 6.1 4 12.3c0 8.5 10.3 17.5 11.2 18.3a1.2 1.2 0 0 0 1.6 0C17.7 29.8 28 20.8 28 12.3 28 6.1 22.6 1 16 1z" fill="url(#logo-l)"/>
+            <circle cx="16" cy="12" r="3" fill="none" stroke="#fff" strokeWidth="1.5"/>
+            <line x1="16" y1="5.5" x2="16" y2="8.5" stroke="#fff" strokeWidth="1.5" strokeLinecap="round"/>
+            <line x1="16" y1="15.5" x2="16" y2="18.5" stroke="#fff" strokeWidth="1.5" strokeLinecap="round"/>
+            <line x1="10.4" y1="8.8" x2="12.9" y2="10.3" stroke="#fff" strokeWidth="1.5" strokeLinecap="round"/>
+            <line x1="19.1" y1="13.7" x2="21.6" y2="15.2" stroke="#fff" strokeWidth="1.5" strokeLinecap="round"/>
+            <line x1="21.6" y1="8.8" x2="19.1" y2="10.3" stroke="#fff" strokeWidth="1.5" strokeLinecap="round"/>
+            <line x1="12.9" y1="13.7" x2="10.4" y2="15.2" stroke="#fff" strokeWidth="1.5" strokeLinecap="round"/>
+            <circle cx="16" cy="5.5" r="1.2" fill="#fff"/><circle cx="16" cy="18.5" r="1.2" fill="#fff"/>
+            <circle cx="10.4" cy="8.8" r="1.2" fill="#fff"/><circle cx="21.6" cy="15.2" r="1.2" fill="#fff"/>
+            <circle cx="21.6" cy="8.8" r="1.2" fill="#fff"/><circle cx="10.4" cy="15.2" r="1.2" fill="#fff"/>
           </svg>
         </div>
         <span>{loadingMsg}<span className="dots" /></span>

@@ -1,11 +1,11 @@
 const AV_COLORS = [
-  'linear-gradient(135deg,#60a5fa,#2563eb)',
-  'linear-gradient(135deg,#c4b5fd,#7c3aed)',
-  'linear-gradient(135deg,#6ee7b7,#059669)',
-  'linear-gradient(135deg,#fca5a5,#dc2626)',
-  'linear-gradient(135deg,#fcd34d,#d97706)',
-  'linear-gradient(135deg,#67e8f9,#0891b2)',
-  'linear-gradient(135deg,#f9a8d4,#db2777)',
+  'linear-gradient(135deg,#1e293b,#0f172a)',
+  'linear-gradient(135deg,#1e2433,#111827)',
+  'linear-gradient(135deg,#1a2332,#0c1524)',
+  'linear-gradient(135deg,#1c2030,#10141f)',
+  'linear-gradient(135deg,#1f2537,#121828)',
+  'linear-gradient(135deg,#1a2030,#0e1420)',
+  'linear-gradient(135deg,#1d2335,#111726)',
 ];
 
 export function avColor(name: string): string {
