@@ -1,7 +1,7 @@
 {
-  "total": 3882,
-  "golden": 385,
-  "regular": 3240,
+  "total": 3881,
+  "golden": 390,
+  "regular": 3234,
   "ambassadors": 298,
   "countryCount": 112,
   "topCountries": [
@@ -14,7 +14,7 @@
     {
       "name": "United States",
       "count": 349,
-      "golden": 47,
+      "golden": 48,
       "flag": "🇺🇸"
     },
     {
@@ -44,7 +44,7 @@
     {
       "name": "United Kingdom",
       "count": 137,
-      "golden": 11,
+      "golden": 12,
       "flag": "🇬🇧"
     },
     {
@@ -55,7 +55,7 @@
     },
     {
       "name": "South Korea",
-      "count": 128,
+      "count": 127,
       "golden": 11,
       "flag": "🇰🇷"
     },
@@ -122,7 +122,7 @@
     {
       "name": "Italy",
       "count": 59,
-      "golden": 6,
+      "golden": 7,
       "flag": "🇮🇹"
     },
     {
@@ -175,7 +175,7 @@
     },
     {
       "name": "Thailand",
-      "count": 30,
+      "count": 29,
       "golden": 5,
       "flag": "🇹🇭"
     },
@@ -314,7 +314,7 @@
     {
       "name": "Czech Republic",
       "count": 14,
-      "golden": 2,
+      "golden": 3,
       "flag": "🇨🇿"
     },
     {
@@ -510,6 +510,12 @@
       "flag": "🇩🇿"
     },
     {
+      "name": "Palestine",
+      "count": 2,
+      "golden": 2,
+      "flag": "🇵🇸"
+    },
+    {
       "name": "Bosnia and Herzegovina",
       "count": 2,
       "golden": 0,
@@ -586,12 +592,6 @@
       "count": 1,
       "golden": 0,
       "flag": "🇮🇶"
-    },
-    {
-      "name": "Palestine",
-      "count": 1,
-      "golden": 1,
-      "flag": "🇵🇸"
     },
     {
       "name": "Bolivia",
@@ -682,11 +682,11 @@
     {
       "name": "Microsoft",
       "count": 72,
-      "golden": 10
+      "golden": 11
     },
     {
       "name": "Amazon Web Services",
-      "count": 33,
+      "count": 32,
       "golden": 3
     },
     {
@@ -837,7 +837,7 @@
     {
       "name": "SUSE",
       "count": 5,
-      "golden": 1
+      "golden": 2
     },
     {
       "name": "Hewlett Packard Enterprise (HPE)",
@@ -1822,7 +1822,7 @@
     {
       "name": "Intuitive.Cloud",
       "count": 2,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Natura",
@@ -2143,6 +2143,11 @@
       "name": "Combis",
       "count": 1,
       "golden": 0
+    },
+    {
+      "name": "Harri LLC",
+      "count": 1,
+      "golden": 1
     },
     {
       "name": "The New York Times",
@@ -9437,5 +9442,5 @@
       "flag": "🇩🇪"
     }
   ],
-  "generatedAt": "2026-04-27T03:06:51.846Z"
+  "generatedAt": "2026-04-28T03:14:26.422Z"
 }
