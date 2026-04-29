@@ -1,7 +1,7 @@
 {
   "total": 3881,
-  "golden": 390,
-  "regular": 3234,
+  "golden": 389,
+  "regular": 3235,
   "ambassadors": 298,
   "countryCount": 112,
   "topCountries": [
@@ -175,7 +175,7 @@
     },
     {
       "name": "Thailand",
-      "count": 29,
+      "count": 30,
       "golden": 5,
       "flag": "🇹🇭"
     },
@@ -510,12 +510,6 @@
       "flag": "🇩🇿"
     },
     {
-      "name": "Palestine",
-      "count": 2,
-      "golden": 2,
-      "flag": "🇵🇸"
-    },
-    {
       "name": "Bosnia and Herzegovina",
       "count": 2,
       "golden": 0,
@@ -592,6 +586,12 @@
       "count": 1,
       "golden": 0,
       "flag": "🇮🇶"
+    },
+    {
+      "name": "Palestine",
+      "count": 1,
+      "golden": 1,
+      "flag": "🇵🇸"
     },
     {
       "name": "Bolivia",
@@ -686,7 +686,7 @@
     },
     {
       "name": "Amazon Web Services",
-      "count": 32,
+      "count": 33,
       "golden": 3
     },
     {
@@ -2143,11 +2143,6 @@
       "name": "Combis",
       "count": 1,
       "golden": 0
-    },
-    {
-      "name": "Harri LLC",
-      "count": 1,
-      "golden": 1
     },
     {
       "name": "The New York Times",
@@ -9442,5 +9437,5 @@
       "flag": "🇩🇪"
     }
   ],
-  "generatedAt": "2026-04-28T03:14:26.422Z"
+  "generatedAt": "2026-04-29T03:14:41.921Z"
 }
