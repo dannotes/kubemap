@@ -1,7 +1,7 @@
 {
-  "total": 3881,
+  "total": 3882,
   "golden": 389,
-  "regular": 3235,
+  "regular": 3236,
   "ambassadors": 298,
   "countryCount": 112,
   "topCountries": [
@@ -127,7 +127,7 @@
     },
     {
       "name": "Taiwan",
-      "count": 53,
+      "count": 54,
       "golden": 6,
       "flag": "🇹🇼"
     },
@@ -9437,5 +9437,5 @@
       "flag": "🇩🇪"
     }
   ],
-  "generatedAt": "2026-04-29T03:14:41.921Z"
+  "generatedAt": "2026-04-30T03:15:27.418Z"
 }
