@@ -1,7 +1,7 @@
 {
-  "total": 3882,
-  "golden": 389,
-  "regular": 3236,
+  "total": 3885,
+  "golden": 390,
+  "regular": 3238,
   "ambassadors": 298,
   "countryCount": 112,
   "topCountries": [
@@ -43,7 +43,7 @@
     },
     {
       "name": "United Kingdom",
-      "count": 137,
+      "count": 138,
       "golden": 12,
       "flag": "🇬🇧"
     },
@@ -55,7 +55,7 @@
     },
     {
       "name": "South Korea",
-      "count": 127,
+      "count": 128,
       "golden": 11,
       "flag": "🇰🇷"
     },
@@ -163,7 +163,7 @@
     },
     {
       "name": "Egypt",
-      "count": 33,
+      "count": 34,
       "golden": 2,
       "flag": "🇪🇬"
     },
@@ -175,7 +175,7 @@
     },
     {
       "name": "Thailand",
-      "count": 30,
+      "count": 29,
       "golden": 5,
       "flag": "🇹🇭"
     },
@@ -510,6 +510,12 @@
       "flag": "🇩🇿"
     },
     {
+      "name": "Palestine",
+      "count": 2,
+      "golden": 2,
+      "flag": "🇵🇸"
+    },
+    {
       "name": "Bosnia and Herzegovina",
       "count": 2,
       "golden": 0,
@@ -586,12 +592,6 @@
       "count": 1,
       "golden": 0,
       "flag": "🇮🇶"
-    },
-    {
-      "name": "Palestine",
-      "count": 1,
-      "golden": 1,
-      "flag": "🇵🇸"
     },
     {
       "name": "Bolivia",
@@ -686,7 +686,7 @@
     },
     {
       "name": "Amazon Web Services",
-      "count": 33,
+      "count": 32,
       "golden": 3
     },
     {
@@ -745,13 +745,13 @@
       "golden": 0
     },
     {
-      "name": "NAB",
+      "name": "Canonical",
       "count": 11,
       "golden": 1
     },
     {
-      "name": "Canonical",
-      "count": 10,
+      "name": "NAB",
+      "count": 11,
       "golden": 1
     },
     {
@@ -2065,7 +2065,7 @@
       "golden": 0
     },
     {
-      "name": "FourEnergy GmbH​",
+      "name": "SVA Alexander System Vertriebs GmbH​",
       "count": 1,
       "golden": 0
     },
@@ -2143,6 +2143,11 @@
       "name": "Combis",
       "count": 1,
       "golden": 0
+    },
+    {
+      "name": "Harri LLC",
+      "count": 1,
+      "golden": 1
     },
     {
       "name": "The New York Times",
@@ -9437,5 +9442,5 @@
       "flag": "🇩🇪"
     }
   ],
-  "generatedAt": "2026-04-30T03:15:27.418Z"
+  "generatedAt": "2026-05-01T03:21:51.183Z"
 }
