@@ -1,7 +1,7 @@
 {
-  "total": 3919,
-  "golden": 388,
-  "regular": 3274,
+  "total": 3923,
+  "golden": 394,
+  "regular": 3272,
   "ambassadors": 298,
   "countryCount": 112,
   "topCountries": [
@@ -26,7 +26,7 @@
     {
       "name": "France",
       "count": 210,
-      "golden": 17,
+      "golden": 18,
       "flag": "🇫🇷"
     },
     {
@@ -38,7 +38,7 @@
     {
       "name": "Japan",
       "count": 160,
-      "golden": 23,
+      "golden": 24,
       "flag": "🇯🇵"
     },
     {
@@ -80,7 +80,7 @@
     {
       "name": "Brazil",
       "count": 96,
-      "golden": 4,
+      "golden": 5,
       "flag": "🇧🇷"
     },
     {
@@ -104,7 +104,7 @@
     {
       "name": "Norway",
       "count": 66,
-      "golden": 13,
+      "golden": 14,
       "flag": "🇳🇴"
     },
     {
@@ -127,7 +127,7 @@
     },
     {
       "name": "Taiwan",
-      "count": 53,
+      "count": 54,
       "golden": 6,
       "flag": "🇹🇼"
     },
@@ -174,16 +174,16 @@
       "flag": "🇷🇴"
     },
     {
+      "name": "Thailand",
+      "count": 30,
+      "golden": 5,
+      "flag": "🇹🇭"
+    },
+    {
       "name": "Ukraine",
       "count": 29,
       "golden": 8,
       "flag": "🇺🇦"
-    },
-    {
-      "name": "Thailand",
-      "count": 28,
-      "golden": 4,
-      "flag": "🇹🇭"
     },
     {
       "name": "Austria",
@@ -510,6 +510,12 @@
       "flag": "🇩🇿"
     },
     {
+      "name": "Palestine",
+      "count": 2,
+      "golden": 2,
+      "flag": "🇵🇸"
+    },
+    {
       "name": "Bosnia and Herzegovina",
       "count": 2,
       "golden": 0,
@@ -592,12 +598,6 @@
       "count": 1,
       "golden": 0,
       "flag": "🇮🇶"
-    },
-    {
-      "name": "Palestine",
-      "count": 1,
-      "golden": 1,
-      "flag": "🇵🇸"
     },
     {
       "name": "Bolivia",
@@ -686,7 +686,7 @@
     },
     {
       "name": "Amazon Web Services",
-      "count": 32,
+      "count": 33,
       "golden": 3
     },
     {
@@ -697,7 +697,7 @@
     {
       "name": "Sopra Steria",
       "count": 28,
-      "golden": 4
+      "golden": 5
     },
     {
       "name": "AWS",
@@ -707,7 +707,7 @@
     {
       "name": "Capgemini",
       "count": 19,
-      "golden": 2
+      "golden": 3
     },
     {
       "name": "SVA System Vertrieb Alexander GmbH",
@@ -952,7 +952,7 @@
     {
       "name": "Itaú Unibanco",
       "count": 4,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "ControlPlane",
@@ -2153,6 +2153,11 @@
       "name": "Combis",
       "count": 1,
       "golden": 0
+    },
+    {
+      "name": "Harri LLC",
+      "count": 1,
+      "golden": 1
     },
     {
       "name": "The New York Times",
@@ -4468,6 +4473,11 @@
       "name": "VIETTEL AI",
       "count": 1,
       "golden": 0
+    },
+    {
+      "name": "Hoekstra Tech",
+      "count": 1,
+      "golden": 1
     },
     {
       "name": "TABLE AI",
@@ -9151,7 +9161,7 @@
     {
       "name": "Tokyo",
       "count": 83,
-      "golden": 9,
+      "golden": 10,
       "country": "Japan",
       "flag": "🇯🇵"
     },
@@ -9492,5 +9502,5 @@
       "flag": "🇨🇦"
     }
   ],
-  "generatedAt": "2026-05-04T03:11:47.648Z"
+  "generatedAt": "2026-05-05T03:05:26.221Z"
 }
