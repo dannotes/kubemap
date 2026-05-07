@@ -1,7 +1,7 @@
 {
-  "total": 3921,
-  "golden": 393,
-  "regular": 3271,
+  "total": 3920,
+  "golden": 394,
+  "regular": 3269,
   "ambassadors": 298,
   "countryCount": 112,
   "topCountries": [
@@ -20,7 +20,7 @@
     {
       "name": "Germany",
       "count": 226,
-      "golden": 31,
+      "golden": 32,
       "flag": "🇩🇪"
     },
     {
@@ -55,7 +55,7 @@
     },
     {
       "name": "South Korea",
-      "count": 128,
+      "count": 127,
       "golden": 11,
       "flag": "🇰🇷"
     },
@@ -127,7 +127,7 @@
     },
     {
       "name": "Taiwan",
-      "count": 54,
+      "count": 53,
       "golden": 6,
       "flag": "🇹🇼"
     },
@@ -176,7 +176,7 @@
     {
       "name": "Thailand",
       "count": 29,
-      "golden": 5,
+      "golden": 4,
       "flag": "🇹🇭"
     },
     {
@@ -510,6 +510,12 @@
       "flag": "🇩🇿"
     },
     {
+      "name": "Palestine",
+      "count": 2,
+      "golden": 2,
+      "flag": "🇵🇸"
+    },
+    {
       "name": "Bosnia and Herzegovina",
       "count": 2,
       "golden": 0,
@@ -592,12 +598,6 @@
       "count": 1,
       "golden": 0,
       "flag": "🇮🇶"
-    },
-    {
-      "name": "Palestine",
-      "count": 1,
-      "golden": 1,
-      "flag": "🇵🇸"
     },
     {
       "name": "Bolivia",
@@ -686,7 +686,7 @@
     },
     {
       "name": "Amazon Web Services",
-      "count": 32,
+      "count": 33,
       "golden": 3
     },
     {
@@ -1785,6 +1785,11 @@
       "golden": 0
     },
     {
+      "name": "Cloudpunks GmbH",
+      "count": 2,
+      "golden": 1
+    },
+    {
       "name": "Stellatarum",
       "count": 2,
       "golden": 0
@@ -2153,6 +2158,11 @@
       "name": "Combis",
       "count": 1,
       "golden": 0
+    },
+    {
+      "name": "Harri LLC",
+      "count": 1,
+      "golden": 1
     },
     {
       "name": "The New York Times",
@@ -4470,11 +4480,6 @@
       "golden": 0
     },
     {
-      "name": "Hoekstra Tech",
-      "count": 1,
-      "golden": 1
-    },
-    {
       "name": "TABLE AI",
       "count": 1,
       "golden": 0
@@ -5231,11 +5236,6 @@
     },
     {
       "name": "Woori Bank",
-      "count": 1,
-      "golden": 0
-    },
-    {
-      "name": "noris network AG",
       "count": 1,
       "golden": 0
     },
@@ -8385,11 +8385,6 @@
       "golden": 1
     },
     {
-      "name": "Cloudpunks GmbH",
-      "count": 1,
-      "golden": 0
-    },
-    {
       "name": "Les Filles & les Garçons de la Tech",
       "count": 1,
       "golden": 0
@@ -9497,5 +9492,5 @@
       "flag": "🇨🇦"
     }
   ],
-  "generatedAt": "2026-05-06T03:10:09.573Z"
+  "generatedAt": "2026-05-07T03:12:45.313Z"
 }
