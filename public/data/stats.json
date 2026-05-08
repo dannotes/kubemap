@@ -175,8 +175,8 @@
     },
     {
       "name": "Thailand",
-      "count": 29,
-      "golden": 4,
+      "count": 30,
+      "golden": 5,
       "flag": "🇹🇭"
     },
     {
@@ -510,12 +510,6 @@
       "flag": "🇩🇿"
     },
     {
-      "name": "Palestine",
-      "count": 2,
-      "golden": 2,
-      "flag": "🇵🇸"
-    },
-    {
       "name": "Bosnia and Herzegovina",
       "count": 2,
       "golden": 0,
@@ -598,6 +592,12 @@
       "count": 1,
       "golden": 0,
       "flag": "🇮🇶"
+    },
+    {
+      "name": "Palestine",
+      "count": 1,
+      "golden": 1,
+      "flag": "🇵🇸"
     },
     {
       "name": "Bolivia",
@@ -2158,11 +2158,6 @@
       "name": "Combis",
       "count": 1,
       "golden": 0
-    },
-    {
-      "name": "Harri LLC",
-      "count": 1,
-      "golden": 1
     },
     {
       "name": "The New York Times",
@@ -4478,6 +4473,11 @@
       "name": "VIETTEL AI",
       "count": 1,
       "golden": 0
+    },
+    {
+      "name": "Hoekstra Tech",
+      "count": 1,
+      "golden": 1
     },
     {
       "name": "TABLE AI",
@@ -9492,5 +9492,5 @@
       "flag": "🇨🇦"
     }
   ],
-  "generatedAt": "2026-05-07T03:12:45.313Z"
+  "generatedAt": "2026-05-08T03:17:29.545Z"
 }
