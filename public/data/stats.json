@@ -1,19 +1,19 @@
 {
-  "total": 3920,
+  "total": 3957,
   "golden": 394,
-  "regular": 3269,
+  "regular": 3306,
   "ambassadors": 298,
   "countryCount": 112,
   "topCountries": [
     {
       "name": "India",
-      "count": 390,
+      "count": 393,
       "golden": 35,
       "flag": "🇮🇳"
     },
     {
       "name": "United States",
-      "count": 354,
+      "count": 357,
       "golden": 48,
       "flag": "🇺🇸"
     },
@@ -25,51 +25,51 @@
     },
     {
       "name": "France",
-      "count": 210,
+      "count": 212,
       "golden": 18,
       "flag": "🇫🇷"
     },
     {
       "name": "Netherlands",
-      "count": 186,
+      "count": 188,
       "golden": 16,
       "flag": "🇳🇱"
     },
     {
       "name": "Japan",
-      "count": 160,
+      "count": 164,
       "golden": 24,
       "flag": "🇯🇵"
     },
     {
       "name": "United Kingdom",
-      "count": 138,
+      "count": 140,
       "golden": 12,
       "flag": "🇬🇧"
     },
     {
       "name": "Poland",
-      "count": 133,
+      "count": 135,
       "golden": 9,
       "flag": "🇵🇱"
     },
     {
       "name": "South Korea",
-      "count": 127,
+      "count": 131,
       "golden": 11,
       "flag": "🇰🇷"
+    },
+    {
+      "name": "Canada",
+      "count": 115,
+      "golden": 10,
+      "flag": "🇨🇦"
     },
     {
       "name": "Singapore",
       "count": 115,
       "golden": 5,
       "flag": "🇸🇬"
-    },
-    {
-      "name": "Canada",
-      "count": 114,
-      "golden": 10,
-      "flag": "🇨🇦"
     },
     {
       "name": "Switzerland",
@@ -79,7 +79,7 @@
     },
     {
       "name": "Brazil",
-      "count": 96,
+      "count": 97,
       "golden": 5,
       "flag": "🇧🇷"
     },
@@ -97,7 +97,7 @@
     },
     {
       "name": "Spain",
-      "count": 66,
+      "count": 67,
       "golden": 4,
       "flag": "🇪🇸"
     },
@@ -127,7 +127,7 @@
     },
     {
       "name": "Taiwan",
-      "count": 53,
+      "count": 54,
       "golden": 6,
       "flag": "🇹🇼"
     },
@@ -151,7 +151,7 @@
     },
     {
       "name": "Tunisia",
-      "count": 35,
+      "count": 36,
       "golden": 2,
       "flag": "🇹🇳"
     },
@@ -174,20 +174,20 @@
       "flag": "🇷🇴"
     },
     {
+      "name": "Ukraine",
+      "count": 31,
+      "golden": 8,
+      "flag": "🇺🇦"
+    },
+    {
       "name": "Thailand",
       "count": 30,
       "golden": 5,
       "flag": "🇹🇭"
     },
     {
-      "name": "Ukraine",
-      "count": 29,
-      "golden": 8,
-      "flag": "🇺🇦"
-    },
-    {
       "name": "Austria",
-      "count": 28,
+      "count": 29,
       "golden": 2,
       "flag": "🇦🇹"
     },
@@ -235,13 +235,13 @@
     },
     {
       "name": "Bulgaria",
-      "count": 22,
+      "count": 23,
       "golden": 1,
       "flag": "🇧🇬"
     },
     {
       "name": "Bangladesh",
-      "count": 21,
+      "count": 22,
       "golden": 1,
       "flag": "🇧🇩"
     },
@@ -294,6 +294,12 @@
       "flag": "🇲🇦"
     },
     {
+      "name": "Slovakia",
+      "count": 15,
+      "golden": 2,
+      "flag": "🇸🇰"
+    },
+    {
       "name": "Pakistan",
       "count": 15,
       "golden": 1,
@@ -312,12 +318,6 @@
       "flag": "🇮🇱"
     },
     {
-      "name": "Slovakia",
-      "count": 14,
-      "golden": 2,
-      "flag": "🇸🇰"
-    },
-    {
       "name": "Czech Republic",
       "count": 14,
       "golden": 3,
@@ -331,7 +331,7 @@
     },
     {
       "name": "South Africa",
-      "count": 12,
+      "count": 13,
       "golden": 1,
       "flag": "🇿🇦"
     },
@@ -390,6 +390,12 @@
       "flag": "🇷🇸"
     },
     {
+      "name": "Philippines",
+      "count": 8,
+      "golden": 0,
+      "flag": "🇵🇭"
+    },
+    {
       "name": "Chile",
       "count": 8,
       "golden": 1,
@@ -442,12 +448,6 @@
       "count": 6,
       "golden": 1,
       "flag": "🇷🇺"
-    },
-    {
-      "name": "Philippines",
-      "count": 6,
-      "golden": 0,
-      "flag": "🇵🇭"
     },
     {
       "name": "Nepal",
@@ -558,6 +558,12 @@
       "flag": "🇪🇹"
     },
     {
+      "name": "Uzbekistan",
+      "count": 2,
+      "golden": 0,
+      "flag": "🇺🇿"
+    },
+    {
       "name": "Cameroon",
       "count": 1,
       "golden": 0,
@@ -666,12 +672,6 @@
       "flag": "🇲🇬"
     },
     {
-      "name": "Uzbekistan",
-      "count": 1,
-      "golden": 0,
-      "flag": "🇺🇿"
-    },
-    {
       "name": "Albania",
       "count": 1,
       "golden": 1,
@@ -691,7 +691,7 @@
     },
     {
       "name": "Red Hat",
-      "count": 30,
+      "count": 31,
       "golden": 5
     },
     {
@@ -706,13 +706,13 @@
     },
     {
       "name": "Capgemini",
-      "count": 19,
+      "count": 20,
       "golden": 3
     },
     {
       "name": "SVA System Vertrieb Alexander GmbH",
-      "count": 18,
-      "golden": 6
+      "count": 19,
+      "golden": 7
     },
     {
       "name": "Google",
@@ -860,6 +860,11 @@
       "golden": 0
     },
     {
+      "name": "Automat-it",
+      "count": 5,
+      "golden": 0
+    },
+    {
       "name": "Samsung SDS",
       "count": 5,
       "golden": 0
@@ -975,11 +980,6 @@
       "golden": 0
     },
     {
-      "name": "Automat-it",
-      "count": 4,
-      "golden": 0
-    },
-    {
       "name": "Swisscom",
       "count": 4,
       "golden": 0
@@ -1085,6 +1085,11 @@
       "golden": 1
     },
     {
+      "name": "SFEIR",
+      "count": 3,
+      "golden": 0
+    },
+    {
       "name": "Rabobank",
       "count": 3,
       "golden": 0
@@ -1178,11 +1183,6 @@
       "name": "PCS Security Pte Ltd",
       "count": 3,
       "golden": 0
-    },
-    {
-      "name": "B1 Systems GmbH",
-      "count": 3,
-      "golden": 1
     },
     {
       "name": "Nationale-Nederlanden",
@@ -1325,6 +1325,11 @@
       "golden": 0
     },
     {
+      "name": "Cast AI",
+      "count": 2,
+      "golden": 0
+    },
+    {
       "name": "Wells Fargo",
       "count": 2,
       "golden": 0
@@ -1420,6 +1425,11 @@
       "golden": 0
     },
     {
+      "name": "Temabit",
+      "count": 2,
+      "golden": 0
+    },
+    {
       "name": "NTT Data",
       "count": 2,
       "golden": 0
@@ -1473,11 +1483,6 @@
       "name": "Trendyol",
       "count": 2,
       "golden": 1
-    },
-    {
-      "name": "SFEIR",
-      "count": 2,
-      "golden": 0
     },
     {
       "name": "Sfeir",
@@ -1710,7 +1715,17 @@
       "golden": 0
     },
     {
+      "name": "Rakuten Mobile, Inc.",
+      "count": 2,
+      "golden": 0
+    },
+    {
       "name": "The LEGO Group",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "B1 Systems GmbH",
       "count": 2,
       "golden": 0
     },
@@ -1761,6 +1776,11 @@
     },
     {
       "name": "Galileo Financial Technologies",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "SK AX",
       "count": 2,
       "golden": 0
     },
@@ -2270,11 +2290,6 @@
       "golden": 0
     },
     {
-      "name": "Cast AI",
-      "count": 1,
-      "golden": 0
-    },
-    {
       "name": "Florence Consulting Group",
       "count": 1,
       "golden": 0
@@ -2720,6 +2735,11 @@
       "golden": 0
     },
     {
+      "name": "ZEE Entertainment Enterprises Limited",
+      "count": 1,
+      "golden": 0
+    },
+    {
       "name": "Zure Oy",
       "count": 1,
       "golden": 0
@@ -3060,7 +3080,17 @@
       "golden": 0
     },
     {
+      "name": "Rakuten Mobile Inc",
+      "count": 1,
+      "golden": 0
+    },
+    {
       "name": "SASS SYSTEMS DEVOPS",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "UCLIX",
       "count": 1,
       "golden": 0
     },
@@ -3535,6 +3565,11 @@
       "golden": 0
     },
     {
+      "name": "American Registry for Internet Numbers (ARIN)",
+      "count": 1,
+      "golden": 0
+    },
+    {
       "name": "depeche.io",
       "count": 1,
       "golden": 1
@@ -3806,6 +3841,11 @@
     },
     {
       "name": "Optare Solutions",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Mottu",
       "count": 1,
       "golden": 0
     },
@@ -4191,6 +4231,11 @@
     },
     {
       "name": "Fullstaq B.V.",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "IMC Trading",
       "count": 1,
       "golden": 0
     },
@@ -4626,11 +4671,6 @@
     },
     {
       "name": "Sensedia S.A.",
-      "count": 1,
-      "golden": 0
-    },
-    {
-      "name": "Rakuten Mobile, Inc.",
       "count": 1,
       "golden": 0
     },
@@ -5125,6 +5165,11 @@
       "golden": 0
     },
     {
+      "name": "AEVEN Philippines",
+      "count": 1,
+      "golden": 0
+    },
+    {
       "name": "Blip.pt",
       "count": 1,
       "golden": 1
@@ -5376,6 +5421,11 @@
     },
     {
       "name": "Türk Ekonomi Bankası",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "AMD India Pvt. Ltd.",
       "count": 1,
       "golden": 0
     },
@@ -6051,6 +6101,11 @@
     },
     {
       "name": "RBC - Royal Bank of Canada",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "CAPGEMINI",
       "count": 1,
       "golden": 0
     },
@@ -7865,11 +7920,6 @@
       "golden": 0
     },
     {
-      "name": "SK AX",
-      "count": 1,
-      "golden": 0
-    },
-    {
       "name": "Profelis Bilişim",
       "count": 1,
       "golden": 0
@@ -8011,6 +8061,11 @@
     },
     {
       "name": "Primerica",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "NTT DOCOMO BUSINESS",
       "count": 1,
       "golden": 0
     },
@@ -8715,11 +8770,6 @@
       "golden": 1
     },
     {
-      "name": "Temabit",
-      "count": 1,
-      "golden": 0
-    },
-    {
       "name": "Independent Freelancer at Upwork",
       "count": 1,
       "golden": 1
@@ -9050,6 +9100,11 @@
       "golden": 0
     },
     {
+      "name": "Proxima",
+      "count": 1,
+      "golden": 0
+    },
+    {
       "name": "HTI",
       "count": 1,
       "golden": 0
@@ -9150,14 +9205,14 @@
     },
     {
       "name": "Tokyo",
-      "count": 83,
+      "count": 84,
       "golden": 10,
       "country": "Japan",
       "flag": "🇯🇵"
     },
     {
       "name": "Seoul",
-      "count": 69,
+      "count": 72,
       "golden": 6,
       "country": "South Korea",
       "flag": "🇰🇷"
@@ -9170,18 +9225,18 @@
       "flag": "🇫🇷"
     },
     {
+      "name": "Bengaluru",
+      "count": 53,
+      "golden": 6,
+      "country": "India",
+      "flag": "🇮🇳"
+    },
+    {
       "name": "London",
       "count": 52,
       "golden": 3,
       "country": "United Kingdom",
       "flag": "🇬🇧"
-    },
-    {
-      "name": "Bengaluru",
-      "count": 52,
-      "golden": 6,
-      "country": "India",
-      "flag": "🇮🇳"
     },
     {
       "name": "Bangalore",
@@ -9282,6 +9337,13 @@
       "flag": "🇹🇼"
     },
     {
+      "name": "Amsterdam",
+      "count": 24,
+      "golden": 4,
+      "country": "Netherlands",
+      "flag": "🇳🇱"
+    },
+    {
       "name": "Baku",
       "count": 24,
       "golden": 1,
@@ -9294,13 +9356,6 @@
       "golden": 2,
       "country": "Denmark",
       "flag": "🇩🇰"
-    },
-    {
-      "name": "Amsterdam",
-      "count": 23,
-      "golden": 4,
-      "country": "Netherlands",
-      "flag": "🇳🇱"
     },
     {
       "name": "Chennai",
@@ -9338,6 +9393,13 @@
       "flag": "🇺🇸"
     },
     {
+      "name": "Dhaka",
+      "count": 20,
+      "golden": 1,
+      "country": "Bangladesh",
+      "flag": "🇧🇩"
+    },
+    {
       "name": "Bangkok",
       "count": 20,
       "golden": 4,
@@ -9364,13 +9426,6 @@
       "golden": 1,
       "country": "Switzerland",
       "flag": "🇨🇭"
-    },
-    {
-      "name": "Dhaka",
-      "count": 19,
-      "golden": 1,
-      "country": "Bangladesh",
-      "flag": "🇧🇩"
     },
     {
       "name": "Zurich",
@@ -9492,5 +9547,5 @@
       "flag": "🇨🇦"
     }
   ],
-  "generatedAt": "2026-05-08T03:17:29.545Z"
+  "generatedAt": "2026-05-09T03:12:04.333Z"
 }
