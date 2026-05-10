@@ -1,7 +1,7 @@
 {
-  "total": 3957,
+  "total": 3956,
   "golden": 394,
-  "regular": 3306,
+  "regular": 3305,
   "ambassadors": 298,
   "countryCount": 112,
   "topCountries": [
@@ -181,7 +181,7 @@
     },
     {
       "name": "Thailand",
-      "count": 30,
+      "count": 29,
       "golden": 5,
       "flag": "🇹🇭"
     },
@@ -686,7 +686,7 @@
     },
     {
       "name": "Amazon Web Services",
-      "count": 33,
+      "count": 32,
       "golden": 3
     },
     {
@@ -9547,5 +9547,5 @@
       "flag": "🇨🇦"
     }
   ],
-  "generatedAt": "2026-05-09T03:12:04.333Z"
+  "generatedAt": "2026-05-10T03:16:54.506Z"
 }
