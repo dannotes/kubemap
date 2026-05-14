@@ -19,7 +19,7 @@
     },
     {
       "name": "Germany",
-      "count": 226,
+      "count": 227,
       "golden": 32,
       "flag": "🇩🇪"
     },
@@ -181,7 +181,7 @@
     },
     {
       "name": "Thailand",
-      "count": 30,
+      "count": 29,
       "golden": 5,
       "flag": "🇹🇭"
     },
@@ -686,7 +686,7 @@
     },
     {
       "name": "Amazon Web Services",
-      "count": 33,
+      "count": 32,
       "golden": 3
     },
     {
@@ -8195,6 +8195,11 @@
       "golden": 0
     },
     {
+      "name": "CompuGroup Medical",
+      "count": 1,
+      "golden": 0
+    },
+    {
       "name": "Kumori Labo",
       "count": 1,
       "golden": 1
@@ -9542,5 +9547,5 @@
       "flag": "🇨🇦"
     }
   ],
-  "generatedAt": "2026-05-13T03:24:02.136Z"
+  "generatedAt": "2026-05-14T03:25:56.251Z"
 }
