@@ -1,7 +1,7 @@
 {
-  "total": 3957,
+  "total": 3958,
   "golden": 399,
-  "regular": 3301,
+  "regular": 3302,
   "ambassadors": 298,
   "countryCount": 112,
   "topCountries": [
@@ -181,7 +181,7 @@
     },
     {
       "name": "Thailand",
-      "count": 29,
+      "count": 30,
       "golden": 5,
       "flag": "🇹🇭"
     },
@@ -686,7 +686,7 @@
     },
     {
       "name": "Amazon Web Services",
-      "count": 32,
+      "count": 33,
       "golden": 3
     },
     {
@@ -2670,7 +2670,7 @@
       "golden": 0
     },
     {
-      "name": "Surfshark",
+      "name": "Atviros Konsultacijos",
       "count": 1,
       "golden": 1
     },
@@ -9547,5 +9547,5 @@
       "flag": "🇨🇦"
     }
   ],
-  "generatedAt": "2026-05-14T03:25:56.251Z"
+  "generatedAt": "2026-05-15T03:29:16.442Z"
 }
