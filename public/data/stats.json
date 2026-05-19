@@ -1,7 +1,7 @@
 {
-  "total": 3997,
+  "total": 3996,
   "golden": 399,
-  "regular": 3341,
+  "regular": 3340,
   "ambassadors": 298,
   "countryCount": 112,
   "topCountries": [
@@ -37,7 +37,7 @@
     },
     {
       "name": "Japan",
-      "count": 166,
+      "count": 165,
       "golden": 26,
       "flag": "🇯🇵"
     },
@@ -810,6 +810,11 @@
       "golden": 1
     },
     {
+      "name": "SUSE",
+      "count": 6,
+      "golden": 2
+    },
+    {
       "name": "Morgan Stanley",
       "count": 6,
       "golden": 1
@@ -838,11 +843,6 @@
       "name": "National Australia Bank",
       "count": 6,
       "golden": 0
-    },
-    {
-      "name": "SUSE",
-      "count": 5,
-      "golden": 2
     },
     {
       "name": "Hewlett Packard Enterprise (HPE)",
@@ -1606,11 +1606,6 @@
     },
     {
       "name": "SoftwareOne",
-      "count": 2,
-      "golden": 0
-    },
-    {
-      "name": "Chronosphere",
       "count": 2,
       "golden": 0
     },
@@ -5555,11 +5550,6 @@
       "golden": 0
     },
     {
-      "name": "NTT DATA Group Corporation",
-      "count": 1,
-      "golden": 0
-    },
-    {
       "name": "OPTAGE Inc.",
       "count": 1,
       "golden": 1
@@ -6956,6 +6946,11 @@
     },
     {
       "name": "ARANOVA",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Chronosphere",
       "count": 1,
       "golden": 0
     },
@@ -9617,5 +9612,5 @@
       "flag": "🇳🇱"
     }
   ],
-  "generatedAt": "2026-05-18T04:00:50.763Z"
+  "generatedAt": "2026-05-19T03:30:22.336Z"
 }
