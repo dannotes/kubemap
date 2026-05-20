@@ -1,7 +1,7 @@
 {
-  "total": 3996,
-  "golden": 399,
-  "regular": 3340,
+  "total": 3997,
+  "golden": 401,
+  "regular": 3339,
   "ambassadors": 298,
   "countryCount": 112,
   "topCountries": [
@@ -37,7 +37,7 @@
     },
     {
       "name": "Japan",
-      "count": 165,
+      "count": 166,
       "golden": 26,
       "flag": "🇯🇵"
     },
@@ -188,13 +188,13 @@
     {
       "name": "Austria",
       "count": 29,
-      "golden": 2,
+      "golden": 3,
       "flag": "🇦🇹"
     },
     {
       "name": "Azerbaijan",
       "count": 28,
-      "golden": 1,
+      "golden": 2,
       "flag": "🇦🇿"
     },
     {
@@ -5550,6 +5550,11 @@
       "golden": 0
     },
     {
+      "name": "NTT DATA Group Corporation",
+      "count": 1,
+      "golden": 0
+    },
+    {
       "name": "OPTAGE Inc.",
       "count": 1,
       "golden": 1
@@ -6267,7 +6272,7 @@
     {
       "name": "Blum Group",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Sony - Playstation",
@@ -6587,7 +6592,7 @@
     {
       "name": "Bestcomp Group",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Agno",
@@ -9397,7 +9402,7 @@
     {
       "name": "Baku",
       "count": 26,
-      "golden": 1,
+      "golden": 2,
       "country": "Azerbaijan",
       "flag": "🇦🇿"
     },
@@ -9612,5 +9617,5 @@
       "flag": "🇳🇱"
     }
   ],
-  "generatedAt": "2026-05-19T03:30:22.336Z"
+  "generatedAt": "2026-05-20T03:30:43.553Z"
 }
