@@ -61,7 +61,7 @@
     },
     {
       "name": "Canada",
-      "count": 117,
+      "count": 118,
       "golden": 10,
       "flag": "🇨🇦"
     },
@@ -79,7 +79,7 @@
     },
     {
       "name": "Brazil",
-      "count": 99,
+      "count": 98,
       "golden": 5,
       "flag": "🇧🇷"
     },
@@ -9617,5 +9617,5 @@
       "flag": "🇳🇱"
     }
   ],
-  "generatedAt": "2026-05-20T03:30:43.553Z"
+  "generatedAt": "2026-05-21T03:59:03.892Z"
 }
