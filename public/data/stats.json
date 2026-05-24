@@ -1,37 +1,37 @@
 {
-  "total": 4028,
-  "golden": 401,
-  "regular": 3370,
-  "ambassadors": 298,
+  "total": 4043,
+  "golden": 402,
+  "regular": 3385,
+  "ambassadors": 297,
   "countryCount": 112,
   "topCountries": [
     {
       "name": "India",
-      "count": 401,
+      "count": 403,
       "golden": 35,
       "flag": "🇮🇳"
     },
     {
       "name": "United States",
-      "count": 360,
+      "count": 362,
       "golden": 48,
       "flag": "🇺🇸"
     },
     {
       "name": "Germany",
-      "count": 230,
-      "golden": 32,
+      "count": 231,
+      "golden": 33,
       "flag": "🇩🇪"
     },
     {
       "name": "France",
-      "count": 215,
+      "count": 216,
       "golden": 18,
       "flag": "🇫🇷"
     },
     {
       "name": "Netherlands",
-      "count": 190,
+      "count": 191,
       "golden": 16,
       "flag": "🇳🇱"
     },
@@ -43,7 +43,7 @@
     },
     {
       "name": "United Kingdom",
-      "count": 142,
+      "count": 143,
       "golden": 12,
       "flag": "🇬🇧"
     },
@@ -133,7 +133,7 @@
     },
     {
       "name": "Denmark",
-      "count": 42,
+      "count": 43,
       "golden": 8,
       "flag": "🇩🇰"
     },
@@ -174,16 +174,16 @@
       "flag": "🇷🇴"
     },
     {
+      "name": "Thailand",
+      "count": 31,
+      "golden": 5,
+      "flag": "🇹🇭"
+    },
+    {
       "name": "Ukraine",
       "count": 31,
       "golden": 8,
       "flag": "🇺🇦"
-    },
-    {
-      "name": "Thailand",
-      "count": 30,
-      "golden": 5,
-      "flag": "🇹🇭"
     },
     {
       "name": "Austria",
@@ -270,16 +270,16 @@
       "flag": "🇨🇷"
     },
     {
+      "name": "Georgia",
+      "count": 18,
+      "golden": 4,
+      "flag": "🇬🇪"
+    },
+    {
       "name": "Mexico",
       "count": 17,
       "golden": 3,
       "flag": "🇲🇽"
-    },
-    {
-      "name": "Georgia",
-      "count": 17,
-      "golden": 4,
-      "flag": "🇬🇪"
     },
     {
       "name": "Finland",
@@ -306,6 +306,12 @@
       "flag": "🇵🇰"
     },
     {
+      "name": "Czech Republic",
+      "count": 15,
+      "golden": 3,
+      "flag": "🇨🇿"
+    },
+    {
       "name": "Sri Lanka",
       "count": 15,
       "golden": 0,
@@ -316,12 +322,6 @@
       "count": 15,
       "golden": 0,
       "flag": "🇮🇱"
-    },
-    {
-      "name": "Czech Republic",
-      "count": 14,
-      "golden": 3,
-      "flag": "🇨🇿"
     },
     {
       "name": "South Africa",
@@ -337,27 +337,33 @@
     },
     {
       "name": "Greece",
-      "count": 11,
+      "count": 12,
       "golden": 2,
       "flag": "🇬🇷"
+    },
+    {
+      "name": "Kazakhstan",
+      "count": 11,
+      "golden": 1,
+      "flag": "🇰🇿"
+    },
+    {
+      "name": "Mongolia",
+      "count": 11,
+      "golden": 2,
+      "flag": "🇲🇳"
+    },
+    {
+      "name": "Malaysia",
+      "count": 10,
+      "golden": 1,
+      "flag": "🇲🇾"
     },
     {
       "name": "Belarus",
       "count": 10,
       "golden": 0,
       "flag": "🇧🇾"
-    },
-    {
-      "name": "Kazakhstan",
-      "count": 10,
-      "golden": 1,
-      "flag": "🇰🇿"
-    },
-    {
-      "name": "Mongolia",
-      "count": 10,
-      "golden": 2,
-      "flag": "🇲🇳"
     },
     {
       "name": "Slovenia",
@@ -376,12 +382,6 @@
       "count": 10,
       "golden": 0,
       "flag": "🇷🇸"
-    },
-    {
-      "name": "Malaysia",
-      "count": 9,
-      "golden": 1,
-      "flag": "🇲🇾"
     },
     {
       "name": "Luxembourg",
@@ -691,7 +691,7 @@
     },
     {
       "name": "Red Hat",
-      "count": 31,
+      "count": 32,
       "golden": 5
     },
     {
@@ -711,8 +711,8 @@
     },
     {
       "name": "SVA System Vertrieb Alexander GmbH",
-      "count": 19,
-      "golden": 7
+      "count": 20,
+      "golden": 8
     },
     {
       "name": "Google",
@@ -1070,6 +1070,11 @@
       "golden": 0
     },
     {
+      "name": "Khan Bank",
+      "count": 3,
+      "golden": 0
+    },
+    {
       "name": "Low Code Solutions",
       "count": 3,
       "golden": 0
@@ -1416,11 +1421,6 @@
     },
     {
       "name": "BRAC IT Services Limited",
-      "count": 2,
-      "golden": 0
-    },
-    {
-      "name": "Khan Bank",
       "count": 2,
       "golden": 0
     },
@@ -1946,6 +1946,16 @@
     },
     {
       "name": "Sony India - Playstation",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "cVation",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "United Wholesale Mortgage",
       "count": 2,
       "golden": 0
     },
@@ -6770,6 +6780,11 @@
       "golden": 0
     },
     {
+      "name": "Crocobet",
+      "count": 1,
+      "golden": 0
+    },
+    {
       "name": "Samsung Research Institute - Bangalore",
       "count": 1,
       "golden": 0
@@ -7355,6 +7370,11 @@
       "golden": 0
     },
     {
+      "name": "OpenText India",
+      "count": 1,
+      "golden": 0
+    },
+    {
       "name": "Senior Solutions Engineer",
       "count": 1,
       "golden": 0
@@ -7435,11 +7455,6 @@
       "golden": 0
     },
     {
-      "name": "United Wholesale Mortgage",
-      "count": 1,
-      "golden": 0
-    },
-    {
       "name": "Publicissapient",
       "count": 1,
       "golden": 0
@@ -7506,11 +7521,6 @@
     },
     {
       "name": "Institutional Shareholder Services",
-      "count": 1,
-      "golden": 0
-    },
-    {
-      "name": "Snowflake",
       "count": 1,
       "golden": 0
     },
@@ -7661,6 +7671,11 @@
     },
     {
       "name": "RX-M, LLC",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Digital Minded",
       "count": 1,
       "golden": 0
     },
@@ -7976,11 +7991,6 @@
     },
     {
       "name": "Pilatus IT",
-      "count": 1,
-      "golden": 0
-    },
-    {
-      "name": "cVation",
       "count": 1,
       "golden": 0
     },
@@ -9477,7 +9487,7 @@
     },
     {
       "name": "Copenhagen",
-      "count": 23,
+      "count": 24,
       "golden": 2,
       "country": "Denmark",
       "flag": "🇩🇰"
@@ -9672,5 +9682,5 @@
       "flag": "🇳🇱"
     }
   ],
-  "generatedAt": "2026-05-23T03:19:46.992Z"
+  "generatedAt": "2026-05-24T03:37:01.507Z"
 }
