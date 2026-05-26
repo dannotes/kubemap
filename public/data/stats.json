@@ -1,13 +1,13 @@
 {
-  "total": 4027,
-  "golden": 401,
-  "regular": 3369,
+  "total": 4028,
+  "golden": 406,
+  "regular": 3365,
   "ambassadors": 298,
   "countryCount": 112,
   "topCountries": [
     {
       "name": "India",
-      "count": 400,
+      "count": 401,
       "golden": 35,
       "flag": "🇮🇳"
     },
@@ -20,7 +20,7 @@
     {
       "name": "Germany",
       "count": 230,
-      "golden": 32,
+      "golden": 34,
       "flag": "🇩🇪"
     },
     {
@@ -38,13 +38,13 @@
     {
       "name": "Japan",
       "count": 167,
-      "golden": 26,
+      "golden": 28,
       "flag": "🇯🇵"
     },
     {
       "name": "United Kingdom",
       "count": 142,
-      "golden": 12,
+      "golden": 13,
       "flag": "🇬🇧"
     },
     {
@@ -1397,7 +1397,7 @@
     {
       "name": "Woven by Toyota",
       "count": 2,
-      "golden": 1
+      "golden": 2
     },
     {
       "name": "ElysianNXT",
@@ -3066,6 +3066,11 @@
     },
     {
       "name": "Vail Systems",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "R System International Ltd.",
       "count": 1,
       "golden": 0
     },
@@ -5442,7 +5447,7 @@
     {
       "name": "Accenture Japan Ltd.",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "ERICSSON",
@@ -9075,7 +9080,7 @@
       "golden": 0
     },
     {
-      "name": "Santander Consumer Bank AG",
+      "name": "Openbank Deutschland AG",
       "count": 1,
       "golden": 0
     },
@@ -9326,7 +9331,7 @@
     {
       "name": "Tokyo",
       "count": 86,
-      "golden": 11,
+      "golden": 13,
       "country": "Japan",
       "flag": "🇯🇵"
     },
@@ -9417,7 +9422,7 @@
     {
       "name": "Berlin",
       "count": 29,
-      "golden": 4,
+      "golden": 5,
       "country": "Germany",
       "flag": "🇩🇪"
     },
@@ -9667,5 +9672,5 @@
       "flag": "🇳🇱"
     }
   ],
-  "generatedAt": "2026-05-25T04:08:23.147Z"
+  "generatedAt": "2026-05-26T03:27:28.904Z"
 }
