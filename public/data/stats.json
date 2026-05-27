@@ -1,13 +1,13 @@
 {
-  "total": 4028,
+  "total": 4027,
   "golden": 406,
-  "regular": 3365,
+  "regular": 3364,
   "ambassadors": 298,
   "countryCount": 112,
   "topCountries": [
     {
       "name": "India",
-      "count": 401,
+      "count": 400,
       "golden": 35,
       "flag": "🇮🇳"
     },
@@ -3070,11 +3070,6 @@
       "golden": 0
     },
     {
-      "name": "R System International Ltd.",
-      "count": 1,
-      "golden": 0
-    },
-    {
       "name": "Ollion",
       "count": 1,
       "golden": 0
@@ -4575,7 +4570,7 @@
       "golden": 0
     },
     {
-      "name": "Megazone",
+      "name": "KubernetesLab.dev",
       "count": 1,
       "golden": 0
     },
@@ -9672,5 +9667,5 @@
       "flag": "🇳🇱"
     }
   ],
-  "generatedAt": "2026-05-26T03:27:28.904Z"
+  "generatedAt": "2026-05-27T04:06:40.200Z"
 }
