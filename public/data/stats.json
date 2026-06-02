@@ -1,20 +1,20 @@
 {
-  "total": 4063,
-  "golden": 406,
-  "regular": 3400,
+  "total": 4064,
+  "golden": 412,
+  "regular": 3395,
   "ambassadors": 298,
   "countryCount": 112,
   "topCountries": [
     {
       "name": "India",
-      "count": 404,
+      "count": 405,
       "golden": 35,
       "flag": "🇮🇳"
     },
     {
       "name": "United States",
       "count": 361,
-      "golden": 48,
+      "golden": 49,
       "flag": "🇺🇸"
     },
     {
@@ -38,7 +38,7 @@
     {
       "name": "Japan",
       "count": 169,
-      "golden": 28,
+      "golden": 29,
       "flag": "🇯🇵"
     },
     {
@@ -56,7 +56,7 @@
     {
       "name": "South Korea",
       "count": 133,
-      "golden": 11,
+      "golden": 12,
       "flag": "🇰🇷"
     },
     {
@@ -68,7 +68,7 @@
     {
       "name": "Singapore",
       "count": 117,
-      "golden": 5,
+      "golden": 7,
       "flag": "🇸🇬"
     },
     {
@@ -206,7 +206,7 @@
     {
       "name": "Belgium",
       "count": 28,
-      "golden": 3,
+      "golden": 4,
       "flag": "🇧🇪"
     },
     {
@@ -1032,7 +1032,7 @@
     {
       "name": "Singtel",
       "count": 4,
-      "golden": 1
+      "golden": 2
     },
     {
       "name": "Schuberg Philis",
@@ -3095,6 +3095,11 @@
       "golden": 0
     },
     {
+      "name": "R System International Ltd.",
+      "count": 1,
+      "golden": 0
+    },
+    {
       "name": "Ollion",
       "count": 1,
       "golden": 0
@@ -3192,7 +3197,7 @@
     {
       "name": "Thales AIR Lab",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Siemens Mobility",
@@ -4667,7 +4672,7 @@
     {
       "name": "HYUNDAI MOBIS",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "LINE Plus",
@@ -7652,7 +7657,7 @@
     {
       "name": "i8c",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Clever Advertising",
@@ -9389,7 +9394,7 @@
     {
       "name": "Singapore",
       "count": 114,
-      "golden": 5,
+      "golden": 7,
       "country": "Singapore",
       "flag": "🇸🇬"
     },
@@ -9737,5 +9742,5 @@
       "flag": "🇳🇱"
     }
   ],
-  "generatedAt": "2026-06-01T04:19:09.284Z"
+  "generatedAt": "2026-06-02T04:15:22.903Z"
 }
