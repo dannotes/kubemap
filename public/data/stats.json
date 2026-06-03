@@ -109,7 +109,7 @@
     },
     {
       "name": "Australia",
-      "count": 65,
+      "count": 66,
       "golden": 3,
       "flag": "🇦🇺"
     },
@@ -331,7 +331,7 @@
     },
     {
       "name": "New Zealand",
-      "count": 13,
+      "count": 12,
       "golden": 0,
       "flag": "🇳🇿"
     },
@@ -9700,6 +9700,13 @@
       "flag": "🇦🇹"
     },
     {
+      "name": "Sydney",
+      "count": 13,
+      "golden": 0,
+      "country": "Australia",
+      "flag": "🇦🇺"
+    },
+    {
       "name": "Beijing",
       "count": 13,
       "golden": 1,
@@ -9733,14 +9740,7 @@
       "golden": 3,
       "country": "Peru",
       "flag": "🇵🇪"
-    },
-    {
-      "name": "Utrecht",
-      "count": 13,
-      "golden": 1,
-      "country": "Netherlands",
-      "flag": "🇳🇱"
     }
   ],
-  "generatedAt": "2026-06-02T04:15:22.903Z"
+  "generatedAt": "2026-06-03T04:24:07.420Z"
 }
