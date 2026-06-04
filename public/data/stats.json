@@ -31,7 +31,7 @@
     },
     {
       "name": "Netherlands",
-      "count": 191,
+      "count": 190,
       "golden": 16,
       "flag": "🇳🇱"
     },
@@ -139,7 +139,7 @@
     },
     {
       "name": "Sweden",
-      "count": 37,
+      "count": 38,
       "golden": 4,
       "flag": "🇸🇪"
     },
@@ -9742,5 +9742,5 @@
       "flag": "🇵🇪"
     }
   ],
-  "generatedAt": "2026-06-03T04:24:07.420Z"
+  "generatedAt": "2026-06-04T04:17:57.739Z"
 }
