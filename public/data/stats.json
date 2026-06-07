@@ -1,13 +1,13 @@
 {
-  "total": 4095,
+  "total": 4094,
   "golden": 412,
-  "regular": 3426,
+  "regular": 3425,
   "ambassadors": 298,
   "countryCount": 112,
   "topCountries": [
     {
       "name": "India",
-      "count": 409,
+      "count": 408,
       "golden": 35,
       "flag": "🇮🇳"
     },
@@ -61,14 +61,14 @@
     },
     {
       "name": "Canada",
-      "count": 120,
-      "golden": 10,
+      "count": 121,
+      "golden": 11,
       "flag": "🇨🇦"
     },
     {
       "name": "Singapore",
-      "count": 117,
-      "golden": 7,
+      "count": 116,
+      "golden": 6,
       "flag": "🇸🇬"
     },
     {
@@ -1035,11 +1035,6 @@
       "golden": 1
     },
     {
-      "name": "Singtel",
-      "count": 4,
-      "golden": 2
-    },
-    {
       "name": "Schuberg Philis",
       "count": 4,
       "golden": 0
@@ -1253,6 +1248,11 @@
       "name": "Independent",
       "count": 3,
       "golden": 0
+    },
+    {
+      "name": "Singtel",
+      "count": 3,
+      "golden": 1
     },
     {
       "name": "Techforce1",
@@ -3106,11 +3106,6 @@
     },
     {
       "name": "Vail Systems",
-      "count": 1,
-      "golden": 0
-    },
-    {
-      "name": "R System International Ltd.",
       "count": 1,
       "golden": 0
     },
@@ -7430,6 +7425,11 @@
       "golden": 0
     },
     {
+      "name": "Majesco",
+      "count": 1,
+      "golden": 1
+    },
+    {
       "name": "AccuKnox",
       "count": 1,
       "golden": 0
@@ -9448,8 +9448,8 @@
   "topCities": [
     {
       "name": "Singapore",
-      "count": 114,
-      "golden": 7,
+      "count": 113,
+      "golden": 6,
       "country": "Singapore",
       "flag": "🇸🇬"
     },
@@ -9797,5 +9797,5 @@
       "flag": "🇵🇪"
     }
   ],
-  "generatedAt": "2026-06-06T03:26:52.575Z"
+  "generatedAt": "2026-06-07T04:11:40.794Z"
 }
