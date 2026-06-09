@@ -1,20 +1,20 @@
 {
-  "total": 4095,
-  "golden": 412,
-  "regular": 3426,
+  "total": 4094,
+  "golden": 417,
+  "regular": 3420,
   "ambassadors": 298,
   "countryCount": 112,
   "topCountries": [
     {
       "name": "India",
-      "count": 409,
+      "count": 408,
       "golden": 35,
       "flag": "🇮🇳"
     },
     {
       "name": "United States",
       "count": 362,
-      "golden": 49,
+      "golden": 50,
       "flag": "🇺🇸"
     },
     {
@@ -32,7 +32,7 @@
     {
       "name": "Netherlands",
       "count": 191,
-      "golden": 16,
+      "golden": 17,
       "flag": "🇳🇱"
     },
     {
@@ -86,7 +86,7 @@
     {
       "name": "Turkey",
       "count": 96,
-      "golden": 6,
+      "golden": 7,
       "flag": "🇹🇷"
     },
     {
@@ -98,7 +98,7 @@
     {
       "name": "Spain",
       "count": 70,
-      "golden": 4,
+      "golden": 5,
       "flag": "🇪🇸"
     },
     {
@@ -140,7 +140,7 @@
     {
       "name": "Sweden",
       "count": 39,
-      "golden": 4,
+      "golden": 5,
       "flag": "🇸🇪"
     },
     {
@@ -3110,11 +3110,6 @@
       "golden": 0
     },
     {
-      "name": "R System International Ltd.",
-      "count": 1,
-      "golden": 0
-    },
-    {
       "name": "Ollion",
       "count": 1,
       "golden": 0
@@ -5027,7 +5022,7 @@
     {
       "name": "Second Front System",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Greater B.V",
@@ -8132,7 +8127,7 @@
     {
       "name": "GoodHabitz",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "CloudGeometry",
@@ -9802,5 +9797,5 @@
       "flag": "🇵🇪"
     }
   ],
-  "generatedAt": "2026-06-08T04:17:15.093Z"
+  "generatedAt": "2026-06-09T03:26:12.373Z"
 }
