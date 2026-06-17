@@ -1,20 +1,20 @@
 {
   "total": 4128,
-  "golden": 417,
-  "regular": 3454,
+  "golden": 426,
+  "regular": 3445,
   "ambassadors": 298,
   "countryCount": 112,
   "topCountries": [
     {
       "name": "India",
-      "count": 412,
+      "count": 413,
       "golden": 35,
       "flag": "🇮🇳"
     },
     {
       "name": "United States",
       "count": 363,
-      "golden": 50,
+      "golden": 51,
       "flag": "🇺🇸"
     },
     {
@@ -26,7 +26,7 @@
     {
       "name": "France",
       "count": 222,
-      "golden": 18,
+      "golden": 19,
       "flag": "🇫🇷"
     },
     {
@@ -38,7 +38,7 @@
     {
       "name": "Japan",
       "count": 171,
-      "golden": 29,
+      "golden": 30,
       "flag": "🇯🇵"
     },
     {
@@ -50,7 +50,7 @@
     {
       "name": "Poland",
       "count": 142,
-      "golden": 9,
+      "golden": 10,
       "flag": "🇵🇱"
     },
     {
@@ -62,7 +62,7 @@
     {
       "name": "Canada",
       "count": 123,
-      "golden": 11,
+      "golden": 12,
       "flag": "🇨🇦"
     },
     {
@@ -74,13 +74,13 @@
     {
       "name": "Switzerland",
       "count": 104,
-      "golden": 9,
+      "golden": 10,
       "flag": "🇨🇭"
     },
     {
       "name": "Brazil",
       "count": 103,
-      "golden": 5,
+      "golden": 6,
       "flag": "🇧🇷"
     },
     {
@@ -98,7 +98,7 @@
     {
       "name": "Spain",
       "count": 70,
-      "golden": 5,
+      "golden": 6,
       "flag": "🇪🇸"
     },
     {
@@ -110,7 +110,7 @@
     {
       "name": "Australia",
       "count": 67,
-      "golden": 3,
+      "golden": 4,
       "flag": "🇦🇺"
     },
     {
@@ -246,16 +246,16 @@
       "flag": "🇧🇩"
     },
     {
-      "name": "Peru",
-      "count": 22,
-      "golden": 5,
-      "flag": "🇵🇪"
-    },
-    {
       "name": "Colombia",
       "count": 21,
       "golden": 0,
       "flag": "🇨🇴"
+    },
+    {
+      "name": "Peru",
+      "count": 21,
+      "golden": 5,
+      "flag": "🇵🇪"
     },
     {
       "name": "Mexico",
@@ -972,7 +972,7 @@
     {
       "name": "Itaú Unibanco",
       "count": 4,
-      "golden": 1
+      "golden": 2
     },
     {
       "name": "ControlPlane",
@@ -1215,11 +1215,6 @@
       "golden": 0
     },
     {
-      "name": "Banco de Crédito del Perú",
-      "count": 3,
-      "golden": 2
-    },
-    {
       "name": "Tata Consultancy Services",
       "count": 3,
       "golden": 0
@@ -1247,7 +1242,7 @@
     {
       "name": "Independent",
       "count": 3,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Singtel",
@@ -1968,6 +1963,11 @@
       "name": "Lumitec Technologies",
       "count": 2,
       "golden": 0
+    },
+    {
+      "name": "Banco de Crédito del Perú",
+      "count": 2,
+      "golden": 2
     },
     {
       "name": "INVERS GmbH",
@@ -2752,7 +2752,7 @@
     {
       "name": "Cornèr Banca SA",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Ataccama",
@@ -3126,6 +3126,11 @@
     },
     {
       "name": "Vail Systems",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "R System International Ltd.",
       "count": 1,
       "golden": 0
     },
@@ -5297,7 +5302,7 @@
     {
       "name": "CIC Consulting Informático",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "The Workshop - Inventors of Play",
@@ -6082,7 +6087,7 @@
     {
       "name": "Knack Works, Inc.",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "HCS Company B.V.",
@@ -9516,7 +9521,7 @@
     {
       "name": "Tokyo",
       "count": 88,
-      "golden": 13,
+      "golden": 14,
       "country": "Japan",
       "flag": "🇯🇵"
     },
@@ -9530,7 +9535,7 @@
     {
       "name": "Paris",
       "count": 65,
-      "golden": 5,
+      "golden": 6,
       "country": "France",
       "flag": "🇫🇷"
     },
@@ -9586,7 +9591,7 @@
     {
       "name": "Warsaw",
       "count": 36,
-      "golden": 3,
+      "golden": 4,
       "country": "Poland",
       "flag": "🇵🇱"
     },
@@ -9705,7 +9710,7 @@
     {
       "name": "São Paulo",
       "count": 21,
-      "golden": 1,
+      "golden": 2,
       "country": "Brazil",
       "flag": "🇧🇷"
     },
@@ -9817,7 +9822,7 @@
     {
       "name": "Sydney",
       "count": 14,
-      "golden": 0,
+      "golden": 1,
       "country": "Australia",
       "flag": "🇦🇺"
     },
@@ -9827,13 +9832,6 @@
       "golden": 1,
       "country": "Sweden",
       "flag": "🇸🇪"
-    },
-    {
-      "name": "Lima",
-      "count": 14,
-      "golden": 3,
-      "country": "Peru",
-      "flag": "🇵🇪"
     },
     {
       "name": "Beijing",
@@ -9855,7 +9853,14 @@
       "golden": 1,
       "country": "Indonesia",
       "flag": "🇮🇩"
+    },
+    {
+      "name": "Lima",
+      "count": 13,
+      "golden": 3,
+      "country": "Peru",
+      "flag": "🇵🇪"
     }
   ],
-  "generatedAt": "2026-06-16T04:22:57.650Z"
+  "generatedAt": "2026-06-17T04:26:32.612Z"
 }
