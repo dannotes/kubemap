@@ -1,20 +1,20 @@
 {
-  "total": 4165,
-  "golden": 426,
-  "regular": 3482,
+  "total": 4163,
+  "golden": 436,
+  "regular": 3471,
   "ambassadors": 298,
   "countryCount": 113,
   "topCountries": [
     {
       "name": "India",
-      "count": 417,
-      "golden": 35,
+      "count": 416,
+      "golden": 36,
       "flag": "🇮🇳"
     },
     {
       "name": "United States",
       "count": 368,
-      "golden": 51,
+      "golden": 53,
       "flag": "🇺🇸"
     },
     {
@@ -32,7 +32,7 @@
     {
       "name": "Netherlands",
       "count": 197,
-      "golden": 17,
+      "golden": 18,
       "flag": "🇳🇱"
     },
     {
@@ -56,7 +56,7 @@
     {
       "name": "South Korea",
       "count": 137,
-      "golden": 12,
+      "golden": 13,
       "flag": "🇰🇷"
     },
     {
@@ -68,7 +68,7 @@
     {
       "name": "Singapore",
       "count": 116,
-      "golden": 6,
+      "golden": 8,
       "flag": "🇸🇬"
     },
     {
@@ -79,7 +79,7 @@
     },
     {
       "name": "Brazil",
-      "count": 103,
+      "count": 102,
       "golden": 6,
       "flag": "🇧🇷"
     },
@@ -140,7 +140,7 @@
     {
       "name": "Sweden",
       "count": 39,
-      "golden": 5,
+      "golden": 6,
       "flag": "🇸🇪"
     },
     {
@@ -254,7 +254,7 @@
     {
       "name": "Peru",
       "count": 21,
-      "golden": 5,
+      "golden": 6,
       "flag": "🇵🇪"
     },
     {
@@ -284,7 +284,7 @@
     {
       "name": "Finland",
       "count": 16,
-      "golden": 1,
+      "golden": 2,
       "flag": "🇫🇮"
     },
     {
@@ -698,7 +698,7 @@
     {
       "name": "Red Hat",
       "count": 32,
-      "golden": 5
+      "golden": 6
     },
     {
       "name": "Sopra Steria",
@@ -1143,7 +1143,7 @@
     {
       "name": "Avanade",
       "count": 3,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Vinted",
@@ -2058,7 +2058,7 @@
     {
       "name": "VULTR",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Bouygues Telecom",
@@ -2493,7 +2493,7 @@
     {
       "name": "Valmet Technologies Oy",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "NETCOMPANY",
@@ -3157,11 +3157,6 @@
     },
     {
       "name": "Vail Systems",
-      "count": 1,
-      "golden": 0
-    },
-    {
-      "name": "R System International Ltd.",
       "count": 1,
       "golden": 0
     },
@@ -5353,7 +5348,7 @@
     {
       "name": "Banco de Credito del Perú",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Blip.pt",
@@ -9575,7 +9570,7 @@
     {
       "name": "Singapore",
       "count": 113,
-      "golden": 6,
+      "golden": 8,
       "country": "Singapore",
       "flag": "🇸🇬"
     },
@@ -9757,7 +9752,7 @@
     {
       "name": "Austin",
       "count": 22,
-      "golden": 3,
+      "golden": 4,
       "country": "United States",
       "flag": "🇺🇸"
     },
@@ -9923,5 +9918,5 @@
       "flag": "🇯🇵"
     }
   ],
-  "generatedAt": "2026-06-22T04:31:57.598Z"
+  "generatedAt": "2026-06-23T03:30:53.622Z"
 }
