@@ -7,13 +7,13 @@
   "topCountries": [
     {
       "name": "India",
-      "count": 419,
+      "count": 420,
       "golden": 36,
       "flag": "🇮🇳"
     },
     {
       "name": "United States",
-      "count": 371,
+      "count": 370,
       "golden": 53,
       "flag": "🇺🇸"
     },
@@ -3967,6 +3967,11 @@
     },
     {
       "name": "Backbase",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Kyubos",
       "count": 1,
       "golden": 0
     },
@@ -9806,6 +9811,13 @@
       "flag": "🇻🇳"
     },
     {
+      "name": "Mumbai",
+      "count": 23,
+      "golden": 3,
+      "country": "India",
+      "flag": "🇮🇳"
+    },
+    {
       "name": "Ho Chi Minh City",
       "count": 23,
       "golden": 1,
@@ -9830,13 +9842,6 @@
       "name": "Chennai",
       "count": 22,
       "golden": 5,
-      "country": "India",
-      "flag": "🇮🇳"
-    },
-    {
-      "name": "Mumbai",
-      "count": 22,
-      "golden": 3,
       "country": "India",
       "flag": "🇮🇳"
     },
@@ -9988,5 +9993,5 @@
       "flag": "🇮🇩"
     }
   ],
-  "generatedAt": "2026-06-27T03:26:26.393Z"
+  "generatedAt": "2026-06-28T04:08:07.474Z"
 }
