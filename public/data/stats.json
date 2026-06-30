@@ -1,14 +1,14 @@
 {
-  "total": 4203,
-  "golden": 436,
-  "regular": 3511,
+  "total": 4204,
+  "golden": 444,
+  "regular": 3504,
   "ambassadors": 298,
   "countryCount": 113,
   "topCountries": [
     {
       "name": "India",
-      "count": 419,
-      "golden": 36,
+      "count": 420,
+      "golden": 37,
       "flag": "🇮🇳"
     },
     {
@@ -32,7 +32,7 @@
     {
       "name": "Netherlands",
       "count": 199,
-      "golden": 18,
+      "golden": 19,
       "flag": "🇳🇱"
     },
     {
@@ -56,7 +56,7 @@
     {
       "name": "South Korea",
       "count": 139,
-      "golden": 13,
+      "golden": 14,
       "flag": "🇰🇷"
     },
     {
@@ -68,7 +68,7 @@
     {
       "name": "Singapore",
       "count": 116,
-      "golden": 8,
+      "golden": 9,
       "flag": "🇸🇬"
     },
     {
@@ -80,7 +80,7 @@
     {
       "name": "Brazil",
       "count": 103,
-      "golden": 6,
+      "golden": 7,
       "flag": "🇧🇷"
     },
     {
@@ -98,7 +98,7 @@
     {
       "name": "Norway",
       "count": 73,
-      "golden": 16,
+      "golden": 17,
       "flag": "🇳🇴"
     },
     {
@@ -116,7 +116,7 @@
     {
       "name": "China",
       "count": 66,
-      "golden": 5,
+      "golden": 6,
       "flag": "🇨🇳"
     },
     {
@@ -242,7 +242,7 @@
     {
       "name": "Bulgaria",
       "count": 24,
-      "golden": 1,
+      "golden": 2,
       "flag": "🇧🇬"
     },
     {
@@ -748,7 +748,7 @@
     {
       "name": "HPE",
       "count": 11,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Broadcom",
@@ -1043,7 +1043,7 @@
     {
       "name": "Redpill Linpro",
       "count": 4,
-      "golden": 1
+      "golden": 2
     },
     {
       "name": "Schuberg Philis",
@@ -3167,6 +3167,11 @@
     },
     {
       "name": "Vail Systems",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "R System International Ltd.",
       "count": 1,
       "golden": 0
     },
@@ -5433,7 +5438,7 @@
     {
       "name": "Mindwareworks",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Banco de Crédito del Perú - BCP",
@@ -9640,7 +9645,7 @@
     {
       "name": "Singapore",
       "count": 113,
-      "golden": 8,
+      "golden": 9,
       "country": "Singapore",
       "flag": "🇸🇬"
     },
@@ -9654,7 +9659,7 @@
     {
       "name": "Seoul",
       "count": 76,
-      "golden": 6,
+      "golden": 7,
       "country": "South Korea",
       "flag": "🇰🇷"
     },
@@ -9682,7 +9687,7 @@
     {
       "name": "Bangalore",
       "count": 46,
-      "golden": 2,
+      "golden": 3,
       "country": "India",
       "flag": "🇮🇳"
     },
@@ -9696,7 +9701,7 @@
     {
       "name": "Oslo",
       "count": 44,
-      "golden": 10,
+      "golden": 11,
       "country": "Norway",
       "flag": "🇳🇴"
     },
@@ -9843,21 +9848,21 @@
     {
       "name": "Shanghai",
       "count": 22,
-      "golden": 2,
+      "golden": 3,
       "country": "China",
       "flag": "🇨🇳"
     },
     {
       "name": "São Paulo",
       "count": 21,
-      "golden": 2,
+      "golden": 3,
       "country": "Brazil",
       "flag": "🇧🇷"
     },
     {
       "name": "Sofia",
       "count": 21,
-      "golden": 1,
+      "golden": 2,
       "country": "Bulgaria",
       "flag": "🇧🇬"
     },
@@ -9988,5 +9993,5 @@
       "flag": "🇮🇩"
     }
   ],
-  "generatedAt": "2026-06-29T04:12:43.051Z"
+  "generatedAt": "2026-06-30T04:00:00.894Z"
 }
