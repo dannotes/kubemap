@@ -348,6 +348,12 @@
       "flag": "🇬🇷"
     },
     {
+      "name": "Kazakhstan",
+      "count": 11,
+      "golden": 1,
+      "flag": "🇰🇿"
+    },
+    {
       "name": "Mongolia",
       "count": 11,
       "golden": 2,
@@ -358,12 +364,6 @@
       "count": 10,
       "golden": 0,
       "flag": "🇧🇾"
-    },
-    {
-      "name": "Kazakhstan",
-      "count": 10,
-      "golden": 1,
-      "flag": "🇰🇿"
     },
     {
       "name": "Slovenia",
@@ -9993,5 +9993,5 @@
       "flag": "🇮🇩"
     }
   ],
-  "generatedAt": "2026-06-30T04:00:00.894Z"
+  "generatedAt": "2026-07-01T04:08:40.319Z"
 }
