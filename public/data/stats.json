@@ -1,26 +1,26 @@
 {
-  "total": 4237,
-  "golden": 444,
-  "regular": 3537,
+  "total": 4238,
+  "golden": 450,
+  "regular": 3532,
   "ambassadors": 298,
   "countryCount": 113,
   "topCountries": [
     {
       "name": "India",
-      "count": 424,
+      "count": 425,
       "golden": 37,
       "flag": "🇮🇳"
     },
     {
       "name": "United States",
       "count": 370,
-      "golden": 53,
+      "golden": 54,
       "flag": "🇺🇸"
     },
     {
       "name": "Germany",
       "count": 242,
-      "golden": 34,
+      "golden": 35,
       "flag": "🇩🇪"
     },
     {
@@ -38,7 +38,7 @@
     {
       "name": "Japan",
       "count": 180,
-      "golden": 30,
+      "golden": 31,
       "flag": "🇯🇵"
     },
     {
@@ -92,13 +92,13 @@
     {
       "name": "Vietnam",
       "count": 82,
-      "golden": 6,
+      "golden": 7,
       "flag": "🇻🇳"
     },
     {
       "name": "Norway",
       "count": 75,
-      "golden": 17,
+      "golden": 18,
       "flag": "🇳🇴"
     },
     {
@@ -122,7 +122,7 @@
     {
       "name": "Italy",
       "count": 60,
-      "golden": 7,
+      "golden": 8,
       "flag": "🇮🇹"
     },
     {
@@ -688,7 +688,7 @@
     {
       "name": "Microsoft",
       "count": 72,
-      "golden": 11
+      "golden": 12
     },
     {
       "name": "Amazon Web Services",
@@ -703,7 +703,7 @@
     {
       "name": "Sopra Steria",
       "count": 29,
-      "golden": 7
+      "golden": 8
     },
     {
       "name": "AWS",
@@ -863,7 +863,7 @@
     {
       "name": "Freelancer",
       "count": 6,
-      "golden": 1
+      "golden": 2
     },
     {
       "name": "National Australia Bank",
@@ -3181,6 +3181,11 @@
       "golden": 0
     },
     {
+      "name": "R System International Ltd.",
+      "count": 1,
+      "golden": 0
+    },
+    {
       "name": "Ollion",
       "count": 1,
       "golden": 0
@@ -3888,7 +3893,7 @@
     {
       "name": "ASWhite Global",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "VNPT Cloud",
@@ -4133,7 +4138,7 @@
     {
       "name": "tecnolink",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Garanti BBVA Technology",
@@ -6953,7 +6958,7 @@
     {
       "name": "Voloridge",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Joby Aviation",
@@ -9702,7 +9707,7 @@
     {
       "name": "Tokyo",
       "count": 91,
-      "golden": 14,
+      "golden": 15,
       "country": "Japan",
       "flag": "🇯🇵"
     },
@@ -9835,7 +9840,7 @@
     {
       "name": "Munich",
       "count": 26,
-      "golden": 4,
+      "golden": 5,
       "country": "Germany",
       "flag": "🇩🇪"
     },
@@ -10043,5 +10048,5 @@
       "flag": "🇮🇩"
     }
   ],
-  "generatedAt": "2026-07-07T03:24:40.426Z"
+  "generatedAt": "2026-07-08T03:02:18.114Z"
 }
