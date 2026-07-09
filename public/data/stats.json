@@ -1,13 +1,13 @@
 {
-  "total": 4238,
+  "total": 4237,
   "golden": 450,
   "regular": 3532,
-  "ambassadors": 298,
+  "ambassadors": 297,
   "countryCount": 113,
   "topCountries": [
     {
       "name": "India",
-      "count": 425,
+      "count": 424,
       "golden": 37,
       "flag": "🇮🇳"
     },
@@ -5851,11 +5851,6 @@
       "golden": 0
     },
     {
-      "name": "Independant",
-      "count": 1,
-      "golden": 0
-    },
-    {
       "name": "Sony India",
       "count": 1,
       "golden": 0
@@ -9873,13 +9868,6 @@
       "flag": "🇻🇳"
     },
     {
-      "name": "Mumbai",
-      "count": 23,
-      "golden": 3,
-      "country": "India",
-      "flag": "🇮🇳"
-    },
-    {
       "name": "Dhaka",
       "count": 22,
       "golden": 1,
@@ -9897,6 +9885,13 @@
       "name": "Chennai",
       "count": 22,
       "golden": 5,
+      "country": "India",
+      "flag": "🇮🇳"
+    },
+    {
+      "name": "Mumbai",
+      "count": 22,
+      "golden": 3,
       "country": "India",
       "flag": "🇮🇳"
     },
@@ -10048,5 +10043,5 @@
       "flag": "🇮🇩"
     }
   ],
-  "generatedAt": "2026-07-08T03:02:18.114Z"
+  "generatedAt": "2026-07-09T03:16:57.146Z"
 }
