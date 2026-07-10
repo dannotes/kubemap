@@ -49,7 +49,7 @@
     },
     {
       "name": "Poland",
-      "count": 145,
+      "count": 144,
       "golden": 10,
       "flag": "🇵🇱"
     },
@@ -259,7 +259,7 @@
     },
     {
       "name": "Mexico",
-      "count": 19,
+      "count": 20,
       "golden": 3,
       "flag": "🇲🇽"
     },
@@ -10043,5 +10043,5 @@
       "flag": "🇮🇩"
     }
   ],
-  "generatedAt": "2026-07-09T03:16:57.146Z"
+  "generatedAt": "2026-07-10T03:19:29.906Z"
 }
