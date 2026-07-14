@@ -1,7 +1,7 @@
 {
   "total": 4267,
-  "golden": 450,
-  "regular": 3562,
+  "golden": 456,
+  "regular": 3556,
   "ambassadors": 297,
   "countryCount": 113,
   "topCountries": [
@@ -32,13 +32,13 @@
     {
       "name": "Netherlands",
       "count": 204,
-      "golden": 19,
+      "golden": 20,
       "flag": "🇳🇱"
     },
     {
       "name": "Japan",
       "count": 183,
-      "golden": 31,
+      "golden": 32,
       "flag": "🇯🇵"
     },
     {
@@ -92,7 +92,7 @@
     {
       "name": "Vietnam",
       "count": 85,
-      "golden": 7,
+      "golden": 8,
       "flag": "🇻🇳"
     },
     {
@@ -122,7 +122,7 @@
     {
       "name": "Italy",
       "count": 60,
-      "golden": 8,
+      "golden": 9,
       "flag": "🇮🇹"
     },
     {
@@ -152,7 +152,7 @@
     {
       "name": "Tunisia",
       "count": 38,
-      "golden": 2,
+      "golden": 3,
       "flag": "🇹🇳"
     },
     {
@@ -650,7 +650,7 @@
     {
       "name": "Cote d'Ivoire",
       "count": 1,
-      "golden": 0,
+      "golden": 1,
       "flag": "🇨🇮"
     },
     {
@@ -688,7 +688,7 @@
     {
       "name": "Microsoft",
       "count": 73,
-      "golden": 12
+      "golden": 13
     },
     {
       "name": "Amazon Web Services",
@@ -1943,7 +1943,7 @@
     {
       "name": "Viettel AI",
       "count": 2,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "RawWorks",
@@ -4093,7 +4093,7 @@
     {
       "name": "LuvDaSun",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Wildberries",
@@ -8761,7 +8761,7 @@
       "golden": 0
     },
     {
-      "name": "Vinci Energies France",
+      "name": "Naval Group",
       "count": 1,
       "golden": 0
     },
@@ -9747,7 +9747,7 @@
     {
       "name": "Tokyo",
       "count": 92,
-      "golden": 15,
+      "golden": 16,
       "country": "Japan",
       "flag": "🇯🇵"
     },
@@ -9887,7 +9887,7 @@
     {
       "name": "Hanoi",
       "count": 26,
-      "golden": 2,
+      "golden": 3,
       "country": "Vietnam",
       "flag": "🇻🇳"
     },
@@ -10088,5 +10088,5 @@
       "flag": "🇮🇩"
     }
   ],
-  "generatedAt": "2026-07-12T03:04:54.102Z"
+  "generatedAt": "2026-07-14T02:46:20.813Z"
 }
