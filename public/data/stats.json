@@ -1,14 +1,14 @@
 {
   "total": 4311,
-  "golden": 456,
-  "regular": 3601,
+  "golden": 463,
+  "regular": 3594,
   "ambassadors": 298,
   "countryCount": 113,
   "topCountries": [
     {
       "name": "India",
       "count": 430,
-      "golden": 37,
+      "golden": 39,
       "flag": "🇮🇳"
     },
     {
@@ -32,7 +32,7 @@
     {
       "name": "Netherlands",
       "count": 206,
-      "golden": 20,
+      "golden": 22,
       "flag": "🇳🇱"
     },
     {
@@ -50,7 +50,7 @@
     {
       "name": "Poland",
       "count": 145,
-      "golden": 10,
+      "golden": 11,
       "flag": "🇵🇱"
     },
     {
@@ -92,7 +92,7 @@
     {
       "name": "Vietnam",
       "count": 86,
-      "golden": 8,
+      "golden": 9,
       "flag": "🇻🇳"
     },
     {
@@ -278,7 +278,7 @@
     {
       "name": "Finland",
       "count": 17,
-      "golden": 2,
+      "golden": 3,
       "flag": "🇫🇮"
     },
     {
@@ -748,7 +748,7 @@
     {
       "name": "HPE",
       "count": 12,
-      "golden": 1
+      "golden": 2
     },
     {
       "name": "Accenture",
@@ -1708,7 +1708,7 @@
     {
       "name": "Kroescontrol",
       "count": 2,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Avisi Cloud",
@@ -1893,7 +1893,7 @@
     {
       "name": "Civo",
       "count": 2,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Itau Unibanco",
@@ -6148,7 +6148,7 @@
     {
       "name": "FPT Software",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Nazihar IT Solution Limited",
@@ -7083,7 +7083,7 @@
     {
       "name": "Blue Owl Oy",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Nscale",
@@ -9879,7 +9879,7 @@
     {
       "name": "Pune",
       "count": 45,
-      "golden": 4,
+      "golden": 5,
       "country": "India",
       "flag": "🇮🇳"
     },
@@ -10178,5 +10178,5 @@
       "flag": "🇮🇩"
     }
   ],
-  "generatedAt": "2026-07-20T03:48:06.642Z"
+  "generatedAt": "2026-07-21T03:00:55.594Z"
 }
