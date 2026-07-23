@@ -1,13 +1,13 @@
 {
-  "total": 4311,
+  "total": 4310,
   "golden": 463,
-  "regular": 3594,
+  "regular": 3593,
   "ambassadors": 298,
   "countryCount": 113,
   "topCountries": [
     {
       "name": "India",
-      "count": 430,
+      "count": 429,
       "golden": 39,
       "flag": "🇮🇳"
     },
@@ -1891,11 +1891,6 @@
       "golden": 0
     },
     {
-      "name": "Civo",
-      "count": 2,
-      "golden": 1
-    },
-    {
       "name": "Itau Unibanco",
       "count": 2,
       "golden": 0
@@ -1989,6 +1984,11 @@
       "name": "Sony India - Playstation",
       "count": 2,
       "golden": 0
+    },
+    {
+      "name": "Mirantis",
+      "count": 2,
+      "golden": 1
     },
     {
       "name": "Lumitec Technologies",
@@ -3207,11 +3207,6 @@
     },
     {
       "name": "Vail Systems",
-      "count": 1,
-      "golden": 0
-    },
-    {
-      "name": "R System International Ltd.",
       "count": 1,
       "golden": 0
     },
@@ -5896,6 +5891,11 @@
       "golden": 0
     },
     {
+      "name": "Civo",
+      "count": 1,
+      "golden": 0
+    },
+    {
       "name": "Sony India",
       "count": 1,
       "golden": 0
@@ -7662,11 +7662,6 @@
     },
     {
       "name": "BBD India Pvt Ltd",
-      "count": 1,
-      "golden": 0
-    },
-    {
-      "name": "Mirantis",
       "count": 1,
       "golden": 0
     },
@@ -10178,5 +10173,5 @@
       "flag": "🇮🇩"
     }
   ],
-  "generatedAt": "2026-07-22T02:59:55.291Z"
+  "generatedAt": "2026-07-23T03:04:35.425Z"
 }
