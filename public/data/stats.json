@@ -1,14 +1,14 @@
 {
   "total": 4343,
-  "golden": 463,
-  "regular": 3626,
+  "golden": 465,
+  "regular": 3624,
   "ambassadors": 298,
   "countryCount": 113,
   "topCountries": [
     {
       "name": "India",
       "count": 434,
-      "golden": 39,
+      "golden": 41,
       "flag": "🇮🇳"
     },
     {
@@ -5768,7 +5768,7 @@
     {
       "name": "AMD India Pvt. Ltd.",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "HumanITy GmbH",
@@ -9378,7 +9378,7 @@
     {
       "name": "Poshmark",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Waltsoft Inc",
@@ -9898,7 +9898,7 @@
     {
       "name": "Bengaluru",
       "count": 59,
-      "golden": 6,
+      "golden": 7,
       "country": "India",
       "flag": "🇮🇳"
     },
@@ -10059,7 +10059,7 @@
     {
       "name": "Chennai",
       "count": 22,
-      "golden": 5,
+      "golden": 6,
       "country": "India",
       "flag": "🇮🇳"
     },
@@ -10218,5 +10218,5 @@
       "flag": "🇮🇩"
     }
   ],
-  "generatedAt": "2026-07-27T03:14:53.951Z"
+  "generatedAt": "2026-07-28T02:49:22.880Z"
 }
