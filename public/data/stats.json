@@ -9876,7 +9876,7 @@
     },
     {
       "name": "Tokyo",
-      "count": 94,
+      "count": 95,
       "golden": 16,
       "country": "Japan",
       "flag": "🇯🇵"
@@ -10218,5 +10218,5 @@
       "flag": "🇮🇩"
     }
   ],
-  "generatedAt": "2026-07-28T02:49:22.880Z"
+  "generatedAt": "2026-07-29T02:59:36.661Z"
 }
