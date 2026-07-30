@@ -7,14 +7,14 @@
   "topCountries": [
     {
       "name": "India",
-      "count": 434,
-      "golden": 41,
+      "count": 433,
+      "golden": 40,
       "flag": "🇮🇳"
     },
     {
       "name": "United States",
-      "count": 379,
-      "golden": 54,
+      "count": 380,
+      "golden": 55,
       "flag": "🇺🇸"
     },
     {
@@ -722,7 +722,7 @@
     },
     {
       "name": "Google",
-      "count": 17,
+      "count": 16,
       "golden": 1
     },
     {
@@ -2084,6 +2084,11 @@
       "name": "VULTR",
       "count": 1,
       "golden": 1
+    },
+    {
+      "name": "Google Cloud",
+      "count": 1,
+      "golden": 0
     },
     {
       "name": "Bouygues Telecom",
@@ -6656,7 +6661,7 @@
       "golden": 0
     },
     {
-      "name": "Mia-Platform",
+      "name": "Fractal Cloud",
       "count": 1,
       "golden": 0
     },
@@ -10057,13 +10062,6 @@
       "flag": "🇧🇩"
     },
     {
-      "name": "Chennai",
-      "count": 22,
-      "golden": 6,
-      "country": "India",
-      "flag": "🇮🇳"
-    },
-    {
       "name": "Mumbai",
       "count": 22,
       "golden": 3,
@@ -10083,6 +10081,13 @@
       "golden": 4,
       "country": "Thailand",
       "flag": "🇹🇭"
+    },
+    {
+      "name": "Chennai",
+      "count": 21,
+      "golden": 5,
+      "country": "India",
+      "flag": "🇮🇳"
     },
     {
       "name": "Zurich",
@@ -10218,5 +10223,5 @@
       "flag": "🇮🇩"
     }
   ],
-  "generatedAt": "2026-07-29T02:59:36.661Z"
+  "generatedAt": "2026-07-30T02:41:27.026Z"
 }
