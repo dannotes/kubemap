@@ -1,8 +1,8 @@
 {
-  "total": 4380,
+  "total": 4381,
   "golden": 465,
   "regular": 3661,
-  "ambassadors": 298,
+  "ambassadors": 299,
   "countryCount": 113,
   "topCountries": [
     {
@@ -277,7 +277,7 @@
     },
     {
       "name": "Finland",
-      "count": 17,
+      "count": 18,
       "golden": 3,
       "flag": "🇫🇮"
     },
@@ -6171,6 +6171,11 @@
       "golden": 0
     },
     {
+      "name": "Upbound",
+      "count": 1,
+      "golden": 0
+    },
+    {
       "name": "Eurofiber Cloud Infra",
       "count": 1,
       "golden": 1
@@ -10283,5 +10288,5 @@
       "flag": "🇵🇱"
     }
   ],
-  "generatedAt": "2026-08-01T03:09:08.319Z"
+  "generatedAt": "2026-08-02T03:06:19.487Z"
 }
