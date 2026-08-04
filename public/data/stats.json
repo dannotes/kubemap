@@ -1,7 +1,7 @@
 {
   "total": 4381,
-  "golden": 465,
-  "regular": 3661,
+  "golden": 471,
+  "regular": 3655,
   "ambassadors": 299,
   "countryCount": 113,
   "topCountries": [
@@ -20,7 +20,7 @@
     {
       "name": "Germany",
       "count": 249,
-      "golden": 35,
+      "golden": 36,
       "flag": "🇩🇪"
     },
     {
@@ -50,7 +50,7 @@
     {
       "name": "Poland",
       "count": 149,
-      "golden": 11,
+      "golden": 12,
       "flag": "🇵🇱"
     },
     {
@@ -67,7 +67,7 @@
     },
     {
       "name": "Singapore",
-      "count": 118,
+      "count": 117,
       "golden": 9,
       "flag": "🇸🇬"
     },
@@ -127,7 +127,7 @@
     },
     {
       "name": "Taiwan",
-      "count": 61,
+      "count": 62,
       "golden": 6,
       "flag": "🇹🇼"
     },
@@ -206,7 +206,7 @@
     {
       "name": "Indonesia",
       "count": 28,
-      "golden": 1,
+      "golden": 2,
       "flag": "🇮🇩"
     },
     {
@@ -230,7 +230,7 @@
     {
       "name": "Bulgaria",
       "count": 25,
-      "golden": 2,
+      "golden": 3,
       "flag": "🇧🇬"
     },
     {
@@ -248,7 +248,7 @@
     {
       "name": "Colombia",
       "count": 23,
-      "golden": 0,
+      "golden": 1,
       "flag": "🇨🇴"
     },
     {
@@ -326,7 +326,7 @@
     {
       "name": "Czech Republic",
       "count": 15,
-      "golden": 3,
+      "golden": 4,
       "flag": "🇨🇿"
     },
     {
@@ -751,12 +751,17 @@
       "golden": 2
     },
     {
+      "name": "Broadcom",
+      "count": 12,
+      "golden": 1
+    },
+    {
       "name": "Accenture",
       "count": 12,
       "golden": 0
     },
     {
-      "name": "Broadcom",
+      "name": "Apple",
       "count": 11,
       "golden": 1
     },
@@ -768,11 +773,6 @@
     {
       "name": "NAB",
       "count": 11,
-      "golden": 1
-    },
-    {
-      "name": "Apple",
-      "count": 10,
       "golden": 1
     },
     {
@@ -3133,7 +3133,7 @@
     {
       "name": "Rasa",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "https://www.microsoft.com",
@@ -6298,7 +6298,7 @@
     {
       "name": "https://advancedhosting.com",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "IBM India Pvt Ltd",
@@ -6418,7 +6418,7 @@
     {
       "name": "Hard Rock Digital",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Axpo",
@@ -9939,7 +9939,7 @@
   "topCities": [
     {
       "name": "Singapore",
-      "count": 115,
+      "count": 114,
       "golden": 9,
       "country": "Singapore",
       "flag": "🇸🇬"
@@ -10085,18 +10085,18 @@
       "flag": "🇻🇳"
     },
     {
+      "name": "Taipei",
+      "count": 26,
+      "golden": 3,
+      "country": "Taiwan",
+      "flag": "🇹🇼"
+    },
+    {
       "name": "Munich",
       "count": 26,
       "golden": 5,
       "country": "Germany",
       "flag": "🇩🇪"
-    },
-    {
-      "name": "Taipei",
-      "count": 25,
-      "golden": 3,
-      "country": "Taiwan",
-      "flag": "🇹🇼"
     },
     {
       "name": "Ho Chi Minh City",
@@ -10288,5 +10288,5 @@
       "flag": "🇵🇱"
     }
   ],
-  "generatedAt": "2026-08-03T03:08:37.896Z"
+  "generatedAt": "2026-08-04T02:48:10.655Z"
 }
