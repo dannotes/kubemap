@@ -1,13 +1,13 @@
 {
-  "total": 4424,
+  "total": 4425,
   "golden": 471,
-  "regular": 3696,
+  "regular": 3697,
   "ambassadors": 302,
   "countryCount": 114,
   "topCountries": [
     {
       "name": "India",
-      "count": 439,
+      "count": 440,
       "golden": 40,
       "flag": "🇮🇳"
     },
@@ -3257,6 +3257,11 @@
       "golden": 0
     },
     {
+      "name": "R System International Ltd.",
+      "count": 1,
+      "golden": 0
+    },
+    {
       "name": "Ollion",
       "count": 1,
       "golden": 0
@@ -3473,6 +3478,11 @@
     },
     {
       "name": "Opsta",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Circles",
       "count": 1,
       "golden": 0
     },
@@ -10354,5 +10364,5 @@
       "flag": "🇵🇱"
     }
   ],
-  "generatedAt": "2026-08-09T02:01:32.459Z"
+  "generatedAt": "2026-08-10T02:03:31.130Z"
 }
