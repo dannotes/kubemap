@@ -1,19 +1,19 @@
 {
   "total": 4425,
-  "golden": 471,
-  "regular": 3697,
-  "ambassadors": 302,
+  "golden": 475,
+  "regular": 3692,
+  "ambassadors": 303,
   "countryCount": 114,
   "topCountries": [
     {
       "name": "India",
-      "count": 440,
+      "count": 439,
       "golden": 40,
       "flag": "🇮🇳"
     },
     {
       "name": "United States",
-      "count": 386,
+      "count": 387,
       "golden": 55,
       "flag": "🇺🇸"
     },
@@ -26,7 +26,7 @@
     {
       "name": "France",
       "count": 248,
-      "golden": 19,
+      "golden": 20,
       "flag": "🇫🇷"
     },
     {
@@ -56,7 +56,7 @@
     {
       "name": "South Korea",
       "count": 148,
-      "golden": 14,
+      "golden": 15,
       "flag": "🇰🇷"
     },
     {
@@ -74,7 +74,7 @@
     {
       "name": "Switzerland",
       "count": 115,
-      "golden": 10,
+      "golden": 11,
       "flag": "🇨🇭"
     },
     {
@@ -110,7 +110,7 @@
     {
       "name": "Australia",
       "count": 73,
-      "golden": 4,
+      "golden": 5,
       "flag": "🇦🇺"
     },
     {
@@ -728,7 +728,7 @@
     },
     {
       "name": "Google",
-      "count": 16,
+      "count": 17,
       "golden": 1
     },
     {
@@ -3257,11 +3257,6 @@
       "golden": 0
     },
     {
-      "name": "R System International Ltd.",
-      "count": 1,
-      "golden": 0
-    },
-    {
       "name": "Ollion",
       "count": 1,
       "golden": 0
@@ -4054,7 +4049,7 @@
     {
       "name": "Makinarocks",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "None",
@@ -8419,7 +8414,7 @@
     {
       "name": "KPMG Australia",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Panamax Inc",
@@ -10030,7 +10025,7 @@
     {
       "name": "Seoul",
       "count": 83,
-      "golden": 7,
+      "golden": 8,
       "country": "South Korea",
       "flag": "🇰🇷"
     },
@@ -10364,5 +10359,5 @@
       "flag": "🇵🇱"
     }
   ],
-  "generatedAt": "2026-08-11T02:01:19.312Z"
+  "generatedAt": "2026-08-12T02:18:13.047Z"
 }
