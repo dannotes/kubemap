@@ -1,13 +1,13 @@
 {
-  "total": 4425,
+  "total": 4428,
   "golden": 475,
-  "regular": 3692,
-  "ambassadors": 303,
+  "regular": 3694,
+  "ambassadors": 304,
   "countryCount": 114,
   "topCountries": [
     {
       "name": "India",
-      "count": 439,
+      "count": 440,
       "golden": 40,
       "flag": "🇮🇳"
     },
@@ -25,7 +25,7 @@
     },
     {
       "name": "France",
-      "count": 248,
+      "count": 249,
       "golden": 20,
       "flag": "🇫🇷"
     },
@@ -37,7 +37,7 @@
     },
     {
       "name": "Japan",
-      "count": 188,
+      "count": 189,
       "golden": 32,
       "flag": "🇯🇵"
     },
@@ -1222,6 +1222,11 @@
       "golden": 0
     },
     {
+      "name": "Second State",
+      "count": 3,
+      "golden": 0
+    },
+    {
       "name": "PS Cloud Services",
       "count": 3,
       "golden": 0
@@ -1942,12 +1947,12 @@
       "golden": 1
     },
     {
-      "name": "KocDigital",
+      "name": "CyberAgent, Inc.",
       "count": 2,
       "golden": 0
     },
     {
-      "name": "Second State",
+      "name": "KocDigital",
       "count": 2,
       "golden": 0
     },
@@ -3253,6 +3258,11 @@
     },
     {
       "name": "Vail Systems",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "R System International Ltd.",
       "count": 1,
       "golden": 0
     },
@@ -7252,6 +7262,11 @@
       "golden": 0
     },
     {
+      "name": "Jcdecaux",
+      "count": 1,
+      "golden": 0
+    },
+    {
       "name": "Decathlon",
       "count": 1,
       "golden": 0
@@ -7947,7 +7962,7 @@
       "golden": 0
     },
     {
-      "name": "kubernetes@.com",
+      "name": "Kubernetes@.com",
       "count": 1,
       "golden": 0
     },
@@ -8028,11 +8043,6 @@
     },
     {
       "name": "Worldstream BV",
-      "count": 1,
-      "golden": 0
-    },
-    {
-      "name": "CyberAgent, Inc.",
       "count": 1,
       "golden": 0
     },
@@ -10359,5 +10369,5 @@
       "flag": "🇵🇱"
     }
   ],
-  "generatedAt": "2026-08-13T02:20:35.866Z"
+  "generatedAt": "2026-08-14T02:18:34.061Z"
 }
