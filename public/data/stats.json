@@ -1,8 +1,8 @@
 {
-  "total": 4428,
+  "total": 4429,
   "golden": 475,
   "regular": 3694,
-  "ambassadors": 304,
+  "ambassadors": 305,
   "countryCount": 114,
   "topCountries": [
     {
@@ -61,7 +61,7 @@
     },
     {
       "name": "Canada",
-      "count": 127,
+      "count": 128,
       "golden": 12,
       "flag": "🇨🇦"
     },
@@ -7402,7 +7402,7 @@
       "golden": 0
     },
     {
-      "name": "Gradle / CDF / Jenkins",
+      "name": "Cloud Native Suisse Romande",
       "count": 1,
       "golden": 0
     },
@@ -9547,6 +9547,11 @@
       "golden": 1
     },
     {
+      "name": "Field CTO & Technical Advisor at Valdemar.ai",
+      "count": 1,
+      "golden": 0
+    },
+    {
       "name": "Independent Freelancer at Upwork",
       "count": 1,
       "golden": 1
@@ -10097,7 +10102,7 @@
     },
     {
       "name": "Toronto",
-      "count": 37,
+      "count": 38,
       "golden": 2,
       "country": "Canada",
       "flag": "🇨🇦"
@@ -10369,5 +10374,5 @@
       "flag": "🇵🇱"
     }
   ],
-  "generatedAt": "2026-08-14T02:18:34.061Z"
+  "generatedAt": "2026-08-15T01:40:03.910Z"
 }
