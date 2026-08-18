@@ -1,7 +1,7 @@
 {
   "total": 4472,
-  "golden": 475,
-  "regular": 3737,
+  "golden": 480,
+  "regular": 3732,
   "ambassadors": 305,
   "countryCount": 114,
   "topCountries": [
@@ -14,13 +14,13 @@
     {
       "name": "United States",
       "count": 391,
-      "golden": 55,
+      "golden": 56,
       "flag": "🇺🇸"
     },
     {
       "name": "Germany",
       "count": 254,
-      "golden": 36,
+      "golden": 37,
       "flag": "🇩🇪"
     },
     {
@@ -50,7 +50,7 @@
     {
       "name": "Poland",
       "count": 153,
-      "golden": 12,
+      "golden": 13,
       "flag": "🇵🇱"
     },
     {
@@ -98,7 +98,7 @@
     {
       "name": "Norway",
       "count": 77,
-      "golden": 18,
+      "golden": 19,
       "flag": "🇳🇴"
     },
     {
@@ -464,7 +464,7 @@
     {
       "name": "Latvia",
       "count": 6,
-      "golden": 1,
+      "golden": 2,
       "flag": "🇱🇻"
     },
     {
@@ -709,7 +709,7 @@
     {
       "name": "Sopra Steria",
       "count": 30,
-      "golden": 8
+      "golden": 9
     },
     {
       "name": "Capgemini",
@@ -812,6 +812,11 @@
       "golden": 0
     },
     {
+      "name": "Hitachi, Ltd.",
+      "count": 7,
+      "golden": 1
+    },
+    {
       "name": "Dell Technologies",
       "count": 7,
       "golden": 0
@@ -835,11 +840,6 @@
       "name": "Hewlett Packard Enterprise (HPE)",
       "count": 6,
       "golden": 0
-    },
-    {
-      "name": "Hitachi, Ltd.",
-      "count": 6,
-      "golden": 1
     },
     {
       "name": "Morgan Stanley",
@@ -2464,7 +2464,7 @@
     {
       "name": "ST",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Li9 Technology Solutions",
@@ -5054,7 +5054,7 @@
     {
       "name": "cplace",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "APTOVET LLC",
@@ -10154,7 +10154,7 @@
     {
       "name": "Warsaw",
       "count": 41,
-      "golden": 4,
+      "golden": 5,
       "country": "Poland",
       "flag": "🇵🇱"
     },
@@ -10245,7 +10245,7 @@
     {
       "name": "Munich",
       "count": 26,
-      "golden": 5,
+      "golden": 6,
       "country": "Germany",
       "flag": "🇩🇪"
     },
@@ -10439,5 +10439,5 @@
       "flag": "🇪🇸"
     }
   ],
-  "generatedAt": "2026-08-17T01:41:30.272Z"
+  "generatedAt": "2026-08-18T01:39:26.479Z"
 }
