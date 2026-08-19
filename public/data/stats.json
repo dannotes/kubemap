@@ -5887,11 +5887,6 @@
       "golden": 1
     },
     {
-      "name": "Tetrate.io",
-      "count": 1,
-      "golden": 0
-    },
-    {
       "name": "Türk Ekonomi Bankası",
       "count": 1,
       "golden": 0
@@ -10439,5 +10434,5 @@
       "flag": "🇪🇸"
     }
   ],
-  "generatedAt": "2026-08-18T01:39:26.479Z"
+  "generatedAt": "2026-08-19T01:40:24.558Z"
 }
