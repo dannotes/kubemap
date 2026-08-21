@@ -1,7 +1,7 @@
 {
   "total": 4472,
-  "golden": 480,
-  "regular": 3732,
+  "golden": 481,
+  "regular": 3731,
   "ambassadors": 305,
   "countryCount": 114,
   "topCountries": [
@@ -98,7 +98,7 @@
     {
       "name": "Norway",
       "count": 77,
-      "golden": 19,
+      "golden": 20,
       "flag": "🇳🇴"
     },
     {
@@ -10434,5 +10434,5 @@
       "flag": "🇪🇸"
     }
   ],
-  "generatedAt": "2026-08-20T01:40:17.539Z"
+  "generatedAt": "2026-08-21T01:43:50.586Z"
 }
