@@ -1,38 +1,38 @@
 {
-  "total": 4511,
-  "golden": 481,
-  "regular": 3770,
-  "ambassadors": 305,
+  "total": 4512,
+  "golden": 491,
+  "regular": 3760,
+  "ambassadors": 306,
   "countryCount": 114,
   "topCountries": [
     {
       "name": "India",
       "count": 452,
-      "golden": 40,
+      "golden": 41,
       "flag": "🇮🇳"
     },
     {
       "name": "United States",
       "count": 392,
-      "golden": 56,
+      "golden": 57,
       "flag": "🇺🇸"
     },
     {
       "name": "Germany",
       "count": 255,
-      "golden": 37,
+      "golden": 38,
       "flag": "🇩🇪"
     },
     {
       "name": "France",
       "count": 252,
-      "golden": 20,
+      "golden": 21,
       "flag": "🇫🇷"
     },
     {
       "name": "Netherlands",
       "count": 212,
-      "golden": 22,
+      "golden": 23,
       "flag": "🇳🇱"
     },
     {
@@ -121,7 +121,7 @@
     },
     {
       "name": "Taiwan",
-      "count": 66,
+      "count": 67,
       "golden": 6,
       "flag": "🇹🇼"
     },
@@ -134,13 +134,13 @@
     {
       "name": "Sweden",
       "count": 46,
-      "golden": 7,
+      "golden": 8,
       "flag": "🇸🇪"
     },
     {
       "name": "Denmark",
       "count": 45,
-      "golden": 8,
+      "golden": 10,
       "flag": "🇩🇰"
     },
     {
@@ -212,7 +212,7 @@
     {
       "name": "Belgium",
       "count": 30,
-      "golden": 4,
+      "golden": 5,
       "flag": "🇧🇪"
     },
     {
@@ -278,7 +278,7 @@
     {
       "name": "Finland",
       "count": 18,
-      "golden": 3,
+      "golden": 4,
       "flag": "🇫🇮"
     },
     {
@@ -702,19 +702,19 @@
       "golden": 3
     },
     {
-      "name": "Red Hat",
-      "count": 31,
-      "golden": 6
-    },
-    {
       "name": "Sopra Steria",
       "count": 30,
       "golden": 9
     },
     {
+      "name": "Red Hat",
+      "count": 30,
+      "golden": 6
+    },
+    {
       "name": "Capgemini",
       "count": 25,
-      "golden": 3
+      "golden": 4
     },
     {
       "name": "AWS",
@@ -1314,7 +1314,7 @@
     {
       "name": "Techforce1",
       "count": 3,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "SUE | Cloud Native Solutions",
@@ -2119,7 +2119,7 @@
     {
       "name": "STACKIT - Schwarz Digits",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Summa Financial Technology",
@@ -2419,7 +2419,7 @@
     {
       "name": "Sabi",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "BrainPad Inc.",
@@ -2683,6 +2683,11 @@
     },
     {
       "name": "BCEAO (Central Bank of West African States)",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Booking Holdings",
       "count": 1,
       "golden": 0
     },
@@ -3283,11 +3288,6 @@
     },
     {
       "name": "Vail Systems",
-      "count": 1,
-      "golden": 0
-    },
-    {
-      "name": "R System International Ltd.",
       "count": 1,
       "golden": 0
     },
@@ -6169,7 +6169,7 @@
     {
       "name": "Sibilla Consult",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Hack the planet",
@@ -6682,7 +6682,7 @@
       "golden": 0
     },
     {
-      "name": "American Red Cross",
+      "name": "NāOM Lab LLC",
       "count": 1,
       "golden": 0
     },
@@ -7942,6 +7942,11 @@
       "golden": 0
     },
     {
+      "name": "ZTE",
+      "count": 1,
+      "golden": 0
+    },
+    {
       "name": "Synogize",
       "count": 1,
       "golden": 0
@@ -8689,7 +8694,7 @@
     {
       "name": "cVation",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "System Vertrieb Alexander GmbH",
@@ -10155,6 +10160,11 @@
       "name": "KRAFTON Inc.",
       "count": 1,
       "golden": 1
+    },
+    {
+      "name": "National Yang Ming Chiao Tung University (NYCU)",
+      "count": 1,
+      "golden": 0
     }
   ],
   "topCities": [
@@ -10189,7 +10199,7 @@
     {
       "name": "Bengaluru",
       "count": 64,
-      "golden": 7,
+      "golden": 8,
       "country": "India",
       "flag": "🇮🇳"
     },
@@ -10201,16 +10211,16 @@
       "flag": "🇬🇧"
     },
     {
-      "name": "Pune",
-      "count": 51,
-      "golden": 5,
+      "name": "Bangalore",
+      "count": 52,
+      "golden": 3,
       "country": "India",
       "flag": "🇮🇳"
     },
     {
-      "name": "Bangalore",
+      "name": "Pune",
       "count": 51,
-      "golden": 3,
+      "golden": 5,
       "country": "India",
       "flag": "🇮🇳"
     },
@@ -10245,7 +10255,7 @@
     {
       "name": "Berlin",
       "count": 35,
-      "golden": 5,
+      "golden": 6,
       "country": "Germany",
       "flag": "🇩🇪"
     },
@@ -10441,7 +10451,7 @@
     {
       "name": "Stockholm",
       "count": 17,
-      "golden": 1,
+      "golden": 2,
       "country": "Sweden",
       "flag": "🇸🇪"
     },
@@ -10509,5 +10519,5 @@
       "flag": "🇮🇩"
     }
   ],
-  "generatedAt": "2026-08-24T01:42:56.798Z"
+  "generatedAt": "2026-08-25T01:42:14.491Z"
 }
