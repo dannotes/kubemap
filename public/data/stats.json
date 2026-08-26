@@ -1,8 +1,8 @@
 {
-  "total": 4512,
+  "total": 4516,
   "golden": 491,
   "regular": 3760,
-  "ambassadors": 306,
+  "ambassadors": 311,
   "countryCount": 114,
   "topCountries": [
     {
@@ -19,7 +19,7 @@
     },
     {
       "name": "Germany",
-      "count": 255,
+      "count": 256,
       "golden": 38,
       "flag": "🇩🇪"
     },
@@ -31,7 +31,7 @@
     },
     {
       "name": "Netherlands",
-      "count": 212,
+      "count": 213,
       "golden": 23,
       "flag": "🇳🇱"
     },
@@ -282,6 +282,12 @@
       "flag": "🇫🇮"
     },
     {
+      "name": "Sri Lanka",
+      "count": 18,
+      "golden": 0,
+      "flag": "🇱🇰"
+    },
+    {
       "name": "Morocco",
       "count": 17,
       "golden": 0,
@@ -292,12 +298,6 @@
       "count": 17,
       "golden": 1,
       "flag": "🇵🇰"
-    },
-    {
-      "name": "Sri Lanka",
-      "count": 17,
-      "golden": 0,
-      "flag": "🇱🇰"
     },
     {
       "name": "Georgia",
@@ -312,6 +312,12 @@
       "flag": "🇿🇦"
     },
     {
+      "name": "Israel",
+      "count": 17,
+      "golden": 0,
+      "flag": "🇮🇱"
+    },
+    {
       "name": "Kazakhstan",
       "count": 16,
       "golden": 1,
@@ -322,12 +328,6 @@
       "count": 16,
       "golden": 2,
       "flag": "🇸🇰"
-    },
-    {
-      "name": "Israel",
-      "count": 16,
-      "golden": 0,
-      "flag": "🇮🇱"
     },
     {
       "name": "Czech Republic",
@@ -1082,6 +1082,11 @@
       "golden": 0
     },
     {
+      "name": "Kubermatic",
+      "count": 3,
+      "golden": 0
+    },
+    {
       "name": "Goldman Sachs",
       "count": 3,
       "golden": 0
@@ -1363,11 +1368,6 @@
     },
     {
       "name": "Ejada",
-      "count": 2,
-      "golden": 0
-    },
-    {
-      "name": "Kubermatic",
       "count": 2,
       "golden": 0
     },
@@ -5897,6 +5897,11 @@
       "golden": 1
     },
     {
+      "name": "Senior Software Engineer at CareHires",
+      "count": 1,
+      "golden": 0
+    },
+    {
       "name": "Robi Axiata PLC",
       "count": 1,
       "golden": 0
@@ -7402,6 +7407,11 @@
       "golden": 0
     },
     {
+      "name": "NVIDIA",
+      "count": 1,
+      "golden": 0
+    },
+    {
       "name": "NuSummit",
       "count": 1,
       "golden": 0
@@ -8758,6 +8768,11 @@
     },
     {
       "name": "Early Warning Services LLC",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Bronto",
       "count": 1,
       "golden": 0
     },
@@ -10519,5 +10534,5 @@
       "flag": "🇮🇩"
     }
   ],
-  "generatedAt": "2026-08-25T01:42:14.491Z"
+  "generatedAt": "2026-08-26T01:44:06.938Z"
 }
