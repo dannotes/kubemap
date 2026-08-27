@@ -1,13 +1,13 @@
 {
-  "total": 4516,
+  "total": 4519,
   "golden": 491,
-  "regular": 3760,
-  "ambassadors": 311,
+  "regular": 3761,
+  "ambassadors": 313,
   "countryCount": 114,
   "topCountries": [
     {
       "name": "India",
-      "count": 452,
+      "count": 453,
       "golden": 41,
       "flag": "🇮🇳"
     },
@@ -115,7 +115,7 @@
     },
     {
       "name": "China",
-      "count": 67,
+      "count": 68,
       "golden": 6,
       "flag": "🇨🇳"
     },
@@ -174,16 +174,16 @@
       "flag": "🇺🇦"
     },
     {
+      "name": "Romania",
+      "count": 34,
+      "golden": 0,
+      "flag": "🇷🇴"
+    },
+    {
       "name": "Thailand",
       "count": 33,
       "golden": 5,
       "flag": "🇹🇭"
-    },
-    {
-      "name": "Romania",
-      "count": 33,
-      "golden": 0,
-      "flag": "🇷🇴"
     },
     {
       "name": "United Arab Emirates",
@@ -1250,6 +1250,11 @@
       "name": "PCS Security Pte Ltd",
       "count": 3,
       "golden": 0
+    },
+    {
+      "name": "DaoCloud",
+      "count": 3,
+      "golden": 1
     },
     {
       "name": "PS Cloud Services",
@@ -3292,6 +3297,11 @@
       "golden": 0
     },
     {
+      "name": "R System International Ltd.",
+      "count": 1,
+      "golden": 0
+    },
+    {
       "name": "Ollion",
       "count": 1,
       "golden": 0
@@ -3983,6 +3993,11 @@
     },
     {
       "name": "Appviewx",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "VictoriaMetrics",
       "count": 1,
       "golden": 0
     },
@@ -6833,11 +6848,6 @@
     },
     {
       "name": "Federal Department of Defence, Civil Protection and Sport (DDPS)",
-      "count": 1,
-      "golden": 0
-    },
-    {
-      "name": "DaoCloud",
       "count": 1,
       "golden": 0
     },
@@ -10387,6 +10397,13 @@
       "flag": "🇧🇬"
     },
     {
+      "name": "Shanghai",
+      "count": 23,
+      "golden": 3,
+      "country": "China",
+      "flag": "🇨🇳"
+    },
+    {
       "name": "Bangkok",
       "count": 22,
       "golden": 4,
@@ -10415,13 +10432,6 @@
       "flag": "🇮🇳"
     },
     {
-      "name": "Shanghai",
-      "count": 22,
-      "golden": 3,
-      "country": "China",
-      "flag": "🇨🇳"
-    },
-    {
       "name": "Bern",
       "count": 20,
       "golden": 1,
@@ -10443,18 +10453,18 @@
       "flag": "🇦🇪"
     },
     {
+      "name": "Bucharest",
+      "count": 19,
+      "golden": 0,
+      "country": "Romania",
+      "flag": "🇷🇴"
+    },
+    {
       "name": "Toulouse",
       "count": 18,
       "golden": 1,
       "country": "France",
       "flag": "🇫🇷"
-    },
-    {
-      "name": "Bucharest",
-      "count": 18,
-      "golden": 0,
-      "country": "Romania",
-      "flag": "🇷🇴"
     },
     {
       "name": "Sydney",
@@ -10534,5 +10544,5 @@
       "flag": "🇮🇩"
     }
   ],
-  "generatedAt": "2026-08-26T01:44:06.938Z"
+  "generatedAt": "2026-08-27T07:47:23.333Z"
 }
