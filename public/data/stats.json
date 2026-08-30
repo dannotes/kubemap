@@ -1,8 +1,8 @@
 {
-  "total": 4560,
+  "total": 4561,
   "golden": 491,
   "regular": 3794,
-  "ambassadors": 324,
+  "ambassadors": 325,
   "countryCount": 114,
   "topCountries": [
     {
@@ -294,6 +294,12 @@
       "flag": "🇲🇦"
     },
     {
+      "name": "Slovakia",
+      "count": 17,
+      "golden": 2,
+      "flag": "🇸🇰"
+    },
+    {
       "name": "Pakistan",
       "count": 17,
       "golden": 1,
@@ -328,12 +334,6 @@
       "count": 16,
       "golden": 3,
       "flag": "🇨🇿"
-    },
-    {
-      "name": "Slovakia",
-      "count": 16,
-      "golden": 2,
-      "flag": "🇸🇰"
     },
     {
       "name": "New Zealand",
@@ -9532,6 +9532,11 @@
       "golden": 0
     },
     {
+      "name": "DevSecOps Lead at Asseco CE / Freelance DevOps Consultant",
+      "count": 1,
+      "golden": 0
+    },
+    {
       "name": "Toon IT Consulting",
       "count": 1,
       "golden": 0
@@ -10604,5 +10609,5 @@
       "flag": "🇦🇹"
     }
   ],
-  "generatedAt": "2026-08-29T06:09:46.426Z"
+  "generatedAt": "2026-08-30T04:07:43.215Z"
 }
