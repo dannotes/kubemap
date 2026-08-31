@@ -1,13 +1,13 @@
 {
-  "total": 4561,
+  "total": 4562,
   "golden": 491,
-  "regular": 3794,
+  "regular": 3795,
   "ambassadors": 325,
   "countryCount": 114,
   "topCountries": [
     {
       "name": "India",
-      "count": 461,
+      "count": 462,
       "golden": 41,
       "flag": "🇮🇳"
     },
@@ -3323,6 +3323,11 @@
     },
     {
       "name": "Vail Systems",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "R System International Ltd.",
       "count": 1,
       "golden": 0
     },
@@ -10609,5 +10614,5 @@
       "flag": "🇦🇹"
     }
   ],
-  "generatedAt": "2026-08-30T04:07:43.215Z"
+  "generatedAt": "2026-08-31T04:06:09.395Z"
 }
