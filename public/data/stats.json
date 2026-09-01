@@ -1,7 +1,7 @@
 {
-  "total": 4562,
-  "golden": 491,
-  "regular": 3795,
+  "total": 4561,
+  "golden": 503,
+  "regular": 3782,
   "ambassadors": 325,
   "countryCount": 114,
   "topCountries": [
@@ -13,14 +13,14 @@
     },
     {
       "name": "United States",
-      "count": 394,
-      "golden": 57,
+      "count": 395,
+      "golden": 58,
       "flag": "🇺🇸"
     },
     {
       "name": "Germany",
       "count": 261,
-      "golden": 38,
+      "golden": 39,
       "flag": "🇩🇪"
     },
     {
@@ -38,7 +38,7 @@
     {
       "name": "Japan",
       "count": 196,
-      "golden": 32,
+      "golden": 33,
       "flag": "🇯🇵"
     },
     {
@@ -56,13 +56,13 @@
     {
       "name": "South Korea",
       "count": 153,
-      "golden": 15,
+      "golden": 16,
       "flag": "🇰🇷"
     },
     {
       "name": "Canada",
       "count": 132,
-      "golden": 12,
+      "golden": 13,
       "flag": "🇨🇦"
     },
     {
@@ -86,13 +86,13 @@
     {
       "name": "Turkey",
       "count": 101,
-      "golden": 7,
+      "golden": 8,
       "flag": "🇹🇷"
     },
     {
       "name": "Vietnam",
       "count": 92,
-      "golden": 9,
+      "golden": 10,
       "flag": "🇻🇳"
     },
     {
@@ -115,7 +115,7 @@
     },
     {
       "name": "China",
-      "count": 69,
+      "count": 68,
       "golden": 6,
       "flag": "🇨🇳"
     },
@@ -134,7 +134,7 @@
     {
       "name": "Sweden",
       "count": 46,
-      "golden": 8,
+      "golden": 9,
       "flag": "🇸🇪"
     },
     {
@@ -157,7 +157,7 @@
     },
     {
       "name": "Egypt",
-      "count": 40,
+      "count": 39,
       "golden": 2,
       "flag": "🇪🇬"
     },
@@ -206,7 +206,7 @@
     {
       "name": "Austria",
       "count": 31,
-      "golden": 3,
+      "golden": 4,
       "flag": "🇦🇹"
     },
     {
@@ -344,7 +344,7 @@
     {
       "name": "Malaysia",
       "count": 13,
-      "golden": 1,
+      "golden": 2,
       "flag": "🇲🇾"
     },
     {
@@ -356,7 +356,7 @@
     {
       "name": "Mongolia",
       "count": 11,
-      "golden": 2,
+      "golden": 3,
       "flag": "🇲🇳"
     },
     {
@@ -446,7 +446,7 @@
     {
       "name": "Nepal",
       "count": 7,
-      "golden": 0,
+      "golden": 1,
       "flag": "🇳🇵"
     },
     {
@@ -829,7 +829,7 @@
     {
       "name": "Grafana Labs",
       "count": 7,
-      "golden": 1
+      "golden": 2
     },
     {
       "name": "Datadog",
@@ -1032,6 +1032,11 @@
       "golden": 0
     },
     {
+      "name": "Qualcomm",
+      "count": 4,
+      "golden": 1
+    },
+    {
       "name": "TrueFullstaq",
       "count": 4,
       "golden": 1
@@ -1167,11 +1172,6 @@
       "golden": 0
     },
     {
-      "name": "Qualcomm",
-      "count": 3,
-      "golden": 1
-    },
-    {
       "name": "Defense Unicorns",
       "count": 3,
       "golden": 0
@@ -1219,7 +1219,7 @@
     {
       "name": "Desjardins",
       "count": 3,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Elastic",
@@ -1484,7 +1484,7 @@
     {
       "name": "Khan Bank",
       "count": 2,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "KIOWY",
@@ -2242,11 +2242,6 @@
       "golden": 0
     },
     {
-      "name": "BarQ Systems",
-      "count": 1,
-      "golden": 0
-    },
-    {
       "name": "groundctl",
       "count": 1,
       "golden": 0
@@ -2704,7 +2699,7 @@
     {
       "name": "bestcloudfor.me",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Latam Airlines",
@@ -2959,7 +2954,7 @@
     {
       "name": "KubeRox Techologies",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Developer Advocate",
@@ -3379,7 +3374,7 @@
     {
       "name": "UCLIX",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "BJSS/CGI",
@@ -4542,11 +4537,6 @@
       "golden": 0
     },
     {
-      "name": "Alibaba Cloud",
-      "count": 1,
-      "golden": 0
-    },
-    {
       "name": "EOZIS",
       "count": 1,
       "golden": 0
@@ -5299,7 +5289,7 @@
     {
       "name": "DNB Carnegie",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Centralny Ośrodek Informatyki",
@@ -6464,7 +6454,7 @@
     {
       "name": "DÜRR NDT GmbH & Co. KG",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "SOCIETE GENERALE",
@@ -9089,7 +9079,7 @@
     {
       "name": "Camunda",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Triage IT",
@@ -10280,7 +10270,7 @@
     {
       "name": "Seoul",
       "count": 85,
-      "golden": 8,
+      "golden": 9,
       "country": "South Korea",
       "flag": "🇰🇷"
     },
@@ -10427,7 +10417,7 @@
     {
       "name": "Ho Chi Minh City",
       "count": 27,
-      "golden": 1,
+      "golden": 2,
       "country": "Vietnam",
       "flag": "🇻🇳"
     },
@@ -10546,7 +10536,7 @@
     {
       "name": "Stockholm",
       "count": 17,
-      "golden": 2,
+      "golden": 3,
       "country": "Sweden",
       "flag": "🇸🇪"
     },
@@ -10609,10 +10599,10 @@
     {
       "name": "Vienna",
       "count": 15,
-      "golden": 0,
+      "golden": 1,
       "country": "Austria",
       "flag": "🇦🇹"
     }
   ],
-  "generatedAt": "2026-08-31T04:06:09.395Z"
+  "generatedAt": "2026-09-01T04:05:47.592Z"
 }
