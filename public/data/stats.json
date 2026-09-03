@@ -1,8 +1,8 @@
 {
-  "total": 4561,
+  "total": 4562,
   "golden": 503,
   "regular": 3782,
-  "ambassadors": 326,
+  "ambassadors": 327,
   "countryCount": 114,
   "topCountries": [
     {
@@ -67,7 +67,7 @@
     },
     {
       "name": "Singapore",
-      "count": 117,
+      "count": 118,
       "golden": 9,
       "flag": "🇸🇬"
     },
@@ -8302,6 +8302,11 @@
       "golden": 0
     },
     {
+      "name": "orionshift.io",
+      "count": 1,
+      "golden": 0
+    },
+    {
       "name": "Amazon Web Services India",
       "count": 1,
       "golden": 0
@@ -10255,7 +10260,7 @@
   "topCities": [
     {
       "name": "Singapore",
-      "count": 114,
+      "count": 115,
       "golden": 9,
       "country": "Singapore",
       "flag": "🇸🇬"
@@ -10604,5 +10609,5 @@
       "flag": "🇦🇹"
     }
   ],
-  "generatedAt": "2026-09-02T03:23:40.678Z"
+  "generatedAt": "2026-09-03T03:28:28.007Z"
 }
