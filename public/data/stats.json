@@ -1,8 +1,8 @@
 {
-  "total": 4562,
+  "total": 4563,
   "golden": 503,
   "regular": 3782,
-  "ambassadors": 327,
+  "ambassadors": 328,
   "countryCount": 114,
   "topCountries": [
     {
@@ -25,7 +25,7 @@
     },
     {
       "name": "France",
-      "count": 252,
+      "count": 253,
       "golden": 21,
       "flag": "🇫🇷"
     },
@@ -9917,6 +9917,11 @@
       "golden": 0
     },
     {
+      "name": "Microcks / reShapr maintainer",
+      "count": 1,
+      "golden": 0
+    },
+    {
       "name": "Tiime",
       "count": 1,
       "golden": 0
@@ -10281,7 +10286,7 @@
     },
     {
       "name": "Paris",
-      "count": 69,
+      "count": 70,
       "golden": 6,
       "country": "France",
       "flag": "🇫🇷"
@@ -10609,5 +10614,5 @@
       "flag": "🇦🇹"
     }
   ],
-  "generatedAt": "2026-09-03T03:28:28.007Z"
+  "generatedAt": "2026-09-04T03:27:04.312Z"
 }
