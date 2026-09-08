@@ -1,20 +1,20 @@
 {
   "total": 4606,
-  "golden": 503,
-  "regular": 3825,
+  "golden": 511,
+  "regular": 3817,
   "ambassadors": 328,
   "countryCount": 114,
   "topCountries": [
     {
       "name": "India",
       "count": 465,
-      "golden": 41,
+      "golden": 42,
       "flag": "🇮🇳"
     },
     {
       "name": "United States",
       "count": 399,
-      "golden": 58,
+      "golden": 59,
       "flag": "🇺🇸"
     },
     {
@@ -44,7 +44,7 @@
     {
       "name": "United Kingdom",
       "count": 166,
-      "golden": 13,
+      "golden": 14,
       "flag": "🇬🇧"
     },
     {
@@ -62,7 +62,7 @@
     {
       "name": "Canada",
       "count": 133,
-      "golden": 13,
+      "golden": 14,
       "flag": "🇨🇦"
     },
     {
@@ -110,7 +110,7 @@
     {
       "name": "Spain",
       "count": 78,
-      "golden": 6,
+      "golden": 7,
       "flag": "🇪🇸"
     },
     {
@@ -212,7 +212,7 @@
     {
       "name": "Belgium",
       "count": 30,
-      "golden": 5,
+      "golden": 7,
       "flag": "🇧🇪"
     },
     {
@@ -272,7 +272,7 @@
     {
       "name": "Costa Rica",
       "count": 20,
-      "golden": 1,
+      "golden": 2,
       "flag": "🇨🇷"
     },
     {
@@ -714,7 +714,7 @@
     {
       "name": "Capgemini",
       "count": 25,
-      "golden": 4
+      "golden": 5
     },
     {
       "name": "AWS",
@@ -1229,7 +1229,7 @@
     {
       "name": "Elastic",
       "count": 3,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Pexon Consulting GmbH",
@@ -2504,7 +2504,7 @@
     {
       "name": "Genially",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Singlet",
@@ -4454,7 +4454,7 @@
     {
       "name": "Life Med, Inc",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "iCubed - part of Lodestar",
@@ -9174,7 +9174,7 @@
     {
       "name": "Universidad de Costa Rica",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "CompuGroup Medical",
@@ -9594,7 +9594,7 @@
     {
       "name": "Toon IT Consulting",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Preferred Networks",
@@ -10209,7 +10209,7 @@
     {
       "name": "Payments Canada",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Proxima",
@@ -10370,7 +10370,7 @@
     {
       "name": "Pune",
       "count": 53,
-      "golden": 5,
+      "golden": 6,
       "country": "India",
       "flag": "🇮🇳"
     },
@@ -10669,5 +10669,5 @@
       "flag": "🇦🇹"
     }
   ],
-  "generatedAt": "2026-09-07T03:25:18.214Z"
+  "generatedAt": "2026-09-08T03:35:49.942Z"
 }
