@@ -3,7 +3,7 @@
   "golden": 511,
   "regular": 3817,
   "ambassadors": 328,
-  "countryCount": 114,
+  "countryCount": 115,
   "topCountries": [
     {
       "name": "India",
@@ -31,7 +31,7 @@
     },
     {
       "name": "Netherlands",
-      "count": 217,
+      "count": 216,
       "golden": 23,
       "flag": "🇳🇱"
     },
@@ -156,16 +156,16 @@
       "flag": "🇹🇳"
     },
     {
+      "name": "Portugal",
+      "count": 41,
+      "golden": 5,
+      "flag": "🇵🇹"
+    },
+    {
       "name": "Egypt",
       "count": 40,
       "golden": 2,
       "flag": "🇪🇬"
-    },
-    {
-      "name": "Portugal",
-      "count": 40,
-      "golden": 5,
-      "flag": "🇵🇹"
     },
     {
       "name": "Romania",
@@ -186,16 +186,16 @@
       "flag": "🇭🇰"
     },
     {
-      "name": "Thailand",
-      "count": 33,
-      "golden": 5,
-      "flag": "🇹🇭"
-    },
-    {
       "name": "United Arab Emirates",
       "count": 33,
       "golden": 2,
       "flag": "🇦🇪"
+    },
+    {
+      "name": "Thailand",
+      "count": 32,
+      "golden": 5,
+      "flag": "🇹🇭"
     },
     {
       "name": "Azerbaijan",
@@ -682,6 +682,12 @@
       "count": 1,
       "golden": 0,
       "flag": "🇲🇬"
+    },
+    {
+      "name": "Iceland",
+      "count": 1,
+      "golden": 0,
+      "flag": "🇮🇸"
     },
     {
       "name": "Albania",
@@ -10669,5 +10675,5 @@
       "flag": "🇦🇹"
     }
   ],
-  "generatedAt": "2026-09-09T03:36:32.203Z"
+  "generatedAt": "2026-09-10T03:37:03.197Z"
 }
