@@ -1,20 +1,20 @@
 {
-  "total": 4651,
-  "golden": 511,
-  "regular": 3862,
+  "total": 4653,
+  "golden": 515,
+  "regular": 3860,
   "ambassadors": 328,
   "countryCount": 115,
   "topCountries": [
     {
       "name": "India",
-      "count": 468,
+      "count": 469,
       "golden": 42,
       "flag": "🇮🇳"
     },
     {
       "name": "United States",
       "count": 407,
-      "golden": 59,
+      "golden": 60,
       "flag": "🇺🇸"
     },
     {
@@ -32,7 +32,7 @@
     {
       "name": "Netherlands",
       "count": 217,
-      "golden": 23,
+      "golden": 24,
       "flag": "🇳🇱"
     },
     {
@@ -44,7 +44,7 @@
     {
       "name": "United Kingdom",
       "count": 167,
-      "golden": 14,
+      "golden": 15,
       "flag": "🇬🇧"
     },
     {
@@ -80,7 +80,7 @@
     {
       "name": "Brazil",
       "count": 115,
-      "golden": 7,
+      "golden": 8,
       "flag": "🇧🇷"
     },
     {
@@ -481,7 +481,7 @@
     },
     {
       "name": "Qatar",
-      "count": 4,
+      "count": 5,
       "golden": 1,
       "flag": "🇶🇦"
     },
@@ -2038,6 +2038,11 @@
       "golden": 0
     },
     {
+      "name": "Thales",
+      "count": 2,
+      "golden": 0
+    },
+    {
       "name": "Siemens",
       "count": 2,
       "golden": 1
@@ -2430,7 +2435,7 @@
     {
       "name": "Codification",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Mozn",
@@ -3349,6 +3354,11 @@
     },
     {
       "name": "Vail Systems",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "R System International Ltd.",
       "count": 1,
       "golden": 0
     },
@@ -6770,7 +6780,7 @@
     {
       "name": "Zeta Global",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Hapvida NotreDame Intermédica",
@@ -8175,7 +8185,7 @@
     {
       "name": "Salesforce Inc",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Sinch AB",
@@ -9828,11 +9838,6 @@
       "golden": 0
     },
     {
-      "name": "Thales",
-      "count": 1,
-      "golden": 0
-    },
-    {
       "name": "Nimtech",
       "count": 1,
       "golden": 0
@@ -10735,5 +10740,5 @@
       "flag": "🇬🇪"
     }
   ],
-  "generatedAt": "2026-09-14T03:54:00.148Z"
+  "generatedAt": "2026-09-15T03:55:57.424Z"
 }
