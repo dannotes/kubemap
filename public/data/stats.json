@@ -2,7 +2,7 @@
   "total": 4653,
   "golden": 515,
   "regular": 3860,
-  "ambassadors": 328,
+  "ambassadors": 329,
   "countryCount": 115,
   "topCountries": [
     {
@@ -10419,7 +10419,7 @@
     },
     {
       "name": "Bengaluru",
-      "count": 66,
+      "count": 67,
       "golden": 8,
       "country": "India",
       "flag": "🇮🇳"
@@ -10432,16 +10432,16 @@
       "flag": "🇬🇧"
     },
     {
-      "name": "Bangalore",
-      "count": 54,
-      "golden": 3,
+      "name": "Pune",
+      "count": 53,
+      "golden": 6,
       "country": "India",
       "flag": "🇮🇳"
     },
     {
-      "name": "Pune",
+      "name": "Bangalore",
       "count": 53,
-      "golden": 6,
+      "golden": 3,
       "country": "India",
       "flag": "🇮🇳"
     },
@@ -10740,5 +10740,5 @@
       "flag": "🇬🇪"
     }
   ],
-  "generatedAt": "2026-09-15T03:55:57.424Z"
+  "generatedAt": "2026-09-16T03:52:08.023Z"
 }
