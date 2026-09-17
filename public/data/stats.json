@@ -704,7 +704,7 @@
     },
     {
       "name": "Amazon Web Services",
-      "count": 37,
+      "count": 38,
       "golden": 3
     },
     {
@@ -6433,11 +6433,6 @@
       "golden": 0
     },
     {
-      "name": "Upbound",
-      "count": 1,
-      "golden": 0
-    },
-    {
       "name": "Eurofiber Cloud Infra",
       "count": 1,
       "golden": 1
@@ -10740,5 +10735,5 @@
       "flag": "🇬🇪"
     }
   ],
-  "generatedAt": "2026-09-16T03:52:08.023Z"
+  "generatedAt": "2026-09-17T03:57:39.722Z"
 }
