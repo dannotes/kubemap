@@ -1,32 +1,32 @@
 {
-  "total": 4690,
-  "golden": 515,
-  "regular": 3897,
-  "ambassadors": 329,
+  "total": 4692,
+  "golden": 524,
+  "regular": 3889,
+  "ambassadors": 330,
   "countryCount": 115,
   "topCountries": [
     {
       "name": "India",
-      "count": 469,
+      "count": 470,
       "golden": 42,
       "flag": "🇮🇳"
     },
     {
       "name": "United States",
-      "count": 411,
+      "count": 412,
       "golden": 60,
       "flag": "🇺🇸"
     },
     {
       "name": "Germany",
       "count": 267,
-      "golden": 39,
+      "golden": 42,
       "flag": "🇩🇪"
     },
     {
       "name": "France",
       "count": 264,
-      "golden": 21,
+      "golden": 22,
       "flag": "🇫🇷"
     },
     {
@@ -37,7 +37,7 @@
     },
     {
       "name": "Japan",
-      "count": 201,
+      "count": 202,
       "golden": 33,
       "flag": "🇯🇵"
     },
@@ -74,7 +74,7 @@
     {
       "name": "Switzerland",
       "count": 118,
-      "golden": 11,
+      "golden": 12,
       "flag": "🇨🇭"
     },
     {
@@ -116,7 +116,7 @@
     {
       "name": "China",
       "count": 68,
-      "golden": 6,
+      "golden": 7,
       "flag": "🇨🇳"
     },
     {
@@ -158,7 +158,7 @@
     {
       "name": "Tunisia",
       "count": 42,
-      "golden": 3,
+      "golden": 4,
       "flag": "🇹🇳"
     },
     {
@@ -194,7 +194,7 @@
     {
       "name": "Austria",
       "count": 34,
-      "golden": 4,
+      "golden": 5,
       "flag": "🇦🇹"
     },
     {
@@ -259,7 +259,7 @@
     },
     {
       "name": "Nigeria",
-      "count": 21,
+      "count": 20,
       "golden": 0,
       "flag": "🇳🇬"
     },
@@ -326,7 +326,7 @@
     {
       "name": "Kazakhstan",
       "count": 16,
-      "golden": 1,
+      "golden": 2,
       "flag": "🇰🇿"
     },
     {
@@ -700,7 +700,7 @@
     {
       "name": "Microsoft",
       "count": 78,
-      "golden": 13
+      "golden": 14
     },
     {
       "name": "Amazon Web Services",
@@ -760,7 +760,7 @@
     {
       "name": "HPE",
       "count": 12,
-      "golden": 2
+      "golden": 3
     },
     {
       "name": "Broadcom",
@@ -885,7 +885,7 @@
     {
       "name": "Swisscom",
       "count": 6,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Freelancer",
@@ -1534,6 +1534,11 @@
     },
     {
       "name": "NTT Data",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Craftsman Software, Inc.",
       "count": 2,
       "golden": 0
     },
@@ -3123,11 +3128,6 @@
       "golden": 0
     },
     {
-      "name": "Craftsman Software, Inc.",
-      "count": 1,
-      "golden": 0
-    },
-    {
       "name": "Sourced Group",
       "count": 1,
       "golden": 0
@@ -3364,6 +3364,11 @@
     },
     {
       "name": "Vail Systems",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "R System International Ltd.",
       "count": 1,
       "golden": 0
     },
@@ -6168,7 +6173,7 @@
       "golden": 0
     },
     {
-      "name": "SEKAI",
+      "name": "Armada AI",
       "count": 1,
       "golden": 0
     },
@@ -9380,7 +9385,7 @@
     {
       "name": "DEVK Versicherungen",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Deutsche Bank",
@@ -10448,7 +10453,7 @@
     },
     {
       "name": "Tokyo",
-      "count": 101,
+      "count": 102,
       "golden": 16,
       "country": "Japan",
       "flag": "🇯🇵"
@@ -10736,14 +10741,14 @@
     {
       "name": "Zürich",
       "count": 18,
-      "golden": 4,
+      "golden": 5,
       "country": "Switzerland",
       "flag": "🇨🇭"
     },
     {
       "name": "Vienna",
       "count": 18,
-      "golden": 1,
+      "golden": 2,
       "country": "Austria",
       "flag": "🇦🇹"
     },
@@ -10757,7 +10762,7 @@
     {
       "name": "Hamburg",
       "count": 16,
-      "golden": 2,
+      "golden": 3,
       "country": "Germany",
       "flag": "🇩🇪"
     },
@@ -10790,5 +10795,5 @@
       "flag": "🇬🇪"
     }
   ],
-  "generatedAt": "2026-09-21T03:51:45.448Z"
+  "generatedAt": "2026-09-22T03:51:08.656Z"
 }
