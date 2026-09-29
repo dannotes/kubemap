@@ -1,26 +1,26 @@
 {
-  "total": 4725,
-  "golden": 524,
-  "regular": 3922,
+  "total": 4724,
+  "golden": 533,
+  "regular": 3912,
   "ambassadors": 330,
   "countryCount": 115,
   "topCountries": [
     {
       "name": "India",
-      "count": 474,
+      "count": 473,
       "golden": 42,
       "flag": "🇮🇳"
     },
     {
       "name": "United States",
       "count": 415,
-      "golden": 60,
+      "golden": 61,
       "flag": "🇺🇸"
     },
     {
       "name": "Germany",
       "count": 270,
-      "golden": 42,
+      "golden": 43,
       "flag": "🇩🇪"
     },
     {
@@ -80,13 +80,13 @@
     {
       "name": "Brazil",
       "count": 117,
-      "golden": 8,
+      "golden": 9,
       "flag": "🇧🇷"
     },
     {
       "name": "Turkey",
       "count": 104,
-      "golden": 8,
+      "golden": 9,
       "flag": "🇹🇷"
     },
     {
@@ -98,7 +98,7 @@
     {
       "name": "Australia",
       "count": 81,
-      "golden": 5,
+      "golden": 6,
       "flag": "🇦🇺"
     },
     {
@@ -122,7 +122,7 @@
     {
       "name": "Taiwan",
       "count": 67,
-      "golden": 6,
+      "golden": 8,
       "flag": "🇹🇼"
     },
     {
@@ -152,7 +152,7 @@
     {
       "name": "Egypt",
       "count": 43,
-      "golden": 2,
+      "golden": 3,
       "flag": "🇪🇬"
     },
     {
@@ -242,7 +242,7 @@
     {
       "name": "Hungary",
       "count": 28,
-      "golden": 5,
+      "golden": 6,
       "flag": "🇭🇺"
     },
     {
@@ -700,7 +700,7 @@
     {
       "name": "Microsoft",
       "count": 78,
-      "golden": 14
+      "golden": 15
     },
     {
       "name": "Amazon Web Services",
@@ -1930,7 +1930,7 @@
     {
       "name": "Army Software Factory",
       "count": 2,
-      "golden": 1
+      "golden": 2
     },
     {
       "name": "Cloudmeesters",
@@ -2240,7 +2240,7 @@
     {
       "name": "CIB | Commercial International Bank Egypt",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "CNTXT",
@@ -3388,11 +3388,6 @@
       "golden": 0
     },
     {
-      "name": "R System International Ltd.",
-      "count": 1,
-      "golden": 0
-    },
-    {
       "name": "Ollion",
       "count": 1,
       "golden": 0
@@ -3890,7 +3885,7 @@
     {
       "name": "National Taiwan University of Science and Technology (Graduate Student)",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Rackspace Technology",
@@ -4895,7 +4890,7 @@
     {
       "name": "Continental",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "AhnLab CloudMate",
@@ -6195,7 +6190,7 @@
     {
       "name": "Appier",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Armada AI",
@@ -6400,7 +6395,7 @@
     {
       "name": "Visa/Pismo",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Netdata Cybersecurity",
@@ -10566,7 +10561,7 @@
     {
       "name": "Berlin",
       "count": 36,
-      "golden": 6,
+      "golden": 7,
       "country": "Germany",
       "flag": "🇩🇪"
     },
@@ -10580,7 +10575,7 @@
     {
       "name": "Istanbul",
       "count": 34,
-      "golden": 2,
+      "golden": 3,
       "country": "Turkey",
       "flag": "🇹🇷"
     },
@@ -10636,7 +10631,7 @@
     {
       "name": "Taipei",
       "count": 28,
-      "golden": 3,
+      "golden": 4,
       "country": "Taiwan",
       "flag": "🇹🇼"
     },
@@ -10664,7 +10659,7 @@
     {
       "name": "Austin",
       "count": 24,
-      "golden": 4,
+      "golden": 5,
       "country": "United States",
       "flag": "🇺🇸"
     },
@@ -10762,7 +10757,7 @@
     {
       "name": "Cairo",
       "count": 19,
-      "golden": 1,
+      "golden": 2,
       "country": "Egypt",
       "flag": "🇪🇬"
     },
@@ -10790,7 +10785,7 @@
     {
       "name": "Sydney",
       "count": 17,
-      "golden": 1,
+      "golden": 2,
       "country": "Australia",
       "flag": "🇦🇺"
     },
@@ -10830,5 +10825,5 @@
       "flag": "🇬🇪"
     }
   ],
-  "generatedAt": "2026-09-28T04:09:55.770Z"
+  "generatedAt": "2026-09-29T04:45:24.504Z"
 }
