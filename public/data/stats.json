@@ -1,13 +1,13 @@
 {
-  "total": 4724,
+  "total": 4725,
   "golden": 533,
-  "regular": 3912,
+  "regular": 3913,
   "ambassadors": 330,
   "countryCount": 115,
   "topCountries": [
     {
       "name": "India",
-      "count": 473,
+      "count": 474,
       "golden": 42,
       "flag": "🇮🇳"
     },
@@ -3388,6 +3388,11 @@
       "golden": 0
     },
     {
+      "name": "R System International Ltd.",
+      "count": 1,
+      "golden": 0
+    },
+    {
       "name": "Ollion",
       "count": 1,
       "golden": 0
@@ -3881,11 +3886,6 @@
       "name": "NETWAYS Managed Services GmbH",
       "count": 1,
       "golden": 0
-    },
-    {
-      "name": "National Taiwan University of Science and Technology (Graduate Student)",
-      "count": 1,
-      "golden": 1
     },
     {
       "name": "Rackspace Technology",
@@ -5108,7 +5108,7 @@
       "golden": 0
     },
     {
-      "name": "KubernetesLab.dev",
+      "name": "KubernetesLab",
       "count": 1,
       "golden": 0
     },
@@ -10825,5 +10825,5 @@
       "flag": "🇬🇪"
     }
   ],
-  "generatedAt": "2026-09-29T04:45:24.504Z"
+  "generatedAt": "2026-09-30T04:31:58.784Z"
 }
