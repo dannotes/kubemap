@@ -1103,11 +1103,6 @@
       "golden": 0
     },
     {
-      "name": "NEC Solution Innovators, Ltd.",
-      "count": 4,
-      "golden": 0
-    },
-    {
       "name": "JPMorgan Chase",
       "count": 4,
       "golden": 0
@@ -1344,6 +1339,11 @@
     },
     {
       "name": "SUE | Cloud Native Solutions",
+      "count": 3,
+      "golden": 0
+    },
+    {
+      "name": "NEC Solution Innovators, Ltd.",
       "count": 3,
       "golden": 0
     },
@@ -2684,11 +2684,6 @@
     },
     {
       "name": "infraBuilder and BlackSwift",
-      "count": 1,
-      "golden": 0
-    },
-    {
-      "name": "GWI",
       "count": 1,
       "golden": 0
     },
@@ -9163,6 +9158,11 @@
       "golden": 0
     },
     {
+      "name": "NEC Corporation",
+      "count": 1,
+      "golden": 0
+    },
+    {
       "name": "Increff",
       "count": 1,
       "golden": 0
@@ -10825,5 +10825,5 @@
       "flag": "🇬🇪"
     }
   ],
-  "generatedAt": "2026-10-01T04:40:22.898Z"
+  "generatedAt": "2026-10-02T04:36:36.663Z"
 }
