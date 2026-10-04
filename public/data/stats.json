@@ -61,7 +61,7 @@
     },
     {
       "name": "Canada",
-      "count": 136,
+      "count": 137,
       "golden": 14,
       "flag": "🇨🇦"
     },
@@ -73,7 +73,7 @@
     },
     {
       "name": "Brazil",
-      "count": 119,
+      "count": 118,
       "golden": 9,
       "flag": "🇧🇷"
     },
@@ -6858,7 +6858,7 @@
       "golden": 0
     },
     {
-      "name": "Hapvida NotreDame Intermédica",
+      "name": "Neo Financial",
       "count": 1,
       "golden": 0
     },
@@ -10805,5 +10805,5 @@
       "flag": "🇬🇪"
     }
   ],
-  "generatedAt": "2026-10-03T04:21:34.592Z"
+  "generatedAt": "2026-10-04T04:51:24.367Z"
 }
