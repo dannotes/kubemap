@@ -1,26 +1,26 @@
 {
-  "total": 4726,
-  "golden": 533,
-  "regular": 3956,
-  "ambassadors": 286,
+  "total": 4731,
+  "golden": 547,
+  "regular": 3943,
+  "ambassadors": 290,
   "countryCount": 115,
   "topCountries": [
     {
       "name": "India",
-      "count": 468,
-      "golden": 42,
+      "count": 469,
+      "golden": 43,
       "flag": "🇮🇳"
     },
     {
       "name": "United States",
-      "count": 413,
+      "count": 414,
       "golden": 61,
       "flag": "🇺🇸"
     },
     {
       "name": "Germany",
       "count": 268,
-      "golden": 43,
+      "golden": 45,
       "flag": "🇩🇪"
     },
     {
@@ -31,14 +31,14 @@
     },
     {
       "name": "Netherlands",
-      "count": 217,
+      "count": 218,
       "golden": 24,
       "flag": "🇳🇱"
     },
     {
       "name": "Japan",
       "count": 204,
-      "golden": 33,
+      "golden": 35,
       "flag": "🇯🇵"
     },
     {
@@ -56,7 +56,7 @@
     {
       "name": "Poland",
       "count": 163,
-      "golden": 13,
+      "golden": 14,
       "flag": "🇵🇱"
     },
     {
@@ -73,8 +73,8 @@
     },
     {
       "name": "Brazil",
-      "count": 118,
-      "golden": 9,
+      "count": 119,
+      "golden": 10,
       "flag": "🇧🇷"
     },
     {
@@ -134,13 +134,13 @@
     {
       "name": "Sweden",
       "count": 47,
-      "golden": 9,
+      "golden": 10,
       "flag": "🇸🇪"
     },
     {
       "name": "Saudi Arabia",
       "count": 44,
-      "golden": 4,
+      "golden": 5,
       "flag": "🇸🇦"
     },
     {
@@ -152,7 +152,7 @@
     {
       "name": "Egypt",
       "count": 43,
-      "golden": 3,
+      "golden": 4,
       "flag": "🇪🇬"
     },
     {
@@ -170,7 +170,7 @@
     {
       "name": "Romania",
       "count": 36,
-      "golden": 0,
+      "golden": 1,
       "flag": "🇷🇴"
     },
     {
@@ -259,7 +259,7 @@
     },
     {
       "name": "Nigeria",
-      "count": 20,
+      "count": 21,
       "golden": 0,
       "flag": "🇳🇬"
     },
@@ -350,7 +350,7 @@
     {
       "name": "Greece",
       "count": 13,
-      "golden": 2,
+      "golden": 3,
       "flag": "🇬🇷"
     },
     {
@@ -374,13 +374,13 @@
     {
       "name": "Russia",
       "count": 10,
-      "golden": 1,
+      "golden": 2,
       "flag": "🇷🇺"
     },
     {
       "name": "Belarus",
       "count": 10,
-      "golden": 0,
+      "golden": 1,
       "flag": "🇧🇾"
     },
     {
@@ -699,12 +699,12 @@
   "topCompanies": [
     {
       "name": "Microsoft",
-      "count": 76,
+      "count": 77,
       "golden": 15
     },
     {
       "name": "Amazon Web Services",
-      "count": 38,
+      "count": 39,
       "golden": 3
     },
     {
@@ -748,12 +748,17 @@
       "golden": 3
     },
     {
+      "name": "Broadcom",
+      "count": 14,
+      "golden": 1
+    },
+    {
       "name": "HPE",
       "count": 13,
       "golden": 3
     },
     {
-      "name": "Broadcom",
+      "name": "IBM",
       "count": 13,
       "golden": 1
     },
@@ -765,15 +770,10 @@
     {
       "name": "Canonical",
       "count": 13,
-      "golden": 1
+      "golden": 2
     },
     {
       "name": "Hewlett Packard Enterprise",
-      "count": 12,
-      "golden": 1
-    },
-    {
-      "name": "IBM",
       "count": 12,
       "golden": 1
     },
@@ -1395,7 +1395,7 @@
     {
       "name": "Ejada",
       "count": 2,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "EURECOM",
@@ -2420,7 +2420,7 @@
     {
       "name": "Netlink - Lumenore",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Forrester Research",
@@ -3828,7 +3828,7 @@
       "golden": 0
     },
     {
-      "name": "Cloud Technology Experts",
+      "name": "Zone 5 Tech",
       "count": 1,
       "golden": 0
     },
@@ -7815,7 +7815,7 @@
     {
       "name": "MiCO Solutions",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Logo Yazılım",
@@ -10519,7 +10519,7 @@
     },
     {
       "name": "Hyderabad",
-      "count": 43,
+      "count": 44,
       "golden": 0,
       "country": "India",
       "flag": "🇮🇳"
@@ -10541,7 +10541,7 @@
     {
       "name": "Riyadh",
       "count": 36,
-      "golden": 4,
+      "golden": 5,
       "country": "Saudi Arabia",
       "flag": "🇸🇦"
     },
@@ -10589,7 +10589,7 @@
     },
     {
       "name": "Amsterdam",
-      "count": 30,
+      "count": 31,
       "golden": 4,
       "country": "Netherlands",
       "flag": "🇳🇱"
@@ -10702,7 +10702,7 @@
     {
       "name": "Bucharest",
       "count": 21,
-      "golden": 0,
+      "golden": 1,
       "country": "Romania",
       "flag": "🇷🇴"
     },
@@ -10772,7 +10772,7 @@
     {
       "name": "Hamburg",
       "count": 17,
-      "golden": 3,
+      "golden": 4,
       "country": "Germany",
       "flag": "🇩🇪"
     },
@@ -10805,5 +10805,5 @@
       "flag": "🇬🇪"
     }
   ],
-  "generatedAt": "2026-10-05T04:35:33.281Z"
+  "generatedAt": "2026-10-06T05:24:26.432Z"
 }
