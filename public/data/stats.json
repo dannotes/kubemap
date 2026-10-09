@@ -1,8 +1,8 @@
 {
-  "total": 4733,
+  "total": 4736,
   "golden": 547,
   "regular": 3943,
-  "ambassadors": 292,
+  "ambassadors": 295,
   "countryCount": 115,
   "topCountries": [
     {
@@ -43,7 +43,7 @@
     },
     {
       "name": "United Kingdom",
-      "count": 169,
+      "count": 170,
       "golden": 15,
       "flag": "🇬🇧"
     },
@@ -133,7 +133,7 @@
     },
     {
       "name": "Sweden",
-      "count": 49,
+      "count": 50,
       "golden": 10,
       "flag": "🇸🇪"
     },
@@ -211,7 +211,7 @@
     },
     {
       "name": "Ireland",
-      "count": 30,
+      "count": 31,
       "golden": 2,
       "flag": "🇮🇪"
     },
@@ -778,13 +778,13 @@
       "golden": 1
     },
     {
-      "name": "NAB",
+      "name": "Apple",
       "count": 11,
       "golden": 1
     },
     {
-      "name": "Apple",
-      "count": 10,
+      "name": "NAB",
+      "count": 11,
       "golden": 1
     },
     {
@@ -2974,6 +2974,11 @@
     },
     {
       "name": "Techdeck Limited",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "General Motors",
       "count": 1,
       "golden": 0
     },
@@ -8478,6 +8483,11 @@
       "golden": 0
     },
     {
+      "name": "Stealth Startup",
+      "count": 1,
+      "golden": 0
+    },
+    {
       "name": "OnRamp",
       "count": 1,
       "golden": 0
@@ -9453,6 +9463,11 @@
       "golden": 0
     },
     {
+      "name": "Telia",
+      "count": 1,
+      "golden": 0
+    },
+    {
       "name": "SADA, An Insight Company",
       "count": 1,
       "golden": 0
@@ -9981,11 +9996,6 @@
       "name": "Ultimate Kronos Group (UKG)",
       "count": 1,
       "golden": 1
-    },
-    {
-      "name": "Field CTO & Technical Advisor at Valdemar.ai",
-      "count": 1,
-      "golden": 0
     },
     {
       "name": "Independent Freelancer at Upwork",
@@ -10698,6 +10708,13 @@
       "flag": "🇹🇭"
     },
     {
+      "name": "Dublin",
+      "count": 22,
+      "golden": 1,
+      "country": "Ireland",
+      "flag": "🇮🇪"
+    },
+    {
       "name": "Budapest",
       "count": 22,
       "golden": 4,
@@ -10705,11 +10722,11 @@
       "flag": "🇭🇺"
     },
     {
-      "name": "Dublin",
+      "name": "Stockholm",
       "count": 21,
-      "golden": 1,
-      "country": "Ireland",
-      "flag": "🇮🇪"
+      "golden": 3,
+      "country": "Sweden",
+      "flag": "🇸🇪"
     },
     {
       "name": "Bucharest",
@@ -10724,13 +10741,6 @@
       "golden": 3,
       "country": "China",
       "flag": "🇨🇳"
-    },
-    {
-      "name": "Stockholm",
-      "count": 20,
-      "golden": 3,
-      "country": "Sweden",
-      "flag": "🇸🇪"
     },
     {
       "name": "Dubai",
@@ -10810,5 +10820,5 @@
       "flag": "🇬🇪"
     }
   ],
-  "generatedAt": "2026-10-08T05:02:43.773Z"
+  "generatedAt": "2026-10-09T05:07:09.739Z"
 }
