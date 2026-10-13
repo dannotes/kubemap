@@ -1,26 +1,26 @@
 {
-  "total": 4780,
-  "golden": 547,
-  "regular": 3986,
-  "ambassadors": 296,
+  "total": 4778,
+  "golden": 555,
+  "regular": 3978,
+  "ambassadors": 294,
   "countryCount": 115,
   "topCountries": [
     {
       "name": "India",
-      "count": 474,
+      "count": 475,
       "golden": 43,
       "flag": "🇮🇳"
     },
     {
       "name": "United States",
-      "count": 416,
+      "count": 415,
       "golden": 61,
       "flag": "🇺🇸"
     },
     {
       "name": "Germany",
       "count": 270,
-      "golden": 45,
+      "golden": 47,
       "flag": "🇩🇪"
     },
     {
@@ -32,7 +32,7 @@
     {
       "name": "Netherlands",
       "count": 220,
-      "golden": 24,
+      "golden": 25,
       "flag": "🇳🇱"
     },
     {
@@ -44,7 +44,7 @@
     {
       "name": "United Kingdom",
       "count": 172,
-      "golden": 15,
+      "golden": 16,
       "flag": "🇬🇧"
     },
     {
@@ -56,7 +56,7 @@
     {
       "name": "Poland",
       "count": 163,
-      "golden": 14,
+      "golden": 15,
       "flag": "🇵🇱"
     },
     {
@@ -110,7 +110,7 @@
     {
       "name": "Spain",
       "count": 80,
-      "golden": 7,
+      "golden": 8,
       "flag": "🇪🇸"
     },
     {
@@ -127,7 +127,7 @@
     },
     {
       "name": "China",
-      "count": 63,
+      "count": 62,
       "golden": 7,
       "flag": "🇨🇳"
     },
@@ -158,7 +158,7 @@
     {
       "name": "Tunisia",
       "count": 43,
-      "golden": 4,
+      "golden": 6,
       "flag": "🇹🇳"
     },
     {
@@ -288,12 +288,6 @@
       "flag": "🇱🇰"
     },
     {
-      "name": "Pakistan",
-      "count": 19,
-      "golden": 1,
-      "flag": "🇵🇰"
-    },
-    {
       "name": "Morocco",
       "count": 18,
       "golden": 0,
@@ -304,6 +298,12 @@
       "count": 18,
       "golden": 2,
       "flag": "🇸🇰"
+    },
+    {
+      "name": "Pakistan",
+      "count": 18,
+      "golden": 1,
+      "flag": "🇵🇰"
     },
     {
       "name": "Israel",
@@ -750,7 +750,7 @@
     {
       "name": "HPE",
       "count": 13,
-      "golden": 3
+      "golden": 5
     },
     {
       "name": "Broadcom",
@@ -1270,7 +1270,7 @@
     {
       "name": "B1 Systems GmbH",
       "count": 3,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Nationale-Nederlanden",
@@ -2129,11 +2129,6 @@
     },
     {
       "name": "Viettel Networks",
-      "count": 2,
-      "golden": 0
-    },
-    {
-      "name": "Amazon",
       "count": 2,
       "golden": 0
     },
@@ -5188,11 +5183,6 @@
       "golden": 0
     },
     {
-      "name": "Hangzhou HarmonyCloud Technology Co., Ltd",
-      "count": 1,
-      "golden": 0
-    },
-    {
       "name": "Vaudoise",
       "count": 1,
       "golden": 0
@@ -5465,7 +5455,7 @@
     {
       "name": "CIC Consulting Informatico",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Moveworks",
@@ -8380,7 +8370,7 @@
     {
       "name": "aixcept",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Tietoevry Banking",
@@ -8873,6 +8863,11 @@
       "golden": 1
     },
     {
+      "name": "Amazon",
+      "count": 1,
+      "golden": 0
+    },
+    {
       "name": "MET-CS",
       "count": 1,
       "golden": 0
@@ -9343,6 +9338,11 @@
       "golden": 0
     },
     {
+      "name": "Improving",
+      "count": 1,
+      "golden": 0
+    },
+    {
       "name": "Megazone Soft",
       "count": 1,
       "golden": 0
@@ -9529,11 +9529,6 @@
     },
     {
       "name": "Fidleity Investments",
-      "count": 1,
-      "golden": 0
-    },
-    {
-      "name": "Ascend Healthcare and solution",
       "count": 1,
       "golden": 0
     },
@@ -10632,7 +10627,7 @@
     {
       "name": "Warsaw",
       "count": 42,
-      "golden": 5,
+      "golden": 6,
       "country": "Poland",
       "flag": "🇵🇱"
     },
@@ -10749,6 +10744,13 @@
       "flag": "🇩🇰"
     },
     {
+      "name": "Mumbai",
+      "count": 24,
+      "golden": 3,
+      "country": "India",
+      "flag": "🇮🇳"
+    },
+    {
       "name": "Sofia",
       "count": 24,
       "golden": 2,
@@ -10775,13 +10777,6 @@
       "golden": 1,
       "country": "Switzerland",
       "flag": "🇨🇭"
-    },
-    {
-      "name": "Mumbai",
-      "count": 23,
-      "golden": 3,
-      "country": "India",
-      "flag": "🇮🇳"
     },
     {
       "name": "Toulouse",
@@ -10910,5 +10905,5 @@
       "flag": "🇬🇪"
     }
   ],
-  "generatedAt": "2026-10-12T04:52:29.355Z"
+  "generatedAt": "2026-10-13T06:01:48.056Z"
 }
