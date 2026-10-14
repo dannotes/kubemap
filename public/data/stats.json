@@ -1,8 +1,8 @@
 {
-  "total": 4778,
+  "total": 4779,
   "golden": 555,
   "regular": 3978,
-  "ambassadors": 294,
+  "ambassadors": 295,
   "countryCount": 115,
   "topCountries": [
     {
@@ -264,16 +264,16 @@
       "flag": "🇳🇬"
     },
     {
+      "name": "Mexico",
+      "count": 21,
+      "golden": 3,
+      "flag": "🇲🇽"
+    },
+    {
       "name": "Finland",
       "count": 21,
       "golden": 4,
       "flag": "🇫🇮"
-    },
-    {
-      "name": "Mexico",
-      "count": 20,
-      "golden": 3,
-      "flag": "🇲🇽"
     },
     {
       "name": "Costa Rica",
@@ -734,7 +734,7 @@
     },
     {
       "name": "Google",
-      "count": 17,
+      "count": 18,
       "golden": 1
     },
     {
@@ -10905,5 +10905,5 @@
       "flag": "🇬🇪"
     }
   ],
-  "generatedAt": "2026-10-13T06:01:48.056Z"
+  "generatedAt": "2026-10-14T04:05:59.760Z"
 }
