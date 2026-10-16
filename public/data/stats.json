@@ -1,19 +1,19 @@
 {
-  "total": 4777,
+  "total": 4778,
   "golden": 555,
-  "regular": 3976,
+  "regular": 3977,
   "ambassadors": 295,
   "countryCount": 115,
   "topCountries": [
     {
       "name": "India",
-      "count": 473,
+      "count": 474,
       "golden": 43,
       "flag": "🇮🇳"
     },
     {
       "name": "United States",
-      "count": 415,
+      "count": 414,
       "golden": 61,
       "flag": "🇺🇸"
     },
@@ -415,7 +415,7 @@
     },
     {
       "name": "Lithuania",
-      "count": 8,
+      "count": 9,
       "golden": 2,
       "flag": "🇱🇹"
     },
@@ -1163,11 +1163,6 @@
       "golden": 0
     },
     {
-      "name": "Société Générale",
-      "count": 3,
-      "golden": 1
-    },
-    {
       "name": "SFEIR",
       "count": 3,
       "golden": 0
@@ -1586,6 +1581,11 @@
       "name": "Devtron",
       "count": 2,
       "golden": 0
+    },
+    {
+      "name": "Société Générale",
+      "count": 2,
+      "golden": 1
     },
     {
       "name": "Trendyol",
@@ -3419,6 +3419,11 @@
     },
     {
       "name": "Vail Systems",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "R System International Ltd.",
       "count": 1,
       "golden": 0
     },
@@ -6019,6 +6024,11 @@
     },
     {
       "name": "Woori Bank",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Balandra IT",
       "count": 1,
       "golden": 0
     },
@@ -10900,5 +10910,5 @@
       "flag": "🇬🇪"
     }
   ],
-  "generatedAt": "2026-10-15T03:44:57.638Z"
+  "generatedAt": "2026-10-16T03:41:31.796Z"
 }
