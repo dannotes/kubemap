@@ -1,7 +1,7 @@
 {
-  "total": 4805,
-  "golden": 555,
-  "regular": 4004,
+  "total": 4806,
+  "golden": 564,
+  "regular": 3996,
   "ambassadors": 296,
   "countryCount": 115,
   "topCountries": [
@@ -14,13 +14,13 @@
     {
       "name": "United States",
       "count": 417,
-      "golden": 61,
+      "golden": 62,
       "flag": "🇺🇸"
     },
     {
       "name": "Germany",
       "count": 272,
-      "golden": 47,
+      "golden": 48,
       "flag": "🇩🇪"
     },
     {
@@ -38,7 +38,7 @@
     {
       "name": "Japan",
       "count": 206,
-      "golden": 35,
+      "golden": 36,
       "flag": "🇯🇵"
     },
     {
@@ -50,13 +50,13 @@
     {
       "name": "South Korea",
       "count": 168,
-      "golden": 16,
+      "golden": 18,
       "flag": "🇰🇷"
     },
     {
       "name": "Poland",
       "count": 165,
-      "golden": 15,
+      "golden": 17,
       "flag": "🇵🇱"
     },
     {
@@ -104,12 +104,12 @@
     {
       "name": "Australia",
       "count": 82,
-      "golden": 6,
+      "golden": 7,
       "flag": "🇦🇺"
     },
     {
       "name": "Spain",
-      "count": 81,
+      "count": 82,
       "golden": 8,
       "flag": "🇪🇸"
     },
@@ -176,7 +176,7 @@
     {
       "name": "United Arab Emirates",
       "count": 35,
-      "golden": 2,
+      "golden": 3,
       "flag": "🇦🇪"
     },
     {
@@ -810,7 +810,7 @@
     {
       "name": "Samsung SDS",
       "count": 8,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Kyndryl",
@@ -1270,7 +1270,7 @@
     {
       "name": "Nationale-Nederlanden",
       "count": 3,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "evoila",
@@ -1660,7 +1660,7 @@
     {
       "name": "3-shake",
       "count": 2,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Nordcloud, an IBM company",
@@ -2363,11 +2363,6 @@
       "golden": 0
     },
     {
-      "name": "BornDigital",
-      "count": 1,
-      "golden": 0
-    },
-    {
       "name": "SVA Alexander System Vertriebs GmbH​",
       "count": 1,
       "golden": 0
@@ -2379,6 +2374,11 @@
     },
     {
       "name": "FikaWorks",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "BornDigital",
       "count": 1,
       "golden": 0
     },
@@ -6620,7 +6620,7 @@
     {
       "name": "DZ BANK AG",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Redjar",
@@ -10235,7 +10235,7 @@
     {
       "name": "Gdańsk University of Technology",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "VirtusLab",
@@ -10636,7 +10636,7 @@
     {
       "name": "Seoul",
       "count": 94,
-      "golden": 9,
+      "golden": 10,
       "country": "South Korea",
       "flag": "🇰🇷"
     },
@@ -10699,7 +10699,7 @@
     {
       "name": "Warsaw",
       "count": 42,
-      "golden": 6,
+      "golden": 7,
       "country": "Poland",
       "flag": "🇵🇱"
     },
@@ -10713,7 +10713,7 @@
     {
       "name": "Melbourne",
       "count": 36,
-      "golden": 0,
+      "golden": 1,
       "country": "Australia",
       "flag": "🇦🇺"
     },
@@ -10832,7 +10832,7 @@
     {
       "name": "Austin",
       "count": 23,
-      "golden": 5,
+      "golden": 6,
       "country": "United States",
       "flag": "🇺🇸"
     },
@@ -10921,6 +10921,13 @@
       "flag": "🇨🇭"
     },
     {
+      "name": "Madrid",
+      "count": 18,
+      "golden": 2,
+      "country": "Spain",
+      "flag": "🇪🇸"
+    },
+    {
       "name": "Vienna",
       "count": 18,
       "golden": 2,
@@ -10933,13 +10940,6 @@
       "golden": 2,
       "country": "Australia",
       "flag": "🇦🇺"
-    },
-    {
-      "name": "Madrid",
-      "count": 17,
-      "golden": 2,
-      "country": "Spain",
-      "flag": "🇪🇸"
     },
     {
       "name": "Hamburg",
@@ -10970,5 +10970,5 @@
       "flag": "🇬🇪"
     }
   ],
-  "generatedAt": "2026-10-19T03:48:55.172Z"
+  "generatedAt": "2026-10-20T03:57:50.602Z"
 }
