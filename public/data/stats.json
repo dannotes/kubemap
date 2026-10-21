@@ -1133,6 +1133,11 @@
       "golden": 0
     },
     {
+      "name": "Akuity",
+      "count": 3,
+      "golden": 0
+    },
+    {
       "name": "KPMG",
       "count": 3,
       "golden": 0
@@ -1374,11 +1379,6 @@
     },
     {
       "name": "WPP Production Dhaka",
-      "count": 2,
-      "golden": 0
-    },
-    {
-      "name": "Akuity",
       "count": 2,
       "golden": 0
     },
@@ -4864,11 +4864,6 @@
     },
     {
       "name": "dcops.ai",
-      "count": 1,
-      "golden": 0
-    },
-    {
-      "name": "Akamas",
       "count": 1,
       "golden": 0
     },
@@ -8948,6 +8943,11 @@
       "golden": 0
     },
     {
+      "name": "DevZero",
+      "count": 1,
+      "golden": 0
+    },
+    {
       "name": "VSHN Canada - The DevOps Company Inc.",
       "count": 1,
       "golden": 1
@@ -10970,5 +10970,5 @@
       "flag": "🇬🇪"
     }
   ],
-  "generatedAt": "2026-10-20T03:57:50.602Z"
+  "generatedAt": "2026-10-21T03:53:02.528Z"
 }
