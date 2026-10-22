@@ -1,7 +1,7 @@
 {
   "total": 4806,
-  "golden": 564,
-  "regular": 3996,
+  "golden": 565,
+  "regular": 3995,
   "ambassadors": 296,
   "countryCount": 115,
   "topCountries": [
@@ -32,7 +32,7 @@
     {
       "name": "Netherlands",
       "count": 222,
-      "golden": 25,
+      "golden": 26,
       "flag": "🇳🇱"
     },
     {
@@ -2100,7 +2100,7 @@
     {
       "name": "RawWorks",
       "count": 2,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Bechtle",
@@ -10970,5 +10970,5 @@
       "flag": "🇬🇪"
     }
   ],
-  "generatedAt": "2026-10-21T03:53:02.528Z"
+  "generatedAt": "2026-10-22T03:51:28.826Z"
 }
