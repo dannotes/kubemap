@@ -1,25 +1,25 @@
 {
-  "total": 4806,
+  "total": 4809,
   "golden": 565,
   "regular": 3995,
-  "ambassadors": 296,
+  "ambassadors": 299,
   "countryCount": 115,
   "topCountries": [
     {
       "name": "India",
-      "count": 478,
+      "count": 479,
       "golden": 43,
       "flag": "🇮🇳"
     },
     {
       "name": "United States",
-      "count": 417,
+      "count": 418,
       "golden": 62,
       "flag": "🇺🇸"
     },
     {
       "name": "Germany",
-      "count": 272,
+      "count": 273,
       "golden": 48,
       "flag": "🇩🇪"
     },
@@ -79,7 +79,7 @@
     },
     {
       "name": "Switzerland",
-      "count": 121,
+      "count": 120,
       "golden": 12,
       "flag": "🇨🇭"
     },
@@ -246,6 +246,12 @@
       "flag": "🇭🇺"
     },
     {
+      "name": "Mexico",
+      "count": 23,
+      "golden": 3,
+      "flag": "🇲🇽"
+    },
+    {
       "name": "Colombia",
       "count": 23,
       "golden": 1,
@@ -256,12 +262,6 @@
       "count": 23,
       "golden": 6,
       "flag": "🇵🇪"
-    },
-    {
-      "name": "Mexico",
-      "count": 22,
-      "golden": 3,
-      "flag": "🇲🇽"
     },
     {
       "name": "Nigeria",
@@ -699,7 +699,7 @@
   "topCompanies": [
     {
       "name": "Microsoft",
-      "count": 77,
+      "count": 78,
       "golden": 15
     },
     {
@@ -3523,7 +3523,7 @@
       "golden": 0
     },
     {
-      "name": "ACE systems engineering ag",
+      "name": "Sutaj Services",
       "count": 1,
       "golden": 0
     },
@@ -3624,6 +3624,11 @@
     },
     {
       "name": "Tietoevry",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Lyft",
       "count": 1,
       "golden": 0
     },
@@ -8288,6 +8293,11 @@
       "golden": 1
     },
     {
+      "name": "8gears AG",
+      "count": 1,
+      "golden": 0
+    },
+    {
       "name": "Siemens Digital Industries Software India Pvt Ltd",
       "count": 1,
       "golden": 0
@@ -10802,16 +10812,16 @@
       "flag": "🇧🇩"
     },
     {
-      "name": "Mumbai",
+      "name": "Chennai",
       "count": 25,
-      "golden": 3,
+      "golden": 5,
       "country": "India",
       "flag": "🇮🇳"
     },
     {
-      "name": "Chennai",
-      "count": 24,
-      "golden": 5,
+      "name": "Mumbai",
+      "count": 25,
+      "golden": 3,
       "country": "India",
       "flag": "🇮🇳"
     },
@@ -10970,5 +10980,5 @@
       "flag": "🇬🇪"
     }
   ],
-  "generatedAt": "2026-10-22T03:51:28.826Z"
+  "generatedAt": "2026-10-23T03:57:10.668Z"
 }
