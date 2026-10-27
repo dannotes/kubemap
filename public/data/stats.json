@@ -1,7 +1,7 @@
 {
   "total": 4847,
-  "golden": 565,
-  "regular": 4033,
+  "golden": 573,
+  "regular": 4025,
   "ambassadors": 300,
   "countryCount": 115,
   "topCountries": [
@@ -14,7 +14,7 @@
     {
       "name": "United States",
       "count": 421,
-      "golden": 62,
+      "golden": 64,
       "flag": "🇺🇸"
     },
     {
@@ -38,7 +38,7 @@
     {
       "name": "Japan",
       "count": 206,
-      "golden": 36,
+      "golden": 38,
       "flag": "🇯🇵"
     },
     {
@@ -86,7 +86,7 @@
     {
       "name": "Turkey",
       "count": 108,
-      "golden": 9,
+      "golden": 10,
       "flag": "🇹🇷"
     },
     {
@@ -110,7 +110,7 @@
     {
       "name": "Australia",
       "count": 82,
-      "golden": 7,
+      "golden": 8,
       "flag": "🇦🇺"
     },
     {
@@ -170,7 +170,7 @@
     {
       "name": "Romania",
       "count": 36,
-      "golden": 1,
+      "golden": 2,
       "flag": "🇷🇴"
     },
     {
@@ -284,7 +284,7 @@
     {
       "name": "Sri Lanka",
       "count": 20,
-      "golden": 0,
+      "golden": 1,
       "flag": "🇱🇰"
     },
     {
@@ -900,7 +900,7 @@
     {
       "name": "Verizon",
       "count": 6,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Amdocs",
@@ -9695,7 +9695,7 @@
     {
       "name": "SYSTEM I Co., Ltd.",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Mamezou Co.,Ltd",
@@ -10270,7 +10270,7 @@
     {
       "name": "Edgesource",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Telus International",
@@ -10780,7 +10780,7 @@
     {
       "name": "Melbourne",
       "count": 36,
-      "golden": 1,
+      "golden": 2,
       "country": "Australia",
       "flag": "🇦🇺"
     },
@@ -10941,7 +10941,7 @@
     {
       "name": "Bucharest",
       "count": 21,
-      "golden": 1,
+      "golden": 2,
       "country": "Romania",
       "flag": "🇷🇴"
     },
@@ -11030,5 +11030,5 @@
       "flag": "🇮🇩"
     }
   ],
-  "generatedAt": "2026-10-26T03:45:43.514Z"
+  "generatedAt": "2026-10-27T04:17:03.702Z"
 }
