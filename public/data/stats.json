@@ -1,7 +1,7 @@
 {
   "total": 4846,
-  "golden": 573,
-  "regular": 4024,
+  "golden": 574,
+  "regular": 4023,
   "ambassadors": 300,
   "countryCount": 115,
   "topCountries": [
@@ -80,7 +80,7 @@
     {
       "name": "Switzerland",
       "count": 121,
-      "golden": 12,
+      "golden": 13,
       "flag": "🇨🇭"
     },
     {
@@ -3770,7 +3770,7 @@
     {
       "name": "ONLU AG (onlu.ch)",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "ti&m",
@@ -10971,7 +10971,7 @@
     {
       "name": "Bern",
       "count": 19,
-      "golden": 1,
+      "golden": 2,
       "country": "Switzerland",
       "flag": "🇨🇭"
     },
@@ -11025,5 +11025,5 @@
       "flag": "🇮🇩"
     }
   ],
-  "generatedAt": "2026-10-28T04:33:45.022Z"
+  "generatedAt": "2026-10-29T04:56:18.402Z"
 }
