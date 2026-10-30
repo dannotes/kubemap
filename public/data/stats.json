@@ -1,13 +1,13 @@
 {
-  "total": 4846,
+  "total": 4847,
   "golden": 574,
-  "regular": 4023,
+  "regular": 4024,
   "ambassadors": 300,
   "countryCount": 115,
   "topCountries": [
     {
       "name": "India",
-      "count": 484,
+      "count": 485,
       "golden": 43,
       "flag": "🇮🇳"
     },
@@ -779,7 +779,7 @@
     },
     {
       "name": "Apple",
-      "count": 11,
+      "count": 12,
       "golden": 1
     },
     {
@@ -3454,6 +3454,11 @@
     },
     {
       "name": "Vail Systems",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "R System International Ltd.",
       "count": 1,
       "golden": 0
     },
@@ -9598,11 +9603,6 @@
       "golden": 0
     },
     {
-      "name": "OPUS2",
-      "count": 1,
-      "golden": 0
-    },
-    {
       "name": "TSYS, A Global Payments Company",
       "count": 1,
       "golden": 0
@@ -11025,5 +11025,5 @@
       "flag": "🇮🇩"
     }
   ],
-  "generatedAt": "2026-10-29T04:56:18.402Z"
+  "generatedAt": "2026-10-30T04:56:16.839Z"
 }
