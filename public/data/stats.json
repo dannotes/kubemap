@@ -699,8 +699,8 @@
   "topCompanies": [
     {
       "name": "Microsoft",
-      "count": 78,
-      "golden": 15
+      "count": 79,
+      "golden": 16
     },
     {
       "name": "Amazon Web Services",
@@ -1216,11 +1216,6 @@
       "name": "Devoteam Innovative Tech",
       "count": 3,
       "golden": 0
-    },
-    {
-      "name": "Avanade",
-      "count": 3,
-      "golden": 1
     },
     {
       "name": "SAMSUNG SDS",
@@ -1849,6 +1844,11 @@
     },
     {
       "name": "FIS Global",
+      "count": 2,
+      "golden": 0
+    },
+    {
+      "name": "Avanade",
       "count": 2,
       "golden": 0
     },
@@ -11090,5 +11090,5 @@
       "flag": "🇮🇩"
     }
   ],
-  "generatedAt": "2026-11-01T04:54:44.830Z"
+  "generatedAt": "2026-11-02T04:57:02.542Z"
 }
