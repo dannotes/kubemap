@@ -1,7 +1,7 @@
 {
   "total": 4881,
-  "golden": 574,
-  "regular": 4058,
+  "golden": 583,
+  "regular": 4049,
   "ambassadors": 300,
   "countryCount": 115,
   "topCountries": [
@@ -38,7 +38,7 @@
     {
       "name": "Japan",
       "count": 207,
-      "golden": 38,
+      "golden": 39,
       "flag": "🇯🇵"
     },
     {
@@ -56,7 +56,7 @@
     {
       "name": "Poland",
       "count": 168,
-      "golden": 17,
+      "golden": 18,
       "flag": "🇵🇱"
     },
     {
@@ -68,19 +68,19 @@
     {
       "name": "Brazil",
       "count": 124,
-      "golden": 10,
+      "golden": 11,
       "flag": "🇧🇷"
     },
     {
       "name": "Singapore",
       "count": 124,
-      "golden": 9,
+      "golden": 10,
       "flag": "🇸🇬"
     },
     {
       "name": "Switzerland",
       "count": 121,
-      "golden": 13,
+      "golden": 14,
       "flag": "🇨🇭"
     },
     {
@@ -98,13 +98,13 @@
     {
       "name": "Norway",
       "count": 85,
-      "golden": 20,
+      "golden": 21,
       "flag": "🇳🇴"
     },
     {
       "name": "Spain",
       "count": 84,
-      "golden": 8,
+      "golden": 9,
       "flag": "🇪🇸"
     },
     {
@@ -116,13 +116,13 @@
     {
       "name": "Taiwan",
       "count": 71,
-      "golden": 8,
+      "golden": 9,
       "flag": "🇹🇼"
     },
     {
       "name": "Italy",
       "count": 69,
-      "golden": 9,
+      "golden": 10,
       "flag": "🇮🇹"
     },
     {
@@ -715,7 +715,7 @@
     {
       "name": "Red Hat",
       "count": 31,
-      "golden": 6
+      "golden": 7
     },
     {
       "name": "AWS",
@@ -1010,7 +1010,7 @@
     {
       "name": "KO2",
       "count": 4,
-      "golden": 1
+      "golden": 2
     },
     {
       "name": "Fortinet",
@@ -2480,7 +2480,7 @@
     {
       "name": "Zühlke Group",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Itaú",
@@ -2705,7 +2705,7 @@
     {
       "name": "Banco Itaú Unibanco S/A",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Caseware",
@@ -5840,7 +5840,7 @@
     {
       "name": "YOSUNg, Sertek - A Member of WPG Holdings",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "DAEKYO CNS",
@@ -10560,7 +10560,7 @@
     {
       "name": "3-shake Inc.",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Japan",
@@ -10742,7 +10742,7 @@
     {
       "name": "Singapore",
       "count": 121,
-      "golden": 9,
+      "golden": 10,
       "country": "Singapore",
       "flag": "🇸🇬"
     },
@@ -10798,7 +10798,7 @@
     {
       "name": "Oslo",
       "count": 49,
-      "golden": 11,
+      "golden": 12,
       "country": "Norway",
       "flag": "🇳🇴"
     },
@@ -10882,7 +10882,7 @@
     {
       "name": "Taipei",
       "count": 31,
-      "golden": 4,
+      "golden": 5,
       "country": "Taiwan",
       "flag": "🇹🇼"
     },
@@ -10910,7 +10910,7 @@
     {
       "name": "São Paulo",
       "count": 27,
-      "golden": 3,
+      "golden": 4,
       "country": "Brazil",
       "flag": "🇧🇷"
     },
@@ -10952,7 +10952,7 @@
     {
       "name": "Zurich",
       "count": 24,
-      "golden": 1,
+      "golden": 2,
       "country": "Switzerland",
       "flag": "🇨🇭"
     },
@@ -11090,5 +11090,5 @@
       "flag": "🇮🇩"
     }
   ],
-  "generatedAt": "2026-11-02T04:57:02.542Z"
+  "generatedAt": "2026-11-03T05:54:45.843Z"
 }
