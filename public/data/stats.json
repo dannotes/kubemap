@@ -1,13 +1,13 @@
 {
-  "total": 4922,
+  "total": 4923,
   "golden": 583,
   "regular": 4090,
-  "ambassadors": 301,
+  "ambassadors": 302,
   "countryCount": 115,
   "topCountries": [
     {
       "name": "India",
-      "count": 494,
+      "count": 495,
       "golden": 43,
       "flag": "🇮🇳"
     },
@@ -3389,11 +3389,6 @@
     },
     {
       "name": "Maybank",
-      "count": 1,
-      "golden": 0
-    },
-    {
-      "name": "Saudi Information Technology Company - SITE",
       "count": 1,
       "golden": 0
     },
@@ -9093,6 +9088,11 @@
       "golden": 0
     },
     {
+      "name": "Gen (formerly NortonLifeLock)",
+      "count": 1,
+      "golden": 0
+    },
+    {
       "name": "The Factory",
       "count": 1,
       "golden": 0
@@ -11160,5 +11160,5 @@
       "flag": "🇮🇩"
     }
   ],
-  "generatedAt": "2026-11-07T05:12:29.220Z"
+  "generatedAt": "2026-11-08T04:59:04.141Z"
 }
