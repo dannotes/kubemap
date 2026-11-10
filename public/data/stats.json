@@ -1,7 +1,7 @@
 {
   "total": 4922,
-  "golden": 583,
-  "regular": 4089,
+  "golden": 590,
+  "regular": 4082,
   "ambassadors": 302,
   "countryCount": 115,
   "topCountries": [
@@ -14,7 +14,7 @@
     {
       "name": "United States",
       "count": 430,
-      "golden": 64,
+      "golden": 67,
       "flag": "🇺🇸"
     },
     {
@@ -26,7 +26,7 @@
     {
       "name": "France",
       "count": 273,
-      "golden": 22,
+      "golden": 23,
       "flag": "🇫🇷"
     },
     {
@@ -44,7 +44,7 @@
     {
       "name": "United Kingdom",
       "count": 176,
-      "golden": 16,
+      "golden": 17,
       "flag": "🇬🇧"
     },
     {
@@ -56,7 +56,7 @@
     {
       "name": "Poland",
       "count": 169,
-      "golden": 18,
+      "golden": 19,
       "flag": "🇵🇱"
     },
     {
@@ -164,7 +164,7 @@
     {
       "name": "Portugal",
       "count": 42,
-      "golden": 5,
+      "golden": 6,
       "flag": "🇵🇹"
     },
     {
@@ -1130,7 +1130,7 @@
     {
       "name": "Apple Inc",
       "count": 3,
-      "golden": 1
+      "golden": 2
     },
     {
       "name": "Goldman Sachs",
@@ -1820,7 +1820,7 @@
     {
       "name": "Hastings Direct",
       "count": 2,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Kroescontrol",
@@ -1875,7 +1875,7 @@
     {
       "name": "Five9",
       "count": 2,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Amazon Web Services (AWS)",
@@ -3485,7 +3485,7 @@
     {
       "name": "groundcover",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Co-operative Bank of Kenya",
@@ -10485,7 +10485,7 @@
     {
       "name": "KubeShuttle",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "104 Corporation",
@@ -11155,5 +11155,5 @@
       "flag": "🇮🇩"
     }
   ],
-  "generatedAt": "2026-11-09T05:13:05.465Z"
+  "generatedAt": "2026-11-10T06:32:55.819Z"
 }
