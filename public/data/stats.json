@@ -933,6 +933,11 @@
       "golden": 0
     },
     {
+      "name": "TrueFullstaq",
+      "count": 5,
+      "golden": 1
+    },
+    {
       "name": "Nomura Research Institute, Ltd.",
       "count": 5,
       "golden": 1
@@ -1051,11 +1056,6 @@
       "name": "DoiT International",
       "count": 4,
       "golden": 2
-    },
-    {
-      "name": "TrueFullstaq",
-      "count": 4,
-      "golden": 1
     },
     {
       "name": "Axon Enterprise",
@@ -11195,5 +11195,5 @@
       "flag": "🇯🇵"
     }
   ],
-  "generatedAt": "2026-11-14T05:31:28.790Z"
+  "generatedAt": "2026-11-15T05:23:36.525Z"
 }
