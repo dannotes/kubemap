@@ -84,16 +84,16 @@
       "flag": "🇨🇭"
     },
     {
+      "name": "Turkey",
+      "count": 110,
+      "golden": 10,
+      "flag": "🇹🇷"
+    },
+    {
       "name": "Vietnam",
       "count": 110,
       "golden": 10,
       "flag": "🇻🇳"
-    },
-    {
-      "name": "Turkey",
-      "count": 109,
-      "golden": 10,
-      "flag": "🇹🇷"
     },
     {
       "name": "Norway",
@@ -10943,6 +10943,13 @@
       "flag": "🇩🇪"
     },
     {
+      "name": "Istanbul",
+      "count": 36,
+      "golden": 3,
+      "country": "Turkey",
+      "flag": "🇹🇷"
+    },
+    {
       "name": "Ankara",
       "count": 36,
       "golden": 4,
@@ -10962,13 +10969,6 @@
       "golden": 5,
       "country": "Taiwan",
       "flag": "🇹🇼"
-    },
-    {
-      "name": "Istanbul",
-      "count": 35,
-      "golden": 3,
-      "country": "Turkey",
-      "flag": "🇹🇷"
     },
     {
       "name": "Hanoi",
@@ -11195,5 +11195,5 @@
       "flag": "🇯🇵"
     }
   ],
-  "generatedAt": "2026-11-15T05:23:36.525Z"
+  "generatedAt": "2026-11-16T05:20:07.758Z"
 }
