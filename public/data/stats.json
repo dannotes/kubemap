@@ -1,7 +1,7 @@
 {
   "total": 4958,
-  "golden": 590,
-  "regular": 4118,
+  "golden": 600,
+  "regular": 4108,
   "ambassadors": 302,
   "countryCount": 115,
   "topCountries": [
@@ -26,7 +26,7 @@
     {
       "name": "France",
       "count": 274,
-      "golden": 23,
+      "golden": 25,
       "flag": "🇫🇷"
     },
     {
@@ -38,7 +38,7 @@
     {
       "name": "Japan",
       "count": 208,
-      "golden": 39,
+      "golden": 42,
       "flag": "🇯🇵"
     },
     {
@@ -86,7 +86,7 @@
     {
       "name": "Turkey",
       "count": 110,
-      "golden": 10,
+      "golden": 12,
       "flag": "🇹🇷"
     },
     {
@@ -146,7 +146,7 @@
     {
       "name": "Egypt",
       "count": 45,
-      "golden": 4,
+      "golden": 5,
       "flag": "🇪🇬"
     },
     {
@@ -170,7 +170,7 @@
     {
       "name": "Romania",
       "count": 37,
-      "golden": 2,
+      "golden": 3,
       "flag": "🇷🇴"
     },
     {
@@ -194,7 +194,7 @@
     {
       "name": "Hong Kong",
       "count": 34,
-      "golden": 5,
+      "golden": 6,
       "flag": "🇭🇰"
     },
     {
@@ -4815,7 +4815,7 @@
     {
       "name": "Kloia",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Capgemini UK",
@@ -7960,7 +7960,7 @@
     {
       "name": "HAVELSAN",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Skilleat",
@@ -10185,7 +10185,7 @@
     {
       "name": "SMATIS",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Puzzle ITC AG",
@@ -10854,7 +10854,7 @@
     {
       "name": "Tokyo",
       "count": 106,
-      "golden": 16,
+      "golden": 18,
       "country": "Japan",
       "flag": "🇯🇵"
     },
@@ -10952,7 +10952,7 @@
     {
       "name": "Ankara",
       "count": 36,
-      "golden": 4,
+      "golden": 6,
       "country": "Turkey",
       "flag": "🇹🇷"
     },
@@ -10980,7 +10980,7 @@
     {
       "name": "Hong Kong",
       "count": 34,
-      "golden": 5,
+      "golden": 6,
       "country": "Hong Kong",
       "flag": "🇭🇰"
     },
@@ -11099,7 +11099,7 @@
     {
       "name": "Bucharest",
       "count": 22,
-      "golden": 2,
+      "golden": 3,
       "country": "Romania",
       "flag": "🇷🇴"
     },
@@ -11127,7 +11127,7 @@
     {
       "name": "Cairo",
       "count": 19,
-      "golden": 2,
+      "golden": 3,
       "country": "Egypt",
       "flag": "🇪🇬"
     },
@@ -11195,5 +11195,5 @@
       "flag": "🇯🇵"
     }
   ],
-  "generatedAt": "2026-11-16T05:20:07.758Z"
+  "generatedAt": "2026-11-17T07:06:28.295Z"
 }
