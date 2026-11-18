@@ -1,13 +1,13 @@
 {
-  "total": 4958,
+  "total": 4957,
   "golden": 600,
-  "regular": 4108,
+  "regular": 4107,
   "ambassadors": 302,
   "countryCount": 115,
   "topCountries": [
     {
       "name": "India",
-      "count": 497,
+      "count": 496,
       "golden": 43,
       "flag": "🇮🇳"
     },
@@ -1308,6 +1308,11 @@
       "golden": 0
     },
     {
+      "name": "Intel",
+      "count": 3,
+      "golden": 1
+    },
+    {
       "name": "Bedag Informatik AG",
       "count": 3,
       "golden": 0
@@ -2216,11 +2221,6 @@
       "name": "INVERS GmbH",
       "count": 2,
       "golden": 1
-    },
-    {
-      "name": "Intel",
-      "count": 2,
-      "golden": 0
     },
     {
       "name": "AUTOMAT-IT",
@@ -3494,11 +3494,6 @@
     },
     {
       "name": "Vail Systems",
-      "count": 1,
-      "golden": 0
-    },
-    {
-      "name": "R System International Ltd.",
       "count": 1,
       "golden": 0
     },
@@ -5886,11 +5881,6 @@
       "name": "Truesec",
       "count": 1,
       "golden": 0
-    },
-    {
-      "name": "YOSUNg, Sertek - A Member of WPG Holdings",
-      "count": 1,
-      "golden": 1
     },
     {
       "name": "DAEKYO CNS",
@@ -11195,5 +11185,5 @@
       "flag": "🇯🇵"
     }
   ],
-  "generatedAt": "2026-11-17T07:06:28.295Z"
+  "generatedAt": "2026-11-18T06:30:43.908Z"
 }
