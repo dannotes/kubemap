@@ -1,13 +1,13 @@
 {
-  "total": 4957,
+  "total": 4958,
   "golden": 600,
-  "regular": 4107,
+  "regular": 4108,
   "ambassadors": 302,
   "countryCount": 115,
   "topCountries": [
     {
       "name": "India",
-      "count": 496,
+      "count": 497,
       "golden": 43,
       "flag": "🇮🇳"
     },
@@ -718,14 +718,14 @@
       "golden": 7
     },
     {
-      "name": "Capgemini",
-      "count": 26,
-      "golden": 5
-    },
-    {
       "name": "AWS",
       "count": 25,
       "golden": 0
+    },
+    {
+      "name": "Capgemini",
+      "count": 25,
+      "golden": 4
     },
     {
       "name": "SVA System Vertrieb Alexander GmbH",
@@ -3498,6 +3498,11 @@
       "golden": 0
     },
     {
+      "name": "R System International Ltd.",
+      "count": 1,
+      "golden": 0
+    },
+    {
       "name": "Ollion",
       "count": 1,
       "golden": 0
@@ -3871,6 +3876,11 @@
       "name": "Staff Software Engineer at Geico",
       "count": 1,
       "golden": 0
+    },
+    {
+      "name": "NumSpot",
+      "count": 1,
+      "golden": 1
     },
     {
       "name": "O2B",
@@ -11185,5 +11195,5 @@
       "flag": "🇯🇵"
     }
   ],
-  "generatedAt": "2026-11-18T06:30:43.908Z"
+  "generatedAt": "2026-11-19T06:30:22.272Z"
 }
