@@ -1,19 +1,19 @@
 {
-  "total": 4958,
+  "total": 4969,
   "golden": 600,
-  "regular": 4108,
-  "ambassadors": 302,
+  "regular": 4120,
+  "ambassadors": 301,
   "countryCount": 115,
   "topCountries": [
     {
       "name": "India",
-      "count": 497,
+      "count": 499,
       "golden": 43,
       "flag": "🇮🇳"
     },
     {
       "name": "United States",
-      "count": 439,
+      "count": 441,
       "golden": 67,
       "flag": "🇺🇸"
     },
@@ -31,7 +31,7 @@
     },
     {
       "name": "Netherlands",
-      "count": 230,
+      "count": 231,
       "golden": 26,
       "flag": "🇳🇱"
     },
@@ -115,7 +115,7 @@
     },
     {
       "name": "Taiwan",
-      "count": 75,
+      "count": 74,
       "golden": 9,
       "flag": "🇹🇼"
     },
@@ -138,6 +138,12 @@
       "flag": "🇸🇪"
     },
     {
+      "name": "Denmark",
+      "count": 46,
+      "golden": 10,
+      "flag": "🇩🇰"
+    },
+    {
       "name": "Saudi Arabia",
       "count": 45,
       "golden": 5,
@@ -148,12 +154,6 @@
       "count": 45,
       "golden": 5,
       "flag": "🇪🇬"
-    },
-    {
-      "name": "Denmark",
-      "count": 45,
-      "golden": 10,
-      "flag": "🇩🇰"
     },
     {
       "name": "Tunisia",
@@ -199,7 +199,7 @@
     },
     {
       "name": "Thailand",
-      "count": 33,
+      "count": 34,
       "golden": 5,
       "flag": "🇹🇭"
     },
@@ -216,6 +216,12 @@
       "flag": "🇮🇩"
     },
     {
+      "name": "Ireland",
+      "count": 32,
+      "golden": 2,
+      "flag": "🇮🇪"
+    },
+    {
       "name": "Azerbaijan",
       "count": 32,
       "golden": 2,
@@ -226,12 +232,6 @@
       "count": 32,
       "golden": 7,
       "flag": "🇧🇪"
-    },
-    {
-      "name": "Ireland",
-      "count": 31,
-      "golden": 2,
-      "flag": "🇮🇪"
     },
     {
       "name": "Bangladesh",
@@ -318,22 +318,22 @@
       "flag": "🇿🇦"
     },
     {
-      "name": "Georgia",
-      "count": 17,
-      "golden": 4,
-      "flag": "🇬🇪"
-    },
-    {
       "name": "Kazakhstan",
-      "count": 16,
+      "count": 17,
       "golden": 2,
       "flag": "🇰🇿"
     },
     {
       "name": "Czech Republic",
-      "count": 16,
+      "count": 17,
       "golden": 3,
       "flag": "🇨🇿"
+    },
+    {
+      "name": "Georgia",
+      "count": 17,
+      "golden": 4,
+      "flag": "🇬🇪"
     },
     {
       "name": "New Zealand",
@@ -360,28 +360,28 @@
       "flag": "🇷🇸"
     },
     {
+      "name": "Belarus",
+      "count": 12,
+      "golden": 1,
+      "flag": "🇧🇾"
+    },
+    {
+      "name": "Mongolia",
+      "count": 12,
+      "golden": 3,
+      "flag": "🇲🇳"
+    },
+    {
       "name": "Estonia",
       "count": 12,
       "golden": 0,
       "flag": "🇪🇪"
     },
     {
-      "name": "Belarus",
-      "count": 11,
-      "golden": 1,
-      "flag": "🇧🇾"
-    },
-    {
       "name": "Russia",
       "count": 11,
       "golden": 2,
       "flag": "🇷🇺"
-    },
-    {
-      "name": "Mongolia",
-      "count": 11,
-      "golden": 3,
-      "flag": "🇲🇳"
     },
     {
       "name": "Kenya",
@@ -594,6 +594,12 @@
       "flag": "🇹🇿"
     },
     {
+      "name": "Cote d'Ivoire",
+      "count": 2,
+      "golden": 1,
+      "flag": "🇨🇮"
+    },
+    {
       "name": "Ethiopia",
       "count": 2,
       "golden": 0,
@@ -654,12 +660,6 @@
       "flag": "🇹🇬"
     },
     {
-      "name": "Cote d'Ivoire",
-      "count": 1,
-      "golden": 1,
-      "flag": "🇨🇮"
-    },
-    {
       "name": "French Polynesia",
       "count": 1,
       "golden": 0,
@@ -708,14 +708,14 @@
       "golden": 3
     },
     {
+      "name": "Red Hat",
+      "count": 32,
+      "golden": 7
+    },
+    {
       "name": "Sopra Steria",
       "count": 31,
       "golden": 9
-    },
-    {
-      "name": "Red Hat",
-      "count": 31,
-      "golden": 7
     },
     {
       "name": "AWS",
@@ -1168,6 +1168,11 @@
       "golden": 0
     },
     {
+      "name": "Khan Bank",
+      "count": 3,
+      "golden": 1
+    },
+    {
       "name": "Low Code Solutions",
       "count": 3,
       "golden": 0
@@ -1526,11 +1531,6 @@
       "name": "BRAC IT Services Limited",
       "count": 2,
       "golden": 0
-    },
-    {
-      "name": "Khan Bank",
-      "count": 2,
-      "golden": 1
     },
     {
       "name": "KIOWY",
@@ -1973,11 +1973,6 @@
       "golden": 0
     },
     {
-      "name": "Dynasafe",
-      "count": 2,
-      "golden": 0
-    },
-    {
       "name": "Saxo Bank",
       "count": 2,
       "golden": 1
@@ -2206,6 +2201,16 @@
       "name": "Mirantis",
       "count": 2,
       "golden": 1
+    },
+    {
+      "name": "cVation",
+      "count": 2,
+      "golden": 1
+    },
+    {
+      "name": "United Wholesale Mortgage",
+      "count": 2,
+      "golden": 0
     },
     {
       "name": "Lumitec Technologies",
@@ -3494,11 +3499,6 @@
     },
     {
       "name": "Vail Systems",
-      "count": 1,
-      "golden": 0
-    },
-    {
-      "name": "R System International Ltd.",
       "count": 1,
       "golden": 0
     },
@@ -5774,6 +5774,11 @@
     },
     {
       "name": "Rapportlabs",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Dynasafe",
       "count": 1,
       "golden": 0
     },
@@ -8593,6 +8598,11 @@
       "golden": 0
     },
     {
+      "name": "OpenText India",
+      "count": 1,
+      "golden": 0
+    },
+    {
       "name": "Senior Solutions Engineer",
       "count": 1,
       "golden": 0
@@ -8669,11 +8679,6 @@
     },
     {
       "name": "Zimperium",
-      "count": 1,
-      "golden": 0
-    },
-    {
-      "name": "United Wholesale Mortgage",
       "count": 1,
       "golden": 0
     },
@@ -8759,11 +8764,6 @@
     },
     {
       "name": "Brussles",
-      "count": 1,
-      "golden": 0
-    },
-    {
-      "name": "Snowflake",
       "count": 1,
       "golden": 0
     },
@@ -8929,6 +8929,11 @@
     },
     {
       "name": "RX-M, LLC",
+      "count": 1,
+      "golden": 0
+    },
+    {
+      "name": "Digital Minded",
       "count": 1,
       "golden": 0
     },
@@ -9296,11 +9301,6 @@
       "name": "Pilatus IT",
       "count": 1,
       "golden": 0
-    },
-    {
-      "name": "cVation",
-      "count": 1,
-      "golden": 1
     },
     {
       "name": "System Vertrieb Alexander GmbH",
@@ -10703,6 +10703,11 @@
       "golden": 0
     },
     {
+      "name": "ITRex Group",
+      "count": 1,
+      "golden": 0
+    },
+    {
       "name": "Distributed",
       "count": 1,
       "golden": 0
@@ -11027,6 +11032,13 @@
       "flag": "🇧🇩"
     },
     {
+      "name": "Copenhagen",
+      "count": 26,
+      "golden": 2,
+      "country": "Denmark",
+      "flag": "🇩🇰"
+    },
+    {
       "name": "Sofia",
       "count": 26,
       "golden": 2,
@@ -11039,13 +11051,6 @@
       "golden": 5,
       "country": "India",
       "flag": "🇮🇳"
-    },
-    {
-      "name": "Copenhagen",
-      "count": 25,
-      "golden": 2,
-      "country": "Denmark",
-      "flag": "🇩🇰"
     },
     {
       "name": "Mumbai",
@@ -11195,5 +11200,5 @@
       "flag": "🇯🇵"
     }
   ],
-  "generatedAt": "2026-11-19T06:30:22.272Z"
+  "generatedAt": "2026-11-20T06:23:30.276Z"
 }
