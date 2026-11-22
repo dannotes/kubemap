@@ -1,7 +1,7 @@
 {
-  "total": 4987,
+  "total": 4988,
   "golden": 600,
-  "regular": 4137,
+  "regular": 4138,
   "ambassadors": 302,
   "countryCount": 116,
   "topCountries": [
@@ -324,16 +324,16 @@
       "flag": "🇰🇿"
     },
     {
+      "name": "Czech Republic",
+      "count": 17,
+      "golden": 3,
+      "flag": "🇨🇿"
+    },
+    {
       "name": "Georgia",
       "count": 17,
       "golden": 4,
       "flag": "🇬🇪"
-    },
-    {
-      "name": "Czech Republic",
-      "count": 16,
-      "golden": 3,
-      "flag": "🇨🇿"
     },
     {
       "name": "New Zealand",
@@ -720,7 +720,7 @@
     },
     {
       "name": "Red Hat",
-      "count": 31,
+      "count": 32,
       "golden": 7
     },
     {
@@ -11236,5 +11236,5 @@
       "flag": "🇯🇵"
     }
   ],
-  "generatedAt": "2026-11-21T06:12:34.377Z"
+  "generatedAt": "2026-11-22T05:38:39.943Z"
 }
