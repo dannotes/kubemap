@@ -1,14 +1,14 @@
 {
   "total": 4988,
-  "golden": 600,
-  "regular": 4138,
+  "golden": 607,
+  "regular": 4131,
   "ambassadors": 302,
   "countryCount": 116,
   "topCountries": [
     {
       "name": "India",
       "count": 500,
-      "golden": 43,
+      "golden": 44,
       "flag": "🇮🇳"
     },
     {
@@ -50,13 +50,13 @@
     {
       "name": "South Korea",
       "count": 172,
-      "golden": 18,
+      "golden": 19,
       "flag": "🇰🇷"
     },
     {
       "name": "Poland",
       "count": 169,
-      "golden": 19,
+      "golden": 20,
       "flag": "🇵🇱"
     },
     {
@@ -152,7 +152,7 @@
     {
       "name": "Denmark",
       "count": 45,
-      "golden": 10,
+      "golden": 12,
       "flag": "🇩🇰"
     },
     {
@@ -326,7 +326,7 @@
     {
       "name": "Czech Republic",
       "count": 17,
-      "golden": 3,
+      "golden": 4,
       "flag": "🇨🇿"
     },
     {
@@ -530,7 +530,7 @@
     {
       "name": "Palestine",
       "count": 3,
-      "golden": 1,
+      "golden": 2,
       "flag": "🇵🇸"
     },
     {
@@ -9356,7 +9356,7 @@
     {
       "name": "SKTelecom",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Profelis Bilişim",
@@ -9811,7 +9811,7 @@
     {
       "name": "Deutsche Bank",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Quest Global",
@@ -10031,7 +10031,7 @@
     {
       "name": "Danske Bank",
       "count": 1,
-      "golden": 0
+      "golden": 1
     },
     {
       "name": "Orange Cyberdefense",
@@ -10902,7 +10902,7 @@
     {
       "name": "Seoul",
       "count": 95,
-      "golden": 10,
+      "golden": 11,
       "country": "South Korea",
       "flag": "🇰🇷"
     },
@@ -10930,7 +10930,7 @@
     {
       "name": "Pune",
       "count": 57,
-      "golden": 6,
+      "golden": 7,
       "country": "India",
       "flag": "🇮🇳"
     },
@@ -10958,7 +10958,7 @@
     {
       "name": "Warsaw",
       "count": 44,
-      "golden": 7,
+      "golden": 8,
       "country": "Poland",
       "flag": "🇵🇱"
     },
@@ -11236,5 +11236,5 @@
       "flag": "🇯🇵"
     }
   ],
-  "generatedAt": "2026-11-23T06:20:18.970Z"
+  "generatedAt": "2026-11-24T08:57:56.969Z"
 }
