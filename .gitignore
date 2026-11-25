@@ -41,3 +41,8 @@ claude-design/
 wrangler.toml
 functions/
 _worker.js
+
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
